@@ -1,0 +1,2497 @@
+[
+    {
+        "question": "One of the following is a soft magnetic material.",
+        "option1": "Alcomax",
+        "option2": "Ticonal",
+        "option3": "Copper",
+        "option4": "Stalloy",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "A current carrying straight conductor experiences maximum force.",
+        "option1": "When inclined at angle 100° to the magnetic field",
+        "option2": "When parallel to the magnetic field",
+        "option3": "When inclined perpendicular to the magnetic field",
+        "option4": "When the current is high",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "The ease with which a material can be magnetized is known as _______?",
+        "option1": "Magnetic permiability",
+        "option2": "Magnetic susceptibility",
+        "option3": "Intensity of magnetization",
+        "option4": "Magnetic tolerance",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "Magnetic susceptibilty of diamagnetic materials is ______",
+        "option1": "Big and negative",
+        "option2": "Big and positive",
+        "option3": "Very small and negative",
+        "option4": "Very small and positive",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the magnetic flux passing through a surface of area 50cm² inclined at an angle 12° to the magnetic flux density of 25T",
+        "option1": "0.122Wb",
+        "option2": "1222.68Wb",
+        "option3": "0.026Wb",
+        "option4": "259.89Wb",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the permeability of a medium in which the magnetic flux density is 45T while magnetic field intensity is 15A/M?",
+        "option1": "0.3H/M",
+        "option2": "0.33H/M",
+        "option3": "3H/M",
+        "option4": "30H/M",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "An example of a magnetic material is ______?",
+        "option1": "Zinc",
+        "option2": "Lead",
+        "option3": "Nickel",
+        "option4": "Aluminium",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the relative permeability of a material of permeability 0.5H/M (μ₀ = 6 x 10⁻⁵ H/M )",
+        "option1": "8333.3",
+        "option2": "1.2 x 10⁻⁴",
+        "option3": "3 x 10⁻⁵",
+        "option4": "0.49994",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the mass energy or energy equivalent release to transfer a mass of 9.11 x 10⁻³¹kg.",
+        "option1": "980 Mev",
+        "option2": "2 Kcal",
+        "option3": "300 KeV",
+        "option4": "511KeV",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "Estimate the mass and atomic number of a radioactive element with proton and neutron number of 90 and 143 respectively?",
+        "option1": "90 and 243",
+        "option2": "90 and 233",
+        "option3": "234 and 90",
+        "option4": "243 and 90",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "The least energy required by an electron to escape the electric forces holding electrons in the metal.",
+        "option1": "Energy function",
+        "option2": "Work function",
+        "option3": "Kinetic Energy",
+        "option4": "Escape Energy",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "Energy is lost in a transformer due to one of the following?",
+        "option1": "High current",
+        "option2": "Low current",
+        "option3": "Eddy current",
+        "option4": "Double current",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "If the number of turns in the secondary coil is greater than that in the primary coil, the transformer is said to be",
+        "option1": "Big transformer",
+        "option2": "Small transformer",
+        "option3": "A step up transformer",
+        "option4": "A step down transformer",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Three capacitors 2μF, 4μF and 6μF are connected in parallel. Calculate the effective capacitance.",
+        "option1": "0.12μF",
+        "option2": "1.2μF",
+        "option3": "120μF",
+        "option4": "12μF",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "______ is a kind of chemical bonding that arises from the mutual attraction of oppositely charged ions",
+        "option1": "Ionization Energy",
+        "option2": "Ionization",
+        "option3": "Ionic bonding",
+        "option4": "Anion",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "A process by which elecrically neutral atoms or molecules are converted to electrically charged atoms or molecules(ions)",
+        "option1": "Polyatomic",
+        "option2": "Monoatomic",
+        "option3": "Ionization",
+        "option4": "Atomization",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "______ is the energy required to detach an electron in its lowest energy state from an atom or molecule of a gas",
+        "option1": "Ionization",
+        "option2": "Ionization energy",
+        "option3": "Atomization",
+        "option4": "Anion",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "A current of 2A flows through a long straight conductor wire of length 500cm situated in a medium of permeability 0.3H/M, Calculate the magnetic flux density at a point 400cm from it.",
+        "option1": "0.02T",
+        "option2": "2.39 x 10⁻⁴T",
+        "option3": "0.019T",
+        "option4": "1.9 x 10⁻³T",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "The Capacitance is one of the following except:",
+        "option1": "The ability of a system to store an electric charge",
+        "option2": "An associated storage of electrical charge",
+        "option3": "The energy released in the circuit",
+        "option4": "The ratio of the amount of electric charge q on either conductor to the potential difference V between the conductors",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "The flow of charges in a conductor,free electrons, electrolytes are some of the term associated with?",
+        "option1": "Ionization",
+        "option2": "Polarization",
+        "option3": "Potential Energy",
+        "option4": "Current Electricity",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "An Example of antiferromagnetic material is ____?",
+        "option1": "Iron",
+        "option2": "Cobalt",
+        "option3": "Lead",
+        "option4": "Chromium",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "In storing of magnets _______ is placed connecting the unlike poles.",
+        "option1": "Iron",
+        "option2": "Cobalt",
+        "option3": "Keeper",
+        "option4": "Iron fillings",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Which of the following equation show a fusion reaction of two hydrogen nuclei to form a nuclei to form a single nucleus and released two particles: ",
+        "option1": "H¹ + H¹ → e⁺ + v",
+        "option2": "H¹ + H¹ → 2e⁺ + v",
+        "option3": "H¹ + H¹ → e⁺ + 2eV",
+        "option4": "H² + H² → e⁺ + v",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "When light of high frequency illuminates a metal surface, electrons can gain enough energy to escape the metal by absorbing photons in the illumination, in what is called;",
+        "option1": "Compton effect",
+        "option2": "Thermionic Emission",
+        "option3": "Photoelectric effect",
+        "option4": "Radiation",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "The insulator between the two plates of a capacitor is called;",
+        "option1": "Capacitance",
+        "option2": "Inductance",
+        "option3": "Di-electric",
+        "option4": "Conductor",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "A negatively charged ion with more electrons than protons is called ______",
+        "option1": "Ion",
+        "option2": "Anion",
+        "option3": "Cation",
+        "option4": "Polyatomic",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "If all physical conditions are kept constant, the current flowing through a metallic conductor is already proportional to the potential difference between its ends is whose law?.",
+        "option1": "Newton's Law",
+        "option2": "Bohr's Law",
+        "option3": "Boyle's Law",
+        "option4": "Ohm's Law",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The conventional direction of electric field is ______?",
+        "option1": "negative to negative",
+        "option2": "positive to negative",
+        "option3": "negative to positive",
+        "option4": "positive to positive",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "One of the following is not true about capacitor?",
+        "option1": "It is a device that stores electrical energy",
+        "option2": "It consists of two metal parallel plates",
+        "option3": "Orbit, electron and proton",
+        "option4": "It consist of an insulator",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "The capacitance of the capacitor is represented as C = Q/V, what is the usual meaning of each letter.",
+        "option1": "C- Capacitance, Q - Charge, V - Potential Difference",
+        "option2": "C - Coulomb Charge, Q - Quality of charge, V - Volume of charge",
+        "option3": "C - Conductor, Q - Quality of charge, V - Potential Difference",
+        "option4": "None of the above",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "An example of a magnetic material is ______?",
+        "option1": "copper",
+        "option2": "Aluminium",
+        "option3": "Zinc",
+        "option4": "Cobalt",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "A magnet freely suspended in air settles with its south pole pointing?",
+        "option1": "Towards the earth's geographic south pole",
+        "option2": "Towards the earth's geographic north pole",
+        "option3": "Towards the earth's geographic flux",
+        "option4": "Towards the earth's magnetic south pole",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "Wave particle polarity refers to ______?",
+        "option1": "Ability to behave like waves in some situations and particles in others",
+        "option2": "Ability to behave like waves in all situations",
+        "option3": "Ability to behave like particles in all situations",
+        "option4": "Inability to behave like waves or particles in almost all situations",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Energy is lost in a transformer due to one of the following?",
+        "option1": "High current",
+        "option2": "Low current",
+        "option3": "Eddy current",
+        "option4": "Double current",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "The human eye is an optical system equipped with:",
+        "option1": "A bifocal concave lens",
+        "option2": "A bifocal convex lens",
+        "option3": "A Concave lens",
+        "option4": "A Convex lens",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The unit of magnetic field, B is ____?",
+        "option1": "Radian",
+        "option2": "Tesla",
+        "option3": "Volt",
+        "option4": "Weber",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "In a plane mirror, the angle of incidence: ",
+        "option1": "Inversely proportional to the angle of refraction",
+        "option2": "Less than the angle of refraction",
+        "option3": "Greater than the angle of refraction",
+        "option4": "Equal to the angle of refraction",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "A transformer with an input emf of 240v and an output of 960v has 720 turns in the secondary coil. What is the number of turns in the primary coil.",
+        "option1": "180 turns",
+        "option2": "100 turns",
+        "option3": "80 turns",
+        "option4": "18 turns",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "An example of a soft magnetic material is ______?",
+        "option1": "Soft Aluminium",
+        "option2": "Mumetal",
+        "option3": "Alcomax",
+        "option4": "Nickel",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "A transformer is said to be an ideal transformer if?",
+        "option1": "Ip Vp > Is Vs",
+        "option2": "Ip Vp < Is Vs",
+        "option3": "Ip Vp = Is Vs",
+        "option4": "Ip Vp ≠ Is Vs",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "According to Einstein's interpretation of photoelectric effect, the energy of the incident photon of frequency f is equal to ",
+        "option1": "The sum of the work function of the emitting material and the maximum kinetic energy of the liberal electrons",
+        "option2": "The difference of the work function of the emitting material and the maximum kinetic energy of the liberal electrons",
+        "option3": "The sum of the work function of the emitting material and the retarding potential of electrons",
+        "option4": "The difference of the work function of the emitting material and the retarding potential of electrons",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "The radiation emitted by radioactive nuclei consists of different kinds of particles or radiation which include all except.",
+        "option1": "X-ray",
+        "option2": "Alpha (α)",
+        "option3": "Beta (β)",
+        "option4": "Gamma (γ)",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Magnetic susceptibilty of paramagnetic materials is ______",
+        "option1": "Big and negative",
+        "option2": "Big and positive",
+        "option3": "Small and negative",
+        "option4": "Small and positive",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the magnetic flux passing through a surface of area 200cm² inclined at an angle 15° to the magnetic flux density of 35T",
+        "option1": "0.68 Wb",
+        "option2": "6.76 Wb",
+        "option3": "67.61 Wb",
+        "option4": "6761.48 Wb",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "The ease with which a material can be magnetized is called _______?",
+        "option1": "Magnetic permiability",
+        "option2": "Magnetization",
+        "option3": "Magnetic susceptibility",
+        "option4": "Magnetic tolerance",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the permeability of a medium in which the magnetic flux density is 70T while magnetic field intensity is 25A/M",
+        "option1": "2.8H/M",
+        "option2": "0.36H/M",
+        "option3": "1750 H/M",
+        "option4": "95H/M",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "An example of a magnetic material is ______?",
+        "option1": "Zinc",
+        "option2": "Lead",
+        "option3": "Aluminium",
+        "option4": "Cobalt",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "Which of the following is an example Alpha-decay process",
+        "option1": "²³⁸U₉₂ (Uranium) → ²³⁴Th₉₀(Thorium) + ⁴He₂ ",
+        "option2": "¹⁴C₆ → ¹⁴N₇ + β",
+        "option3": "¹³¹I₅₃ (Iodine) → ¹³¹X₅₄ + β",
+        "option4": "¹²B₅ → ¹²C₆ + β",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the electric force between a 10μC charge and 5μC charge separated by a distance of 0.5mm. (K = 9 x 10⁹)",
+        "option1": "9 x 10²N",
+        "option2": "1.8 x 10⁶N",
+        "option3": "0.5 x 10⁻⁶N",
+        "option4": "10⁻⁴N",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Water is poured into a container to a depth of 24.00cm. The bottom of the container appears to be by 6cm when viewed vertically from above. Calculate the refractive index of water",
+        "option1": "1.55",
+        "option2": "2.4",
+        "option3": "1.33",
+        "option4": "3.66",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "If an angle of incidence for light travelling from air to glass is 60°. Find the angle of refraction. (n = 1.5)",
+        "option1": "0.8660",
+        "option2": "sin 0.5773",
+        "option3": "sin 1.5",
+        "option4": "35.3°",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "An object is placed 15cm from a concave mirror of radius of curvature 20cm, Calculate the image position.",
+        "option1": "15cm",
+        "option2": "10cm",
+        "option3": "30cm",
+        "option4": "20cm",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "_____ is the energy required to detach an electron in its lowest energy state from an atom or molecule of gas.",
+        "option1": "Ionization",
+        "option2": "Ionization energy",
+        "option3": "Atomization",
+        "option4": "Anion",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "A process by which elecrically neutral atoms or molecules are converted to electrically charged atoms or molecules(ions)",
+        "option1": "Polyatomic",
+        "option2": "Monoatomic",
+        "option3": "Ionization",
+        "option4": "Atomization",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "A charged atom or molecule is called ______",
+        "option1": "Monoatomic",
+        "option2": "Polyatomic",
+        "option3": "Ion",
+        "option4": "None of the above",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Energy is lost in a transformer due to one of the following?",
+        "option1": "High current",
+        "option2": "Low current",
+        "option3": "Double current",
+        "option4": "Eddy current",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The insultant between the two plates of a capacitor is called ____?",
+        "option1": "Capacitance",
+        "option2": "Inductance",
+        "option3": "Di-electric",
+        "option4": "Cobalt",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "3 capacitors 2μf, 4μf and 6μf are connected in parallel. Calculate the effective capacitance",
+        "option1": "0.12 μF",
+        "option2": "120 μF",
+        "option3": "1.2 μF",
+        "option4": "12μF",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "Some of the following are the component of the hydrogen atom except?",
+        "option1": "Electron, proton and neutron",
+        "option2": "Proton, electron and nucleus",
+        "option3": "Orbit, electron and proton",
+        "option4": "Proton, neutron and orbit",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "The term electric potential at a point in a field is?",
+        "option1": "The amount of work done in bringing a unit positive charge from infinity to that point",
+        "option2": "The potential difference at that point",
+        "option3": "The work done in the electric circuit",
+        "option4": "The total charges at that point",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the relative permeability of a material of permeability 0.3H/M (μ₀ = 2π x 10⁻⁵ H/M )",
+        "option1": "4774.03",
+        "option2": "0.0002",
+        "option3": "0.0000",
+        "option4": "0.3001",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "An Example of antiferromagnetic material is ____?",
+        "option1": "Iron",
+        "option2": "Cobalt",
+        "option3": "Lead",
+        "option4": "Chromium",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "In storing of magnets _______ is placed connecting the unlike poles.",
+        "option1": "Iron",
+        "option2": "Cobalt",
+        "option3": "Keeper",
+        "option4": "Iron fillings",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Whenever high-energy electrons are suddenly brought to rest, they emit electromagnetic radiation. This radiation is known as _______",
+        "option1": "X-ray",
+        "option2": "Ultra-Violent Ray",
+        "option3": "Gamma ray",
+        "option4": "Radio rays",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "The decay constant of a certain radioactive nuclide is 0.0200/min. Calculate the fraction that would remain from the fresh sample of 0.2kg of the radioactive substance after 3years.",
+        "option1": "0.95",
+        "option2": "0.91",
+        "option3": "0.85",
+        "option4": "0.19",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "How many images are formed by two plane mirrors inclined at 90 to each other when an object is placed in the space between the mirrors.",
+        "option1": "9",
+        "option2": "36",
+        "option3": "4",
+        "option4": "3",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "_______ is a kind of chemical bonding that arises from the mutual attraction of oppositely charged ions.",
+        "option1": "Ionization Energy",
+        "option2": "Ionization",
+        "option3": "Ionic bonding",
+        "option4": "Anion",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Resistance of a material depends on the following except",
+        "option1": "Temperature",
+        "option2": "Length and cross sectional area of the material",
+        "option3": "Nature of the material",
+        "option4": "Shape of the material",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "Gauss's law is represented by Ø = Q/ ε₀, what are the meaning of the symbols.",
+        "option1": "Ø - Gaussian flux, Q - enclosed charge and ε₀ - permittivity of free space",
+        "option2": "Ø - Electric flux, Q - enclosed charge and ε₀ - permittivity of free space",
+        "option3": "Ø - Density of the medium, Q - enclosed charge and ε₀ - permittivity of free space",
+        "option4": "None of the above",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "The rainbow that appears in the sky is as a result of ?",
+        "option1": "Deflection",
+        "option2": "Refraction",
+        "option3": "Dispersion of light",
+        "option4": "Jamming of light rays",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "In a plane mirror, the angle of incidence: ",
+        "option1": "Inversely proportional to the angle of refraction",
+        "option2": "Less than the angle of refraction",
+        "option3": "Greater than the angle of refraction",
+        "option4": "Equal to the angle of refraction",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The focal length of a concave lens is;",
+        "option1": "Virtual",
+        "option2": "Virtual and real",
+        "option3": "Real",
+        "option4": "Infinity",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "When light travels from a dense medium to less dense medium, the refracted ray moves: ",
+        "option1": "Towards the normal",
+        "option2": "Away from the surface",
+        "option3": "Away from the normal",
+        "option4": "Towards the center of the optical system",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "The difference between the apparent and real depths of a swimming pool filled with water is 1.5m. If the refractive index of water is 1.33. What is the depth of the swimming pool?",
+        "option1": "9.5cm",
+        "option2": "7.0cm",
+        "option3": "8.0cm",
+        "option4": "2.0cm",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The rainbow that appears in the sky is as a result of ?",
+        "option1": "Deflection of light",
+        "option2": "Refraction of light",
+        "option3": "Dispersion of light",
+        "option4": "Jamming of light rays",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "The position of an object placed 30cm in front of a concave mirror of radius of curvature 20cm is;",
+        "option1": "10cm",
+        "option2": "12cm",
+        "option3": "15cm",
+        "option4": "20cm",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "The conventional direction of electric field is ______?",
+        "option1": "negative to negative",
+        "option2": "positive to negative",
+        "option3": "negative to positive",
+        "option4": "positive to positive",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "A field that spreads outward in all directions is;",
+        "option1": "Radial",
+        "option2": "Vertical",
+        "option3": "Horizontal",
+        "option4": "None of the above",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "The insulator between the two plates of a capacitor is called ____?",
+        "option1": "Capacitance",
+        "option2": "Inductance",
+        "option3": "Di-electric",
+        "option4": "Conductor",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "As charge increases, electric flux density:",
+        "option1": "Decreases",
+        "option2": "Increases",
+        "option3": "Remains constant",
+        "option4": "Is zero",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "The force that is responsible for holding electrons to nuclei to form atom is _____",
+        "option1": "Negative force",
+        "option2": "Positive force",
+        "option3": "Magnetic force",
+        "option4": "Electrostatic force",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The force applied to a conductor is 10N if the charge in the conductor is 5C, what is the electric field intensity?",
+        "option1": "0.2N",
+        "option2": "2C",
+        "option3": "2NC⁻¹",
+        "option4": "0.2NC",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "According to S.I units, the unit of magnetic flux is ?",
+        "option1": "NC⁻¹",
+        "option2": "Tesla",
+        "option3": "Weber",
+        "option4": "N m A⁻¹",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "A transformer with an input emf of 240v and an output of 960v has 720 turns in the secondary coil. What is the number of turns in the primary coil.",
+        "option1": "180 turns",
+        "option2": "100 turns",
+        "option3": "80 turns",
+        "option4": "18 turns",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "If the number of turns in the secondary coil is greater than that in the primary coil, the transformer is said to be",
+        "option1": "Big transformer",
+        "option2": "Small transformer",
+        "option3": "A step up transformer",
+        "option4": "A step down transformer",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "3 capacitors 2μf, 4μf and 6μf are connected in parallel and in series. Calculate the effective capacitance for each connection respectively",
+        "option1": "12μF and 1.1μF",
+        "option2": "1.2μF and 11μF",
+        "option3": "11μF and 1.2μF",
+        "option4": "1.1μF and 12μF",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "At resonance, the relationship between the inductive reactance Xl and capacitive reactance Xc is",
+        "option1": "Xl = Xc",
+        "option2": "Xl < Xc",
+        "option3": "Xl > Xc",
+        "option4": "Xl ≠ Xc",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "An atom is composed of ?",
+        "option1": "Protons, molecules and neutrons",
+        "option2": "Protons, photons and neutrons",
+        "option3": "Electrons, photons and protons",
+        "option4": "Neutrons, protons and electron",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The unit of electric charge is?",
+        "option1": "Tesla",
+        "option2": "Weber",
+        "option3": "Volt",
+        "option4": "Coulomb",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "If a metal is heated to a sufficiently high temperature it emits electrons, this effect is known as ?",
+        "option1": "Thermionic Effect",
+        "option2": "Photoelectric Effect",
+        "option3": "Piezoelectric Effect",
+        "option4": "Diffraction Effect",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "A nuclear reaction in which two light nuclei combine to form a single larger nucleus is called _____?",
+        "option1": "Fusion reaction",
+        "option2": "Fission reaction",
+        "option3": "Proton - proton reaction",
+        "option4": "Carbon - Nitrogen reaction",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the energy released in the following nuclear fusion reaction: ²H₁ + ²H₁ → ⁴He₂. Take the mass ²H₁ = 2.010amu and mass of ⁴He₂ = 4.004amu.",
+        "option1": "14.9MeV",
+        "option2": "16.9MeV",
+        "option3": "18.9MeV",
+        "option4": "20.1MeV",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "The spontaneous disintegration of atomic nuclei with emission of particle and ray is ____",
+        "option1": "Radioactivity",
+        "option2": "Nuclear fission",
+        "option3": "Nuclear fussion",
+        "option4": "Transmutation",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate De Broglie wavelength associated with a golf ball of mass 50g moving with a velocity of 20m/s.",
+        "option1": "6.625 x 10⁻³⁴m",
+        "option2": "6.524 x 10⁻³⁴m",
+        "option3": "6.425 x 10⁻³⁴m",
+        "option4": "6.252 x 10⁻³⁴m",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "The uncertainty principle can be mathematically stated as _____?",
+        "option1": "△P₂△Z ≥ h/2π",
+        "option2": "△P₂△Z ≤ h/2π",
+        "option3": "△P₂△Z = h/2π",
+        "option4": "△P₂△Z ≥ h/4π",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "In ferromagnetic materials, the magnetic susceptibility is",
+        "option1": "Very large and negative",
+        "option2": "Very low and positive",
+        "option3": "Very large and positive",
+        "option4": "Very low and negative",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the magnetic susceptibility of a 30m material intensity of magnetization of 87wb/m² and magnetic field intensity of 51.3A/m",
+        "option1": "51",
+        "option2": "0.59",
+        "option3": "17.7",
+        "option4": "1.7",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "A measure of the degree at which the lines of force can penetrate a material is called what?",
+        "option1": "Magnetic flux",
+        "option2": "Magnetic flux density",
+        "option3": "Permeability",
+        "option4": "Magnetic flux intensity",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "Calculate the permeability of a medium of volume 50cm³ if the relative permeability is 7.3? (μ₀ = 4π x 10⁻⁷ H/m)",
+        "option1": "9.17 x 10⁻⁶",
+        "option2": "4.59 x 10⁻⁴",
+        "option3": "1.83 x 10⁻⁷",
+        "option4": "4.59 x 10⁻⁶",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "The angle between the earth's magnetic flux and the horizontal is called ______?",
+        "option1": "Declination",
+        "option2": "Variation",
+        "option3": "Meridian",
+        "option4": "Dip",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The presence of charges on a material can be detected by the use of _______",
+        "option1": "Ebonite rod",
+        "option2": "Silk",
+        "option3": "Electroscope",
+        "option4": "Amber",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "The capacitance of the capacitor depends on the following except;",
+        "option1": "Area of the parallel plates",
+        "option2": "Geometry of the plate",
+        "option3": "Nature and thickness of the di-electric constant",
+        "option4": "None of the above",
+        "correctOption": 4,
+        "category": "phy102"
+    },
+    {
+        "question": "The charge produced when a glass rod is rubbed with silk is _______",
+        "option1": "Positive",
+        "option2": "Negative",
+        "option3": "Neutral",
+        "option4": "None of the above",
+        "correctOption": 1,
+        "category": "phy102"
+    },
+    {
+        "question": "On an equipotential surface, the value of the potential difference between any two points is ______",
+        "option1": "100V",
+        "option2": "0.0V",
+        "option3": "10.0V",
+        "option4": "50.0V",
+        "correctOption": 2,
+        "category": "phy102"
+    },
+    {
+        "question": "A metal rod held in human hand and rubbed with fur or silk does not produce a charge because",
+        "option1": "Human hands cannot generate charges",
+        "option2": "Human hand fur or silk are not compatible",
+        "option3": "Human hand, metal rod and the earth are good conductors of electricity",
+        "option4": "None of the above",
+        "correctOption": 3,
+        "category": "phy102"
+    },
+    {
+        "question": "If F:R -> R and g:R -> R, where R is the set of real numbers be defined as follows: f(x)= 2x² and g(x) = 3x + 1, compute (F o g)(2)",
+        "option1": "25",
+        "option2": "98",
+        "option3": "72",
+        "option4": "60",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "If F:x -> 1 + 2x and g:x -> 1/(1 + x), where x ϵ R and x ≠ -1, find g⁻¹ f⁻¹(2/3)",
+        "option1": "7",
+        "option2": "-7",
+        "option3": "1/4",
+        "option4": "6",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x->0[(1-cosx/x²)]",
+        "option1": "-1/2",
+        "option2": "1/2",
+        "option3": "0",
+        "option4": "-3",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> -2[(x² + x - 2/x² + 2x)]",
+        "option1": "0",
+        "option2": "-3/2",
+        "option3": "3/2",
+        "option4": "2/3",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "Find the gradient of the line joining the point P(-1, -2) and Q(2, 5)",
+        "option1": "7/3",
+        "option2": "3/7",
+        "option3": "3",
+        "option4": "-3",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Find the derivative of f(x) = cotx, Answer: __________",
+        "option1": "sec²x",
+        "option2": "-cosecxcotx",
+        "option3": "secxtanx",
+        "option4": "-Cosec²x",
+        "correctOption": 4,
+        "category": "math102"
+    },
+    {
+        "question": "Find dy/dx at (x, y) = (2, 1) if X³ + xy + y⁵ - 11 = 0",
+        "option1": "13/7",
+        "option2": "-13/7",
+        "option3": "5/6",
+        "option4": "1/6",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "A particle travelled a distance of S = -27t + 15t² - t³. Find the acceleration of the particle after 2 seconds.",
+        "option1": "14m/s²",
+        "option2": "16m/s²",
+        "option3": "18m/s²",
+        "option4": "20m/s²",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "Find the equation of the tangent to the curve y² -2x -4y -1 = 0 at (-2, 1)",
+        "option1": "y = 8x + 13",
+        "option2": "y = -8x - 13",
+        "option3": "y = 8x - 13",
+        "option4": "y = -8x + 13",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "The slope of the curve xy² -2y + 4y³ = 6 at (1, 1) is ______",
+        "option1": "-11/18",
+        "option2": "5/18",
+        "option3": "-1/26",
+        "option4": "-1/18",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Find the minimum value of y = x³ - 6x² + 9x + 2, Answer: ___________",
+        "answer": "2",
+        "category": "math102"
+    },
+    {
+        "question": "Find the point on the curve y = x³ + 3x² - 9x + 3 at which the gradient is 15, Answer: ___________",
+        "answer": "(2, 5)",
+        "category": "math102"
+    },
+    {
+        "question": "Find the derivative f(x) = cosecx, Answer: __________",
+        "answer": "-cosecx cotx",
+        "category": "math102"
+    },   
+    {
+        "question": "Given that f(x) = 3x³ + 3x² - 4, Evaluate f(2). Answer: ___________",
+        "answer": "32",
+        "category": "math102"
+    },    
+    {
+        "question": "Given that 2 ≤ x ≤ 6, x ⋲ Z where Z is a set of integers, f(x) = 3x² + 3x + 2. Find f(6) - f(4)",
+        "answer": "66",
+        "category": "math102"
+    },
+    {
+        "question": "Given that 2 ≤ x ≤ 6, x ⋲ Z where Z is a set of integers, f(x) = 3x² + 3x + 2. Find f(5) ÷ f(3), leave answer to 1 decimal place",
+        "answer": "2.4",
+        "category": "math102"
+    },
+    {
+        "question": "Given that 2 ≤ x ≤ 6, x ⋲ Z where Z is a set of integers, f(x) = 3x² + 3x + 2. Find f(4) x f(2)",
+        "answer": "1240",
+        "category": "math102"
+    },
+    {
+        "question": "Given that 2 ≤ x ≤ 6, x ⋲ Z where Z is a set of integers, f(x) = (x² + 1)/(x - 1). Find f(3) x f(4), leave answer to 1 decimal place",
+        "answer": "28.3",
+        "category": "math102"
+    },
+    {
+        "question": "Given that 2 ≤ x ≤ 6, x ⋲ Z where Z is a set of integers, f(x) = (x² + 1)/(x - 1). Find f(5) ÷ f(2), leave answer to 1 decimal place",
+        "answer": "1.3",
+        "category": "math102"
+    },
+    {
+        "question": "Given that 2 ≤ x ≤ 6, x ⋲ Z where Z is a set of integers, f(x) = (x² + 1)/(x - 1). Find f(6) + f(2), leave answer to 1 decimal place",
+        "answer": "12.4",
+        "category": "math102"
+    },
+    {
+        "question": "If f(x, y) = 1/(2x + y), solve for f(2, 0), Leave answer in decimal.",
+        "answer": "0.25",
+        "category": "math102"
+    },
+    {
+        "question": "If f(x, y) = √4 + √x² + √y², solve for f(1, 2).",
+        "answer": "3",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate (2x - 7)/(2 - x²) at x = 1/2, Leave answer in 1 decimal place",
+        "answer": "-3.4",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> ∞ (x² + 3x)/(2x² - 5). Leave answer in decimal",
+        "answer": "0.5",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> 0 (3x + 1)/(x).",
+        "option1": "7",
+        "option2": "∞ or undefined",
+        "option3": "3",
+        "option4": "21",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> -∞ (5x + 2)/(x - 1).",
+        "answer": "5",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> 2 (x² + 3x - 9)/(x² + 7x - 19).",
+        "answer": "-1",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> 3 (x - 3)/(x² - 9). Leave answer in 1 decimal place",
+        "answer": "0.2",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> 0 (ln cosx)/(x²). Leave answer in 1 decimal place",
+        "answer": "-0.5",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> -1 (x² + 3x - 4)",
+        "answer": "-6",
+        "category": "math102"
+    },
+    {
+        "question": "Find ∆y/∆x if, y = 3x - 5 and x changes from 2.3 to 2.5",
+        "answer": "3",
+        "category": "math102"
+    },
+    {
+        "question": "Find ∆y/∆x if, y = x² + 4 and x changes from 0.75 to 0.85",
+        "answer": "1.6",
+        "category": "math102"
+    },
+    {
+        "question": "Find the average velocity given that the displacement, S = (4t² + 3)metres and t changes from 2 to 3 seconds. Specify S.I unit i.e m/s",
+        "answer": "20m/s",
+        "category": "math102"
+    },
+    {
+        "question": "Find the minimum value of y = x³ - 9x² + 15x. ",
+        "answer": "-25",
+        "category": "math102"
+    },
+    {
+        "question": "Find the maximum value of y = x³ - 9x² + 15x",
+        "answer": "7",
+        "category": "math102"
+    },
+    {
+        "question": "Find the remainder on dividing 3x² - 2x + 4 by x - 2",
+        "option1": "12",
+        "option2": "13",
+        "option3": "2",
+        "option4": "7",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Find the gradient of the line joining the point P(-1, -2) and Q(2, 5)",
+        "option1": "7/3",
+        "option2": "3/7",
+        "option3": "3",
+        "option4": "-3",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Find the derivative of f(x) = cotx",
+        "option1": "-cosecX cotX",
+        "option2": "sec²X",
+        "option3": "SecX TanX",
+        "option4": "-Cosec²X",
+        "correctOption": 4,
+        "category": "math102"
+    },
+    {
+        "question": "Find dy/dx at (x, y) = (2, 1), if X³ + xy + y⁵ - 11 = 0",
+        "option1": "13/7",
+        "option2": "-13/7",
+        "option3": "5/6",
+        "option4": "1/6",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "A particle travelled a distance of S = -27t + 15t² - t³. Find the acceleration of the particle after 2 seconds.",
+        "option1": "14m/s²",
+        "option2": "16m/s²",
+        "option3": "18m/s²",
+        "option4": "20m/s²",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "Find the equation of the tangent to the curve y² -2x -4y -1 = 0 at (-2, 1)",
+        "option1": "y = 8x + 13",
+        "option2": "y = -8x - 13",
+        "option3": "y = 8x - 13",
+        "option4": "y = -8x + 13",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Determine ∫ tanxdx",
+        "option1": "-ln|cosx + c|",
+        "option2": "ln|secx + c|",
+        "option3": "ln|sinx|",
+        "option4": "ln|sin2x|",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "The slope of the curve xy² -2y + 4y³ = 6 at (1, 1) is ",
+        "option1": "-11/18",
+        "option2": "5/18",
+        "option3": "-1/26",
+        "option4": "-1/18",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "If f(x) = lnx, the range of its inverse function f⁻¹(x) is ",
+        "option1": "-∞ < x ≤ ∞",
+        "option2": "0 < x ≤ 1",
+        "option3": "0 < x < ∞",
+        "option4": "-π/2 < x < π/2",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "Find the minimum value of y = x³ - 6x² + 9x + 2, Answer: ___________",
+        "answer": "2",
+        "category": "math102"
+    },
+    {
+        "question": "Find the point on the curve y = x³ + 3x² + 9x + 3 at which the gradient is 15, Find x, y.",
+        "answer": "(2, 5)",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate ∫ x²sinxdx, Answer: ___________",
+        "option1": "x² cosx + 2x sinx + 2 cosx + C",
+        "option2": "x² cosx - 2x sinx + 2 cosx + C",
+        "option3": "-x² cosx + 2x sinx + 2 cosx + C",
+        "option4": "-x² cosx + 2x sinx + 2 cosx",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "Find the gradient of the curve y = x² + 3x - 1 at x = 3, Answer: ___________",
+        "answer": "9",
+        "category": "math102"
+    },
+    {
+        "question": "Find the derivative f(x) = cosecx, Answer: __________",
+        "option1": "cosec(x) cot(x)",
+        "option2": "-cosec(x) -cot(x)",
+        "option3": "cosec(x) -cot(x)",
+        "option4": "-cosec(x) cot(x)",
+        "correctOption": 4,
+        "category": "math102"
+    },
+    {
+        "question": "Given that f(x) = 3x³ + 3x² - 4, Evaluate f(2). Answer: ___________",
+        "answer": "32",
+        "category": "math102"
+    },
+    {
+        "question": "Find the area between the curve y = x³, the x axis and the ordinate x = 2 and x = 6.",
+        "option1": "499/3",
+        "option2": "496/3",
+        "option3": "596/3",
+        "option4": "496/13",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Find the critical points of y = 2x³ - 5x² + 4x + 1.",
+        "option1": "0.3 and 1.5",
+        "option2": "0.5 and 1.2",
+        "option3": "0.5 and 1.5",
+        "option4": "1.5 and 2.5",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "If dy/dx = 3x² + 6x + 4, then find y",
+        "option1": "x³ + 3x² + 4x",
+        "option2": "3x³ + 3x² + 4x + C",
+        "option3": "6x + 6 + C",
+        "option4": "x³ + 3x² + 4x + C",
+        "correctOption": 4,
+        "category": "math102"
+    },
+    {
+        "question": "Differentiate with respect to x, y = (x³ + 1)(x⁴ + 1) Answer: ___________",
+        "option1": "5x⁶ + 4x³ + 3x²",
+        "option2": "7x⁶ + 4x³ + 5x²",
+        "option3": "7x⁶ + 4x³ + 3x²",
+        "option4": "x⁶ + 4x³ + 3x²",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "∫ x² sinx dx, Answer is ___________",
+        "option1": "x² cosx + 2x sinx + 2 cosx + C",
+        "option2": "x² cosx - 2x sinx + 2 cosx + C",
+        "option3": "x² cosx + 2x sinx + 2 cosx + C",
+        "option4": "-x² cosx + 2x sinx + 2 cosx + C",
+        "correctOption": 4,
+        "category": "math102"
+    },
+    {
+        "question": "Find dy/dx, if Y = 20x - (5000 + 0.00002x³ - 0.018x² + 7.4x)",
+        "option1": "0.00006x² - 0.036x - 12.6",
+        "option2": "-0.00006x² + 0.036x + 12.6",
+        "option3": "-0.00006x² - 0.036x - 12.6",
+        "option4": "0.00006x² + 0.036x + 12.6",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Find the second derivative of y = 3x⁵ - 5x⁴ + x + 4.",
+        "option1": "60x³ + 60x²",
+        "option2": "60x³ - 60x²",
+        "option3": "-60x³ - 60x²",
+        "option4": "60x³ - 60x² + x",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "If f(x) = {2x - 3 for x ≤ 1, 5 for x > 1}. Find f(10)",
+        "option1": "5",
+        "option2": "6",
+        "option3": "10",
+        "option4": "-1",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Determine the domain and Range of the function f:R -> R such that f(x) =3x/x + 4 ",
+        "option1": "Domain of f = R - {4} and Range of f = R {3}",
+        "option2": "Domain of f = R - {2} and Range of f = R - {4}",
+        "option3": "Domain of f = R - {4} and Range of f = R - {42}",
+        "option4": "Domain of f = R + {4} and Range of f = R",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "If f(x) = x², then find the average rate of change of f as x changes from x₀ to x₀ + h",
+        "option1": "3x²₀ + 3x₀ + h²",
+        "option2": "3x²₀ - 3x₀ + h²",
+        "option3": "3x²₀ - 3x₀ - h²",
+        "option4": "3x²₀ + 3x₀h + h²",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate ∫ sin(3x + 4)dx.",
+        "option1": "⅓ cos(3x + 4) + c",
+        "option2": "-⅓ cos(3x + 4) + c",
+        "option3": "-⅓ cos(x + 4) + c",
+        "option4": "-⅓ cos(3x - 4) + c",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Find the derivative of y = 2x³ sinx",
+        "option1": "2x³ cosx + 6x² sinx",
+        "option2": "-2x³ cosx + 6x² sinx",
+        "option3": "2x³ cosx - 6x² sinx",
+        "option4": "-2x³ cosx - 6x² sinx",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Find y in terms of x if d²y/dx² = 6x - 4, and further y = 0, when x = 0 and dy/dx = 3 when x = 0.",
+        "option1": "x³ - 2x² + 3x",
+        "option2": "x³ - 2x² - 3x",
+        "option3": "x³ - 4x² + 6x",
+        "option4": "-x³ - 2x² + 3x",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate ∫ sin² x/2 dx.",
+        "option1": "x/2 - 1/2 sinx + c",
+        "option2": "x/2 + 1/2 sinx + c",
+        "option3": "-x/2 + 1/2 sinx + c",
+        "option4": "3x/2 - 1/2 sinx + c",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> -3 [(x² - 9)/(x + 3)]",
+        "answer": "-6",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> 2 [x² - 6x + 4]",
+        "answer": "-4",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> 2 [(x² - 5x + 6)/(x - 2)]",
+        "answer": "-1",
+        "category": "math102"
+    },
+    {
+        "question": "If y = tanx, then dy/dx is ________?",
+        "option1": "sec³(x)",
+        "option2": "cosec²(x)",
+        "option3": "sin²(x)",
+        "option4": "sec²(x)",
+        "correctOption": 4,
+        "category": "math102"
+    },
+    {
+        "question": "If y = (x² - 5)⁴, then dy/dx is ________",
+        "option1": "x(x² - 5)³",
+        "option2": "8x(x² - 5)³",
+        "option3": "8x(x - 5)³",
+        "option4": "8x(x² - 5)",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "If y = sin² x, then dy/dx is _______",
+        "option1": "-2sin(2x)",
+        "option2": "2sin(2x)",
+        "option3": "2sin(x)cos(x) or sin(2x)",
+        "option4": "sin(x)",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> ∞ [(2x⁴ - 3x² + 1)/(6x⁴ + x³ - 3x)]. Leave answer in 1 decimal place",
+        "answer": "0.3",
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate lim x-> 0 [(1 - cosx)/(x²)], Leave answer in 1 decimal place",
+        "answer": "0.5",
+        "category": "math102"
+    },
+    {
+        "question": "Find dy/dx, if y log₁₀ x², Answer _________",
+        "option1": "1/(xln₁₀)",
+        "option2": "2/(ln₁₀)",
+        "option3": "2/(2xln₁₀)",
+        "option4": "2/(xln₁₀)",
+        "correctOption": 4,
+        "category": "math102"
+    },
+    {
+        "question": "An ant moves in a straight line so that the distance S moved after some time t seconds is given by S = t³ - 2t² + t, then the ant will be at rest when t is ___ secs. Leave answer in 1 decimal place?",
+        "answer": "0.3",
+        "category": "math102"
+    },
+    {
+        "question": "Find dy/dx, if Y = 20x - (5000 + 0.00002x³ - 0.018x² + 7.4x)",
+        "option1": "0.00006x² - 0.036x - 12.6",
+        "option2": "-0.00006x² + 0.036x + 12.6",
+        "option3": "-0.00006x² - 0.036x - 12.6",
+        "option4": "0.00006x² + 0.036x + 12.6",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Find the second derivative of y = 3x⁵ - 5x⁴ + x + 4.",
+        "option1": "60x³ + 60x²",
+        "option2": "60x³ - 60x²",
+        "option3": "-60x³ - 60x²",
+        "option4": "60x³ - 60x² + x",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "If f(x) = {2x - 3 for x ≤ 1, 5 for x > 1}. Find f(10)",
+        "answer": "5",
+        "category": "math102"
+    },
+    {
+        "question": "Determine the domain and Range of the function f:R -> R such that f(x) = 3x/x + 4 ",
+        "option1": "Domain of f = R - {4} and Range of f = R {3}",
+        "option2": "Domain of f = R - {2} and Range of f = R - {4}",
+        "option3": "Domain of f = R - {4} and Range of f = R - {42}",
+        "option4": "Domain of f = R + {4} and Range of f = R",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "If f(x) = x², then find the average rate of change of f as x changes from x₀ to x₀ + h",
+        "option1": "3x²₀ + 3x₀ + h²",
+        "option2": "3x²₀ - 3x₀ + h²",
+        "option3": "3x²₀ - 3x₀ - h²",
+        "option4": "3x²₀ + 3x₀h + h²",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate ∫ sin(3x + 4)dx.",
+        "option1": "⅓ cos(3x + 4) + c",
+        "option2": "-⅓ cos(3x + 4) + c",
+        "option3": "-⅓ cos(x + 4) + c",
+        "option4": "-⅓ cos(3x - 4) + c",
+        "correctOption": 2,
+        "category": "math102"
+    },
+    {
+        "question": "Find the derivative of y = 2x³ sinx",
+        "option1": "-2x³ cosx + 6x² sinx",
+        "option2": "2x³ cosx - 6x² sinx",
+        "option3": "2x³ cosx + 6x² sinx",
+        "option4": "-2x³ cosx - 6x² sinx",
+        "correctOption": 3,
+        "category": "math102"
+    },
+    {
+        "question": "Find y in terms of x if d²y/dx² = 6x - 4, and further y = 0, when x = 0 and dy/dx = 3 when x = 0.",
+        "option1": "-x³ -2x² + 3x",
+        "option2": "x³ -2x² - 3x",
+        "option3": "x³ -4x² + 6x",
+        "option4": "x³ -2x² + 3x",
+        "correctOption": 4,
+        "category": "math102"
+    },
+    {
+        "question": "Evaluate ∫ sin² x/2 dx.",
+        "option1": "x/2 - 1/2 sinx + c",
+        "option2": "x/2 + 1/2 sinx + c",
+        "option3": "-x/2 + 1/2 sinx + c",
+        "option4": "3x/2 - 1/2 sinx + c",
+        "correctOption": 1,
+        "category": "math102"
+    },
+    {
+        "question": "Citrus acid appears in unripe orange while ethanoic acid appears in _________",
+        "option1": "Unripe paw-paw",
+        "option2": "Carrot",
+        "option3": "Vinegar",
+        "option4": "Ethanol source",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "The natural source of methanoic acid is ________",
+        "option1": "Vinegar",
+        "option2": "Butter",
+        "option3": "Fats of goat milk",
+        "option4": "Ants and bees",
+        "correctOption": 4,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is the relative molecular mass of an alkanoic acid, which has empirical formula CH₃COOH. (H = 1, C = 12, O = 16)",
+        "option1": "42",
+        "option2": "45",
+        "option3": "60",
+        "option4": "110",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "What is the general molecular formula of alkanoic acid ________",
+        "option1": "Cn H₂n ₊ ₁",
+        "option2": "Cn H₂n ₊ ₁ COOH",
+        "option3": "Cn H₂n",
+        "option4": "Cn H₂n₋₂",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "What class of alkanols undergoes oxidation to give alkanoic acid _________?",
+        "option1": "Secondary alkanols",
+        "option2": "Primary alkanols",
+        "option3": "Tertiary alkanols",
+        "option4": "Intermediate alkanols",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "What is the product of the reaction between ethanol and excess acidified KMNO₄ solution.",
+        "option1": "Ethanal",
+        "option2": "Methyl magnesium bromide",
+        "option3": "Ethanol",
+        "option4": "Oxygen",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "What class of amine is prepared by the reduction of nitrate by catalytic hydrogen or with LiAlH₄.",
+        "option1": "Secondary amine",
+        "option2": "Primary amine",
+        "option3": "Tertiary amine",
+        "option4": "Catalyzed amine",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "The formation of an ester by the reaction between an alkanol and an acid is called ______",
+        "option1": "Esterification",
+        "option2": "Hydrogenation reaction",
+        "option3": "Chlorination",
+        "option4": "Chloroalkanoic",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "The reaction when sodium ethanoate is heated strongly with sodalime in which methane and carbon Ⅳ oxide is produced is called __________",
+        "option1": "Alkanoic acid reaction",
+        "option2": "Decarboxylation reaction",
+        "option3": "Chloroalkanoic reaction",
+        "option4": "Esterification reaction",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following types of reaction takes place between an unsaturated hydrocarbon and halogens?",
+        "option1": "Substitution",
+        "option2": "Esterification",
+        "option3": "Addition",
+        "option4": "Saponification",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "A carbohydrate molecule is made up of ?",
+        "option1": "C, N and H only",
+        "option2": "Co and H only",
+        "option3": "C, O, N and H only",
+        "option4": "H and C only",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Pentene is converted to pentane by ______",
+        "option1": "Esterification",
+        "option2": "Fermentation",
+        "option3": "Hydrogenation",
+        "option4": "Polymerization",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is used as a fuel in jet engines.",
+        "option1": "Petroleum gas",
+        "option2": "Petrol",
+        "option3": "Diesel oil",
+        "option4": "Kerosene",
+        "correctOption": 4,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following has/have the empirical formula CH, Ⅰ Ethene Ⅱ Ethane Ⅲ Ethyne",
+        "option1": "Ⅰ only",
+        "option2": "Ⅱ only",
+        "option3": "Ⅲ only",
+        "option4": "Ⅰ and Ⅱ only",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "The basicity of ethanoic acid is ?",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "The ethanol content of a sample of palm wine is found to increase by 300% within 15 hours. This is brought about by?",
+        "option1": "Hydrolysis",
+        "option2": "Fermentation",
+        "option3": "Dissociation",
+        "option4": "All of the above",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "An organic compound containing C,H and O gave the following figures on analysis (H = 8%, O = 32%, C = 60%). Which of the following is the empirical formula",
+        "option1": "CH₂O",
+        "option2": "C₃H₄OC",
+        "option3": "C₄H₆O₂",
+        "option4": "C₅H₈O₂",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "One of the following is not used in the manufacture of ethanol",
+        "option1": "Potatoes",
+        "option2": "Petroleum",
+        "option3": "Cassava",
+        "option4": "Coke",
+        "correctOption": 4,
+        "category": "chem122"
+    },
+    {
+        "question": "Which two of these compounds are gases at room temperature?",
+        "option1": "CH₃OH and CH=CH₂",
+        "option2": "CH₃CH₂CH₃ and CH₂=CH₂",
+        "option3": "CH₃CH₂COOH and CH₃OH",
+        "option4": "CH₃OH and CH₃CH₂CH₃",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "What volume of hydrogen at S.T.P will be required to hydrogenate 26g of ethyne to ethane? (C = 12, H = 1). C₂H₂ + 2H₂ -> C₂H₆.",
+        "option1": "48.400 cm³",
+        "option2": "48,400 cm³",
+        "option3": "22,400 cm³",
+        "option4": "22.400 cm³",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Fatty acids form part of the homologous series of carboxylic acid. The functional group of the carboxylic acids is.",
+        "option1": "-OH",
+        "option2": "-COOH",
+        "option3": "-CHO",
+        "option4": "COOOH",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following represents ethyl ethanoate?",
+        "option1": "CH₃CH₂CO₂CH₃",
+        "option2": "(CH₃CO)₂",
+        "option3": "CH₃CH₂CO₂CH₂CH₃",
+        "option4": "CH₃CH₂COCH₂CH₃",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "A hydrocarbon is saturated when it contains only ______",
+        "option1": "Double bonds",
+        "option2": "Triple bonds",
+        "option3": "Single bonds",
+        "option4": "None of the above",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following will show the reaction CH₃COOH + NaOH -> CH₃COONa + H₂O",
+        "option1": "Esterification",
+        "option2": "Saponification",
+        "option3": "Oxidation",
+        "option4": "Reduction",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "Which one of the following is the most stable conformation of butane.",
+        "option1": "Staggered conformation",
+        "option2": "Eclipsed conformation",
+        "option3": "Chair conformation",
+        "option4": "Boat conformation",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a by-product in the preparation of ethanoic acid from ethanol using the oxidation method.",
+        "option1": "Ethanal",
+        "option2": "Acetic anhydride",
+        "option3": "Ethylene",
+        "option4": "Hydrogen",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is used as a food preservative.",
+        "option1": "Acetic acid",
+        "option2": "Methanoic acid",
+        "option3": "Sulfuric acid",
+        "option4": "Nitric acid",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following reacts with sodium to form a salt and hydrogen gas?",
+        "option1": "Alcohol",
+        "option2": "Aldehyde",
+        "option3": "Carboxylic acid",
+        "option4": "Ketone",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "The product of the reaction between ethyl ethanoate and sodium hydroxide is called __________",
+        "option1": "Soap",
+        "option2": "Aldehyde",
+        "option3": "Ester",
+        "option4": "Alcohol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is an example of a secondary alcohol?",
+        "option1": "Methanol",
+        "option2": "Ethanol",
+        "option3": "2-Propanol",
+        "option4": "1-Butanol",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "The product of the reaction between ethene and bromine is __________",
+        "option1": "Ethane",
+        "option2": "Ethylene",
+        "option3": "1,2-Dibromoethane",
+        "option4": "Ethanoic acid",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following statements is true for alcohols?",
+        "option1": "They contain the -COOH group",
+        "option2": "They react with acids to form esters",
+        "option3": "They are basic in nature",
+        "option4": "They react with metals to form salts and hydrogen",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is an example of an unsaturated hydrocarbon?",
+        "option1": "Methane",
+        "option2": "Ethane",
+        "option3": "Ethene",
+        "option4": "Butane",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following methods is used to test for the presence of alkenes?",
+        "option1": "Bromine water test",
+        "option2": "Litmus test",
+        "option3": "Iodine test",
+        "option4": "Sodium hydroxide test",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a common feature of alkanes?",
+        "option1": "They have double bonds",
+        "option2": "They are highly reactive",
+        "option3": "They are saturated hydrocarbons",
+        "option4": "They contain -OH group",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "The main product of the reaction between ethene and hydrogen chloride is _________",
+        "option1": "Ethylene",
+        "option2": "Ethyl chloride",
+        "option3": "Ethanol",
+        "option4": "Ethanoic acid",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is not a property of alkanes?",
+        "option1": "They are nonpolar",
+        "option2": "They are soluble in water",
+        "option3": "They have a high boiling point",
+        "option4": "They are inflammable",
+        "correctOption": 2,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following compounds has the general formula CₙH₂ₙ₊₂?",
+        "option1": "Alkanes",
+        "option2": "Alkenes",
+        "option3": "Alkynes",
+        "option4": "Arenes",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following reactions is used to produce an alkyl halide from an alkane?",
+        "option1": "Substitution reaction",
+        "option2": "Addition reaction",
+        "option3": "Elimination reaction",
+        "option4": "Hydrolysis reaction",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is an example of a tertiary alcohol?",
+        "option1": "1-Propanol",
+        "option2": "2-Propanol",
+        "option3": "2-Methyl-2-propanol",
+        "option4": "1-Butanol",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a characteristic reaction of alkenes?",
+        "option1": "Hydrogenation",
+        "option2": "Substitution",
+        "option3": "Esterification",
+        "option4": "Hydrolysis",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following compounds is used in the manufacture of synthetic rubber?",
+        "option1": "Styrene",
+        "option2": "Ethylene",
+        "option3": "Propylene",
+        "option4": "Methanol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is used as a solvent in nail polish remover?",
+        "option1": "Acetone",
+        "option2": "Ethanol",
+        "option3": "Methanol",
+        "option4": "Isopropanol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a product of the saponification of fats and oils?",
+        "option1": "Soap",
+        "option2": "Ester",
+        "option3": "Alcohol",
+        "option4": "Aldehyde",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following methods is used to prepare ethyne in the laboratory?",
+        "option1": "Heating calcium carbide with water",
+        "option2": "Distillation of ethanol",
+        "option3": "Cracking of petroleum",
+        "option4": "Oxidation of ethane",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is an example of a carboxylic acid?",
+        "option1": "Methanol",
+        "option2": "Ethanol",
+        "option3": "Formic acid",
+        "option4": "Butane",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is the reagent used to test for the presence of an alkene?",
+        "option1": "Bromine water",
+        "option2": "Silver nitrate",
+        "option3": "Sodium hydroxide",
+        "option4": "Potassium permanganate",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following hydrocarbons has the general formula CₙH₂ₙ₊₂?",
+        "option1": "Alkene",
+        "option2": "Alkyne",
+        "option3": "Alkane",
+        "option4": "Arene",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "The reaction of ethene with water in the presence of a catalyst yields __________",
+        "option1": "Ethanol",
+        "option2": "Ethane",
+        "option3": "Ethanoic acid",
+        "option4": "Ethylene glycol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a method for the industrial preparation of ethanol?",
+        "option1": "Hydration of ethene",
+        "option2": "Oxidation of ethane",
+        "option3": "Fermentation of glucose",
+        "option4": "Cracking of hydrocarbons",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is not a property of alkanes?",
+        "option1": "They are colorless",
+        "option2": "They are insoluble in water",
+        "option3": "They are highly reactive",
+        "option4": "They are flammable",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a common use of ethylene glycol?",
+        "option1": "Antifreeze",
+        "option2": "Detergent",
+        "option3": "Solvent",
+        "option4": "Fuel",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a property of carboxylic acids?",
+        "option1": "They are basic",
+        "option2": "They have a strong odor",
+        "option3": "They form salts with bases",
+        "option4": "They are non-reactive",
+        "correctOption": 3,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following compounds is used as a disinfectant?",
+        "option1": "Ethanol",
+        "option2": "Methanol",
+        "option3": "Acetone",
+        "option4": "Formaldehyde",
+        "correctOption": 4,
+        "category": "chem122"
+    },
+    {
+         "question": "The process by which an alkene is converted into an alkane is called __________",
+        "option1": "Hydrogenation",
+        "option2": "Oxidation",
+        "option3": "Reduction",
+        "option4": "Polymerization",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is used as a monomer in the production of plastics?",
+        "option1": "Ethylene",
+        "option2": "Methanol",
+        "option3": "Ethanol",
+        "option4": "Propylene glycol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "The reaction of ethanoic acid with sodium carbonate produces __________",
+        "option1": "Sodium acetate and carbon dioxide",
+        "option2": "Ethanol and water",
+        "option3": "Sodium acetate and water",
+        "option4": "Ethanol and carbon dioxide",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a functional group in organic chemistry?",
+        "option1": "Aldehyde",
+        "option2": "Sulphide",
+        "option3": "Iodide",
+        "option4": "Nitrate",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "What is the empirical formula of ethylene glycol?",
+        "option1": "C₂H₆O₂",
+        "option2": "C₄H₁₀O₂",
+        "option3": "C₂H₄O",
+        "option4": "C₃H₆O₃",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following compounds is an example of an ester?",
+        "option1": "Ethyl acetate",
+        "option2": "Ethanol",
+        "option3": "Acetic acid",
+        "option4": "Methanol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "The reaction of an alkene with a halogen is known as __________",
+        "option1": "Addition reaction",
+        "option2": "Substitution reaction",
+        "option3": "Elimination reaction",
+        "option4": "Oxidation reaction",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "What is the main product of the complete combustion of ethene?",
+        "option1": "Carbon dioxide and water",
+        "option2": "Carbon monoxide and water",
+        "option3": "Ethane and water",
+        "option4": "Ethylene and carbon dioxide",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which compound is commonly used in the production of soap?",
+        "option1": "Sodium stearate",
+        "option2": "Ethanol",
+        "option3": "Methane",
+        "option4": "Ethyl alcohol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "The process of converting an alkene to an alkane is called __________",
+        "option1": "Hydrogenation",
+        "option2": "Oxidation",
+        "option3": "Halogenation",
+        "option4": "Hydrolysis",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "What is the common name for methanol?",
+        "option1": "Wood alcohol",
+        "option2": "Denatured alcohol",
+        "option3": "Ethanol",
+        "option4": "Isopropanol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a characteristic of a primary alcohol?",
+        "option1": "Has one hydroxyl group attached to a carbon with two hydrogen atoms",
+        "option2": "Has two hydroxyl groups attached to a carbon with one hydrogen atom",
+        "option3": "Has a hydroxyl group attached to a carbon with no hydrogen atoms",
+        "option4": "Has no hydroxyl group",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which type of isomerism is exhibited by butane and isobutane?",
+        "option1": "Structural isomerism",
+        "option2": "Geometric isomerism",
+        "option3": "Optical isomerism",
+        "option4": "Resonance isomerism",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "What is the general formula of alkanes?",
+        "option1": "CₙH₂ₙ₊₂",
+        "option2": "CₙH₂ₙ",
+        "option3": "CₙH₂ₙ₋₂",
+        "option4": "CₙHₙ",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which of the following is a by-product of esterification?",
+        "option1": "Water",
+        "option2": "Methanol",
+        "option3": "Ethylene",
+        "option4": "Acetone",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which reagent is used to test for the presence of unsaturation in a hydrocarbon?",
+        "option1": "Bromine water",
+        "option2": "Silver nitrate",
+        "option3": "Sodium hydroxide",
+        "option4": "Sulfuric acid",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which compound is used as a solvent in nail polish remover?",
+        "option1": "Acetone",
+        "option2": "Ethanol",
+        "option3": "Methanol",
+        "option4": "Hexane",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "The reaction of an alkyl halide with a strong base to form an alkene is called __________",
+        "option1": "Elimination reaction",
+        "option2": "Substitution reaction",
+        "option3": "Addition reaction",
+        "option4": "Hydrolysis reaction",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Which compound is known as 'ethyl alcohol'?",
+        "option1": "Ethanol",
+        "option2": "Methanol",
+        "option3": "Propanol",
+        "option4": "Butanol",
+        "correctOption": 1,
+        "category": "chem122"
+    },
+    {
+        "question": "Convert (011101)₂ to decimal. i.e (_____)₁₀ ",
+        "answer": "29",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (1101.011)₂ to decimal. i.e (_____)₁₀, Leave answer in 1 decimal place",
+        "answer": "13.4",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (17435)₈ to decimal (_____)₁₀.",
+        "answer": "7965",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (232.46)₈ to decimal (_____)₁₀. Leave answer in 1 decimal place",
+        "answer": "154.6",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (1A5)₁₆ to decimal (_____)₁₀ ",
+        "answer": "421",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (125)₁₀ to binary (_____)₂ ",
+        "answer": "1111101",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (15.8125)₁₀ to binary (_____)₂ ",
+        "answer": "1111.1101",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (1047)₈ to binary (_____)₂",
+        "answer": "100010011",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (7450)₈ to binary (_____)₂ ",
+        "answer": "111100101000",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (1101010)₂ to Octal (_____)₈ ",
+        "answer": "152",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (1035)₁₀ to Octal (_____)₈.",
+        "answer": "2013",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (158.328125)₁₀ to Octal (_____)₈.",
+        "answer": "236.25",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (10110100)₂ to Octal (_____)₈.",
+        "answer": "264",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (FF.86)₁₆ to Decimal (_____)₁₀. Leave answer in 1 decimal place",
+        "answer": "255.5",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (1024)₁₀ to Hexadecimal (_____)₁₆",
+        "answer": "400",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (255.546876)₁₀ to Hexadecimal (_____)₁₆",
+        "answer": "FF.8C",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (2DF1)₁₆ to Binary (_____)₂",
+        "answer": "10110111110001",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (EABC)₁₆ to Binary (_____)₂",
+        "answer": "1110101010111100",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (AED)₁₆ to Octal (_____)₈",
+        "answer": "5335",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (1777)₈ to Hexadecimal (_____)₁₆",
+        "answer": "3FF",
+        "category": "cis102"
+    },
+    {
+        "question": "Convert (256)₈ to Hexadecimal (_____)₁₆",
+        "answer": "AE",
+        "category": "cis102"
+    },
+    {
+        "question": "Evaluate 177₈ + 375₈ = (__)₈",
+        "answer": "574",
+        "category": "cis102"
+    },
+    {
+        "question": "Evaluate 7567₈ + 755₈ = (__)₈",
+        "answer": "10544",
+        "category": "cis102"
+    },
+    {
+        "question": "Evaluate 10E₁₆ + 20D₁₆ = (__)₁₆",
+        "answer": "31B",
+        "category": "cis102"
+    },
+    {
+        "question": "Evaluate 10110₂ + 1111₂ = (__)₂",
+        "answer": "100101",
+        "category": "cis102"
+    },
+    {
+        "question": "Evaluate 15₈ x 35₈ = (__)₈",
+        "answer": "571",
+        "category": "cis102"
+    },
+    {
+        "question": "Evaluate 160₈ - 15₈ = (__)₈",
+        "answer": "143",
+        "category": "cis102"
+    },   
+    {
+        "question": "Evaluate 72C₁₆ - A3F₁₆ = (__)₁₆",
+        "answer": "313",
+        "category": "cis102"
+    },   
+    {
+        "question": "Evaluate AB₁₆ - 1C₁₆ = (__)₁₆",
+        "answer": "8F",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 101110 to one's complement",
+        "answer": "010001",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 1101 to one's complement",
+        "answer": "0010",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 10111 to one's complement",
+        "answer": "01000",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 101 to one's complement",
+        "answer": "010",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 1110 to one's complement",
+        "answer": "0001",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 110100 to one's complement",
+        "answer": "001011",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 100 to one's complement",
+        "answer": "011",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 10111011 to one's complement",
+        "answer": "01000100",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 1011101101 to one's complement",
+        "answer": "0100010010",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 1010 to two's complement",
+        "answer": "0110",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 11110000 to two's complement",
+        "answer": "00010000",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 10000000 to two's complement",
+        "answer": "10000000",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 011111111 to two's complement",
+        "answer": "100000001",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 11101101 to two's complement",
+        "answer": "00010011",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 10001101 to two's complement",
+        "answer": "01110011",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert 0000111 to two's complement",
+        "answer": "1111001",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (A) to binary",
+        "answer": "1010",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (B) to binary",
+        "answer": "1011",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (C) to binary",
+        "answer": "1100",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (D) to binary",
+        "answer": "1101",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (E) to binary",
+        "answer": "1110",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (F) to binary",
+        "answer": "1111",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (A) to Octal",
+        "answer": "12",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (B) to Octal",
+        "answer": "13",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (C) to Octal",
+        "answer": "14",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (D) to Octal",
+        "answer": "15",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert   Hexadecimal (E) to Octal",
+        "answer": "16",
+        "category": "cis102"
+    },   
+    {
+        "question": "Convert  Hexadecimal (F) to Octal",
+        "answer": "17",
+        "category": "cis102"
+    }
+       
+]

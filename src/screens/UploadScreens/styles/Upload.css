@@ -1,0 +1,272 @@
+.upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  .upload-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1d1615;
+  }
+  
+  .logout-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .logout-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: darkblue;
+  }
+  
+  .form-label {
+    color: #1d1615;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .select-container {
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .form-select {
+    height: 50px;
+    width: 100%;
+    color: grey;
+    font-weight: 100;
+    padding: 0 40px 0 15px;
+    border: none;
+    background: transparent;
+    appearance: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .select-container::after {
+    content: '▼';
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1d1615;
+    pointer-events: none;
+  }
+  
+  .file-input-container {
+    margin: 20px 0;
+  }
+  
+  .file-input-label {
+    display: block;
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-input-label:hover {
+    background-color: darkgreen;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1d1615;
+    text-align: center;
+  }
+  
+  .upload-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-button:hover:not(.disabled-button) {
+    background-color: darkgreen;
+  }
+  
+  .disabled-button {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+  }
+  
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .loading-spinner-large {
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .loading-spinner {
+    color: green;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    width: 80%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .modal-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #1d1615;
+    font-weight: 600;
+  }
+  
+  .modal-details {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .modal-details p {
+    margin: 5px 0;
+    color: #1d1615;
+    font-weight: 500;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .modal-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    flex: 1;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-button.confirm {
+    background-color: green;
+    color: white;
+  }
+  
+  .modal-button.confirm:hover {
+    background-color: darkgreen;
+  }
+  
+  .modal-button.cancel {
+    background-color: #ccc;
+    color: #1d1615;
+  }
+  
+  .modal-button.cancel:hover {
+    background-color: #bbb;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .upload-container {
+      padding: 15px;
+    }
+    
+    .upload-header {
+      font-size: 20px;
+    }
+    
+    .modal-content {
+      width: 90%;
+      padding: 20px;
+    }
+    
+    .modal-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }

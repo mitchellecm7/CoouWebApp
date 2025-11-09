@@ -1,0 +1,124 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 0 10px;
+  position: relative;
+}
+
+.logo {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 34px;
+  background-color: white;
+  border: 3px solid green;
+}
+
+.icon-container {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  width: 42px;
+  height: 42px;
+  border-radius: 21px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+  flex: 1;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-left: 10px;
+  white-space: pre-line;
+}
+
+.academia-section {
+  margin-top: 70px;
+  padding: 0 20px;
+}
+
+.academia-text {
+  font-size: 14px;
+  color: black;
+  font-weight: 800;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.content-view {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.department-button {
+  height: 120px;
+  width: 150px;
+  background-color: yellow;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.department-button:hover {
+  transform: scale(1.05);
+}
+
+.department-text {
+  font-size: 14px;
+  color: black;
+  font-weight: 800;
+}
+
+.background-container {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.background-image {
+  flex: 1;
+  /* background-image: url('/assets/Images/logo.png'); */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  height: 100%;
+}

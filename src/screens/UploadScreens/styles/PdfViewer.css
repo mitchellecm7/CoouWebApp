@@ -1,0 +1,98 @@
+.pdf-container {
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.pdf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.pdf-header h2 {
+    margin: 0;
+    color: #1d1615;
+}
+
+.verified-badge {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.developer-tag {
+    font-size: 15px;
+    font-weight: 900;
+    color: #1d1615;
+}
+
+.verified-icon {
+    color: #0000ff;
+    font-size: 12px;
+}
+
+.pdf-loader, .pdf-error, .no-pdf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    text-align: center;
+}
+
+.pdf-error p, .no-pdf p {
+    font-size: 16px;
+    color: #1d1615;
+    margin: 5px 0;
+}
+
+.pdf-viewer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pdf-frame {
+    width: 100%;
+    height: 80vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pdf-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.download-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.download-button:hover {
+    background-color: darkgreen;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007BFF;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

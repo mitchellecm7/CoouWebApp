@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #000;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #1d1615;
+  line-height: 1.5;
+}
+
+.info {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #1d1615;
+  text-align: center;
+}
+
+.developer {
+  font-size: 16px;
+  font-style: italic;
+  color: #000;
+  text-align: center;
+}
+
+.developer-name {
+  font-size: 15px;
+  font-weight: 900;
+  color: #1d1615;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.verified-icon {
+  color: #0000ff;
+  font-size: 12px;
+}

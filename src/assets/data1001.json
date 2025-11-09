@@ -1,0 +1,5122 @@
+[
+    {
+        "question": " __________ is a central unit of a computer that performs arithmetic and logic operations",
+        "answer": "Micro processors",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The calculating machine was invented by ______",
+        "answer": "Blaise Pascal",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who marked the genesis of the application of machine in industry in 1960 - 1830",
+        "answer": "Goffried Liebnits",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ______ invested the weaving loom",
+        "answer": "Joseph Jacquard",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In what year did John Napier invent the Napier bone and logarithm",
+        "answer": "1617",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " _____ presented the notion of the universal machine called turning machine",
+        "answer": "Alan turring",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Super computers make use of ________ while mainframe computers make use of ________",
+        "answer": "PARAM and UNIVAC",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " _____ is a set of instruction that execute programs or collection of date that tells the computer how to work",
+        "answer": "Computer Software",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Herman Hollerith designed a _____",
+        "answer": "Punch Card",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ designed and constructed the first working mechanical calculator",
+        "answer": "Wilhelm Schickard",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the action that converts data into meaningful information",
+        "answer": "Data processing",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The C.P.U, monitor, keyboard, mouse, printer, scanner and microphone are examples of ______",
+        "answer": "computer hardware",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In 1642 ______ invented the first mechanical calculating device",
+        "answer": "Blaise Pascal",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ are used to construct large random access memories used during second generation of computers",
+        "answer": "Translator",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Academic programmes in computer science were initiated during _________ generation of computer",
+        "answer": "Fifth",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The ________ generation of computer led to the development of minicomputers and emergence of software industries",
+        "answer": "Fifth",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An analog computer performs calculation by _______",
+        "answer": "By measuring change in physical quantities",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is responsible for maintaining the intergrity and security of stored data and for recovering information if the system fails",
+        "answer": "Data base",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Fluid pressure and mechanical motion are examples of ________ type of computer",
+        "answer": "Analog computer",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is a set of programs designed to efficiently run, manage, maintain, co-monitor and co-ordinate the operation of resources of the computer system",
+        "answer": "Operating System",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ software is a program specially designed to solve's users specific operation problems",
+        "answer": "Application Software",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Any computer on internet can send a message to any other computer using it's _______",
+        "answer": "Internet Protocol",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    
+    {
+        "question": " __________ is a central unit of a computer that performs arithmetic and logic operations",
+        "answer": "Micro processors",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The calculating machine was invented by ______",
+        "answer": "Blaise Pascal",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who marked the genesis of the application of machine in industry in 1960 - 1830",
+        "answer": "Goffried Liebnits",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ______ invested the weaving loom",
+        "answer": "Joseph Jacquard",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In what year did John Napier invent the Napier bone and logarithm",
+        "answer": "1617",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " _____ presented the notion of the universal machine called turning machine",
+        "answer": "Alan turring",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Super computers make use of ________ while mainframe computers make use of ________",
+        "answer": "PARAM and UNIVAC",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " _____ is a set of instruction that execute programs or collection of date that tells the computer how to work",
+        "answer": "Computer Software",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Herman Hollerith designed a _____",
+        "answer": "Punch Card",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ designed and constructed the first working mechanical calculator",
+        "answer": "Wilhelm Schickard",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the action that converts data into meaningful information",
+        "answer": "Data processing",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The C.P.U, monitor, keyboard, mouse, printer, scanner and microphone are examples of ______",
+        "answer": "computer hardware",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In 1642 ______ invented the first mechanical calculating device",
+        "answer": "Blaise Pascal",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ are used to construct large random access memories used during second generation of computers",
+        "answer": "Translator",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Academic programmes in computer science were initiated during _________ generation of computer",
+        "answer": "Fifth",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The ________ generation of computer led to the development of minicomputers and emergence of software industries",
+        "answer": "Fifth",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An analog computer performs calculation by _______",
+        "answer": "By measuring change in physical quantities",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is responsible for maintaining the intergrity and security of stored data and for recovering information if the system fails",
+        "answer": "Data base",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Fluid pressure and mechanical motion are examples of ________ type of computer",
+        "answer": "Analog computer",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is a set of programs designed to efficiently run, manage, maintain, co-monitor and co-ordinate the operation of resources of the computer system",
+        "answer": "Operating System",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ software is a program specially designed to solve's users specific operation problems",
+        "answer": "Application Software",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Any computer on internet can send a message to any other computer using it's _______",
+        "answer": "Internet Protocol",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ is the father of computer ethics",
+        "answer": "Norbert Wiener",
+        "category": "cis101",
+        "difficulty":"medium"
+    },
+    {
+        "question": "A _______ is any machine that will accept some input into its memory process it and produce some results that are sent to the user's through it's output",
+        "answer": "Computer",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " _____ is defined as a raw fact collected from different places ",
+        "answer": "Data",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Data is processed for the purpose of generating __________",
+        "answer": "Information",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " _______ is the process of entering data directly into a computer system",
+        "answer": "Data Entry",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The first microprocessor was created by ______",
+        "answer": "Intel",
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In _______ the 1st electronic digital computer was built by _______",
+        "option1": "1967 and ABC computers",
+        "option2": "1940 and Blaise pascal",
+        "option3": "1930 and Charles gabbage",
+        "option4": "1937 and Dr John V. Atanasoff and clifford Berry",
+        "correctOption": 4,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Ist generation of computer used __________ to perform calculations",
+        "option1": "transistors",
+        "option2": "Vacuum tubes",
+        "option3": "polarizers",
+        "option4": "micro-chips",
+        "correctOption": 2,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ____ generation of computer used capacitor to store binary data and information",
+        "option1": "1st",
+        "option2": "3rd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 1,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ____ generation of computer used magnetic tapes for data storage",
+        "option1": "1st",
+        "option2": "3rd",
+        "option3": "5th",
+        "option4": "2nd",
+        "correctOption": 4,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ____ generation of computer used transistors to perform calculations",
+        "option1": "2nd",
+        "option2": "3rd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 1,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ____ generation of computer used large scale integrated which were used for both data processing and storage",
+        "option1": "2nd",
+        "option2": "3rd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 2,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ____ generation of computer used punch card for communication of input and output data and information",
+        "option1": "1st",
+        "option2": "3rd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 1,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ______ generation of computer have about 1000 circuits per cubic foot",
+        "option1": "4th",
+        "option2": "3rd",
+        "option3": "1st and 2nd",
+        "option4": "5th",
+        "correctOption": 3,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ______ generation of computer have billions of circuits per cubic foot",
+        "option1": "4th",
+        "option2": "3rd",
+        "option3": "1st and 2nd",
+        "option4": "5th",
+        "correctOption": 4,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ______ generation of computer have millions of circuits per cubic foot",
+        "option1": "4th",
+        "option2": "3rd",
+        "option3": "1st and 2nd",
+        "option4": "5th",
+        "correctOption": 3,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ______ generation of computer have about hundred thousand circuits per cubic foot",
+        "option1": "4th",
+        "option2": "3rd",
+        "option3": "1st and 2nd",
+        "option4": "5th",
+        "correctOption": 2,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ generation of computer was used during 1937 - 1946",
+        "option1": "2nd",
+        "option2": "1st",
+        "option3": "4th",
+        "option4": "3rd",
+        "correctOption": 2,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ generation of computer was used during 1975 - present",
+        "option1": "2nd",
+        "option2": "1st",
+        "option3": "4th",
+        "option4": "3rd",
+        "correctOption": 3,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ generation of computer was used during 1963 - 1975",
+        "option1": "2nd",
+        "option2": "1st",
+        "option3": "4th",
+        "option4": "3rd",
+        "correctOption": 4,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ generation of computer was used during 1947 - 1962",
+        "option1": "2nd",
+        "option2": "1st",
+        "option3": "4th",
+        "option4": "3rd",
+        "correctOption": 1,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Univac 9000 series is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 1,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Thumb print is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 3,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Facial face detector is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 3,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Robots is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 3,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Apple computers is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 4,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "IBM RT is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 4,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Honey well 200 is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 1,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Univac Ⅲ is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 2,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Univac 1107 is an example of ____ generation of computer",
+        "option1": "3rd",
+        "option2": "2nd",
+        "option3": "5th",
+        "option4": "4th",
+        "correctOption": 2,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " ___ generation of computer uses artificial intelligence, can talk and listen",
+        "option1": "3rd",
+        "option2": "5th",
+        "option3": "2nd",
+        "option4": "1st",
+        "correctOption": 2,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In 1617 _______ invented the use of mechanical arrangement of bones on which numbers are printed and are capable of direct multiplication when brought into combination",
+        "option1": "Blaise Pascal",
+        "option2": "John Napier",
+        "option3": "Jphn Dalton",
+        "option4": "Isaac newton",
+        "correctOption": 2,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In 1953 _______ develops the first computer language which is known as COBOL",
+        "option1": "Clifford Berry",
+        "option2": "William Shockley",
+        "option3": "Thomas Johnson",
+        "option4": "Grace Hopper",
+        "correctOption": 4,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In 1990 _______________ a researcher at CERN developed Hyper Text Markup Language",
+        "option1": "Tim Berners-Lee",
+        "option2": "Sergey Brin",
+        "option3": "Robert Noyce",
+        "option4": "CM7",
+        "correctOption": 1,
+        "category": "cis101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ is the father of computer ethics",
+        "answer": "Norbert Wiener",
+        "category": "cis101",
+        "difficulty":"medium"
+    },
+    {
+        "question": "According to Archimede's principle, the upthrust of an object immersed in a fluid is equal to",
+        "option1": "Volume of the fluid displaced by It",
+        "option2": "Density of fluid displaced by it",
+        "option3": "Mass of fluid displaced by It",
+        "option4": "Weight of fluid displaced by it",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What Is elastic limit?",
+        "option1": "The point from which the material becomes elastic",
+        "option2": "The point beyond which the material becomes inelastic",
+        "option3": "The load or stress beyond which the material becomes Inelastic",
+        "option4": "The load or stress beyond which the material becomes elastic",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "John dived into a deep swimming pool to swim but sank to the bottom, This is because?",
+        "option1": "The pool was deep",
+        "option2": "The density of water was less",
+        "option3": "The weight of water displaced was less than his",
+        "option4": "He had bad luck",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The quantity of heat which flows in one second through a unit cube of material when its opposite faces are maintained at a temperature difference of 1°C is",
+        "option1": "Heat capacity",
+        "option2": "coefficent of thermal conductivity",
+        "option3": "Specific heat",
+        "option4": "Mole ratio",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How much heat must be added to 5kg of copper material to raise It's temperature from 30°C to 90°C? take the specific heat capacity of copper as 3911/kg.K",
+        "option1": "115.0J",
+        "option2": "117.3kJ",
+        "option3": "113.2kJ",
+        "option4": "120.0J",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A solid cylinder with a radius of 0.25m and mass of 12kg is free to rotate about its axis which is supported by frictionless bearing. A constant tangential force of 10N is applied to the cylinder originally at rest. Find the torque (r) on the cylinder. (take I = 1/2 mr² for the cylinder)",
+        "option1": "r = 0.25 * 10² N/M",
+        "option2": "r = 2.50 * 10² N/M",
+        "option3": "r = 0.25 * 10 N/M",
+        "option4": "r = 250.00 * 10² N/M",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " A body of mass 10kg is released from rest 30m above the ground. What are the P.E and K.E of the body 2s after it was released. Take g=10m/s².",
+        "option1": "P.E = 3.0 * 10² KJ, K.E = 2.0KJ",
+        "option2": "P.E = 2.0 * 10² KJ, K.E = 3.0KJ",
+        "option3": "P.E = 2.0KJ, K.E = 3.0KJ",
+        "option4": "P.E = 3.0KJ, K.E = 2.0KJ",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A circular plate of mass 20kg and radius 0.5m rotates about its axis of symmetry with an angular velocity of 10revolutions per second (10rev/s). Calculate it's K.E (assume that I =1/2mr² for the plate)",
+        "option1": "1200J",
+        "option2": "10000J",
+        "option3": "2500J",
+        "option4": "1000J",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A partide undergoes SHM with amplitude 40mm. Find the maximum acceleration when its frequency is 120Hz.",
+        "option1": "0.23 x 10⁴ 10m/s²",
+        "option2": "2.3 x 10⁴ 10m/s²",
+        "option3": "1 x 10⁴ 10m/s²",
+        "option4": "23.00 x 10⁴ 10m/s²",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Determine the resultant and direction of two vectors each of magnitude 10m, If the angle between them is 120°",
+        "option1": "10m at 30°",
+        "option2": "10m at 60°",
+        "option3": "10m at 45°",
+        "option4": "60m at 30",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " How long will it take a bullet fired vertically upwards with a speed of 60m/s to reach the height of 145m. (take g = 10m/s²)",
+        "option1": "34.00s",
+        "option2": "34000s",
+        "option3": "0.34s",
+        "option4": "3.40s",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " Calculate the gravitational force on two identical coins of masses 3kg separated by a distance of 100cm (take G = 6.67 x10⁻¹¹Nm²kg²",
+        "option1": "60.30 x 10⁻¹¹N",
+        "option2": "6.30 x 10⁻¹¹N",
+        "option3": "0.63 x 10⁻¹¹N",
+        "option4": "60.03 x 10⁻¹¹N",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "If A=i+2j-3k and B=2i-3J +4k find 3A+2B",
+        "option1": "7i + k",
+        "option2": "i - 7k",
+        "option3": "7i - k",
+        "option4": "i + 7k",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The accuracy of a micrometer screw gauge is",
+        "option1": "0.100cm",
+        "option2": "0.001cm",
+        "option3": "1.000cm",
+        "option4": "0.01cm",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The following are vector quantities except",
+        "option1": "Velocity",
+        "option2": "Mass",
+        "option3": "Momentum",
+        "option4": "Force",
+        "correctOption":2 ,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is a rigid body",
+        "option1": "A body that is always in constant motion",
+        "option2": "A body that cannot change its direction while in motion",
+        "option3": "A body whose shape is not changed",
+        "option4": "A body that always move with relative velocity",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A body whose mass is 1/4 of a kilogram moves with a constant angular speed of 4rad/s in a horizontal circle of radlus 4.0m. Determine the force that must act on the body towards the center of the circle to keep it in equilibrium",
+        "option1": "16.00N",
+        "option2": "160.00N",
+        "option3": "165.00N",
+        "option4": "0.16N",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "One atomsphere pressure is equal to",
+        "option1": "101315N/M²",
+        "option2": "101305N/M²",
+        "option3": "101325N/M²",
+        "option4": "101225N/M²",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The isothermal pressure of a gas is 300N/m² at a temperature of 30°C, determine the isothermal bulk modulus of the gas",
+        "option1": "900N/M²",
+        "option2": "300N/M²",
+        "option3": "330N/M²",
+        "option4": "100N/M²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A tangential force of 70N applied on a solid of cross-sectional area 20cm² caused a deformation through an angle of 0.03°, Calculate the shear modulus of elasticity of the solid",
+        "option1": "116666.67N/M²",
+        "option2": "6.68 x 10¹⁰N/M²",
+        "option3": "1666.67N/M²",
+        "option4": "1166666.67N/M²",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An Example of a viscous liquid is",
+        "option1": "Kerosene",
+        "option2": "Petrol",
+        "option3": "Engine oil",
+        "option4": "Water",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following are the three basic dimensions in physics used in mechanics?",
+        "option1": "time, mass, and length",
+        "option2": "electric current, temperature and intensity",
+        "option3": "time, temperature and mass",
+        "option4": "length, width and height",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following quantity is not a vector quantity?",
+        "option1": "Displacement",
+        "option2": "Momentum",
+        "option3": "Speed",
+        "option4": "Force",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "When a unit mass of a liquid is converted into vapour at its boiling point without a corresponding change in temperature then the quantity of heat required to do that is called...",
+        "option1": "Specific heat capacity",
+        "option2": "Specific Latent Heat of Vapourization",
+        "option3": "Heat Capacity",
+        "option4": "Specific Latent Heat of fussion",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The quantitative relationship between heat and other forms of energy is called",
+        "option1": "Gas Law",
+        "option2": "Internal Energy",
+        "option3": "Boyle's Law",
+        "option4": "Thermodynamics",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In the expression Q = Mc(θ2-θ1), Q is ______?",
+        "option1": "Heat capacity",
+        "option2": "Latent Heat",
+        "option3": "Specific heat Capacity",
+        "option4": "Quantity of heat gained or lost",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Calculate the viscous force of a liquid of surface area 7000cm² flowing with a velocity gradient of 0.3s (co-efficient of viscosity = 13Ns/m²)",
+        "option1": "-2.73N",
+        "option2": "-27.3",
+        "option3": "-273N",
+        "option4": "273N",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Calculate the pressure at a depth 5000cm in a river with water density of 1500g/cm³ (g=10m/s²)",
+        "option1": "750000N/m²",
+        "option2": "75000N/m²",
+        "option3": "75000000N/m²",
+        "option4": "75000000000N/m²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An object of mass 4kg is acted upon by two horizontal forces of 8N and 2N in opposite directions. Calculate the acceleration produced by the system",
+        "option1": "2.0m/s²",
+        "option2": "10m/s²",
+        "option3": "1.5m/s²",
+        "option4": "1.0m/s²",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A collision is defined as elastic if ;",
+        "option1": "The total kinetic energy after collision is equal to that before collision",
+        "option2": "The co-efficient of restitution is equal to zero",
+        "option3": "The total kinetic energy after collision is less than the kinetic energy before collision",
+        "option4": "The total kinetic energy after collision is greater than the kinetic energy before collision",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following is not a type of potential energy",
+        "option1": "Sound Energy",
+        "option2": "Elastic",
+        "option3": "Electro-Static",
+        "option4": "Gravitational",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The motion of smoke particles from a chimney is typical of",
+        "option1": "Circular-Motion",
+        "option2": "Rotational-Motion",
+        "option3": "Random-Motion",
+        "option4": "Oscillatory-motion",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "To determine the weight of an object you could",
+        "option1": "Use a Beam-Balance",
+        "option2": "Use a Spring-Balance",
+        "option3": "Find the force necessary to give it a certain acceleration",
+        "option4": "Use all of these methods",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The quantity of heat required to raise the temperature of unit of mass of a substance through 1K is called",
+        "option1": "Heat capacity",
+        "option2": "Specific Heat Capacity",
+        "option3": "Latent Heat",
+        "option4": "specific Latent capacity",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A body that absorbs the entire heat radiations incident on it or absorbs radiation of all wavelengths is called _____",
+        "option1": "Conductor",
+        "option2": "White Body",
+        "option3": "Black body",
+        "option4": "All of the above",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The amount of heat required to convert a unit mass of a liquid into vapour at its boiling point without a corresponding change in temperature is known as ____",
+        "option1": "Heat capacity",
+        "option2": "Specific Heat Capacity",
+        "option3": "Specific latent heat of vapourization",
+        "option4": "Specific Latent Heat of fussion",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Impulse of a force is equivalent to",
+        "option1": "mv/t-mu/t",
+        "option2": "MV - MU",
+        "option3": "v - u/t ",
+        "option4": "mg",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A force of 20N is applied at an angle of 40° above the horizontal to a block that slides across a surface. How much work is done in moving the block a distance of 35m",
+        "option1": "37.59J",
+        "option2": "12.86J",
+        "option3": "536.2J",
+        "option4": "700J",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Elastic Limit is the Load/stress",
+        "option1": "Beyond which the material becomes inelastic",
+        "option2": "Before which the material becomes inelastic",
+        "option3": "At which the material breaks up",
+        "option4": "From which the material becomes inelastic",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Blood pressure is",
+        "option1": "inversely proportional to blood velocity",
+        "option2": "Equal to blood velocity",
+        "option3": "Smaller than blood velocity",
+        "option4": "Directly proportional to blood velocity",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following is not a fundamental quantity",
+        "option1": "Distance",
+        "option2": "Time",
+        "option3": "Density",
+        "option4": "Electric-current",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The total rate at which a black body emits radiation is proportional to the forth power of its absolute temperature is whose law",
+        "option1": "Steven's Law",
+        "option2": "Wein's Displacement",
+        "option3": "Boltzmann law",
+        "option4": "Kelvin",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of these is not correct?",
+        "option1": "The time interval required for the system to complete a full cycle is known as its period with unit as second",
+        "option2": "The number of completed cycles in one period is called frequency F with unit Hertz",
+        "option3": "The maximum displacement from the equilibrium position is the amplitude with unit as metres",
+        "option4": "A simple relation exists between period and frequency given as T = w/2π",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The following are vector quantities except",
+        "option1": "Displacement",
+        "option2": "Velocity",
+        "option3": "Speed",
+        "option4": "Force",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What type of energy is in a burning wood?",
+        "option1": "Mechanical Energy",
+        "option2": "Chemical Energy",
+        "option3": "Kinetic Energy",
+        "option4": "Fire Energy",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A body experiences weightlessness in space due to",
+        "option1": "Lack of Energy",
+        "option2": "Lack of mass",
+        "option3": "Lack of motion",
+        "option4": "Lack of gravity",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A 500g car moves with a velocity of 20m/s, What is the momentum?",
+        "option1": "10kgm/s",
+        "option2": "10000kgm/s",
+        "option3": "100kg/m",
+        "option4": "1000kg/m",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The velocity of a car increased from 40m/s to 90m/s in 0.2mins, What is the acceleration?",
+        "option1": "4.17m/s²",
+        "option2": "250m/s²",
+        "option3": "2.5m/s²",
+        "option4": "25m/s²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A Sprinter of mass 50kg is running at a velocity of 10m/s. Calculate the momentum of the sprinter?",
+        "option1": "500kg/s",
+        "option2": "50kg/s",
+        "option3": "5kg/s",
+        "option4": "0.5kg/s",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The Total energy of a S.H.M is given as except",
+        "option1": "E = ½kx²m",
+        "option2": "E = ½mvm²",
+        "option3": "E = ½kx² + ½mv²",
+        "option4": "E = ½kx²m + ½mv²m",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The process by which heat is transmitted from one body to another without heating the intervening medium is called _________",
+        "option1": "Convection",
+        "option2": "Conduction",
+        "option3": "Radiation",
+        "option4": "Thermal",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A slope of a distance-time graph and a velocity-time graph will give",
+        "option1": "Acceleration and velocity respectively",
+        "option2": "Velocity and Speed respectively",
+        "option3": "Velocity and Time respectively",
+        "option4": "Velocity and Acceleration respectively",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An Adhesive liquid ____",
+        "option1": "Does not wet other substances",
+        "option2": "Has a convex meniscus",
+        "option3": "Has capilliary fall",
+        "option4": "Has a concave meniscus",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A man weighs 80N in air and 65N in water, what is the upthrust on him in the water (g=10m/s²)",
+        "option1": "145N",
+        "option2": "150N",
+        "option3": "65N",
+        "option4": "15N",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The standard blood pressure of a normal human being is",
+        "option1": "130/90",
+        "option2": "180/90",
+        "option3": "120/80",
+        "option4": "100/60",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "One of the following is a dimensionless quantity",
+        "option1": "Velocity",
+        "option2": "Tensile-strain",
+        "option3": "Volume",
+        "option4": "Mass",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following statements is not correct?",
+        "option1": "The vibration motion that is maintained by a restoring force only is called a free vibration",
+        "option2": "When a periodic force is applied to a system, the resulting vibration motion is described as forced vibration",
+        "option3": "For a vibrating system that the effect of friction can be neglected is known as undamped oscillation",
+        "option4": "When the effect of friction is added to the system, the vibration is termed undamped oscillation",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The rate of change of angular momentum of a particle is equal to",
+        "option1": "The Torque",
+        "option2": "The Linear Momentum",
+        "option3": "Impulse",
+        "option4": "The Applied Force",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A box is dragged across a floor by a constant force of magnitude 50N. The force makes an angle of 37° with the horizontal and the box is displaced a distance of 3m, Calculate the workdone?",
+        "option1": "120J",
+        "option2": "80J",
+        "option3": "60J",
+        "option4": "12J",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The kinetic Energy K of a particle of mass m and a speed v is defined as",
+        "option1": "K = ½mv²",
+        "option2": "K = ½mv⁴",
+        "option3": "K = ½mv²√mv²",
+        "option4": "K = ½m²v²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The centripetal force required to maintain a car moving round a circular tract is supplied by",
+        "option1": "Friction at the wheels",
+        "option2": "Gravity",
+        "option3": "Magnetic force",
+        "option4": "Tension",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Compute the acceleration of a lorry which starts from rest and accelerates uniformly until it attains a velocity of 2m/s in 5 seconds.",
+        "option1": "4.0m/s",
+        "option2": "4.0m/s²",
+        "option3": "0.4m/s",
+        "option4": "0.4m/s²",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A palm fruit dropped to the ground from the top of a tree 45m tall. How long does it take to reach the ground?(take g = 10m/s²)",
+        "option1": "9s",
+        "option2": "4.5s",
+        "option3": "6s",
+        "option4": "3s",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The term unit is defined as?",
+        "option1": "A standard used to describe physical quantities",
+        "option2": "A standard quantity used to observe the world around us",
+        "option3": "A fundamental standard of measurement",
+        "option4": "A standard to measure normal distance",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The word culture is treasured from the Latin word",
+        "option1": "Cultivation",
+        "option2": "cultura",
+        "option3": "culpurel",
+        "option4": "cultural",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Cultural form represent in symbol, language and actions are classified as",
+        "option1": "Nigeria Culture",
+        "option2": "Material culture",
+        "option3": "Non-material culture",
+        "option4": "European culture.",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Gyekye (1997) sees culture as the way of",
+        "option1": "Dance",
+        "option2": "Worship",
+        "option3": "Practice",
+        "option4": "life",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Daltovo in 'the Rise and Fall' of Development: A challenge to culture' makes a distinction between ______ and ______ aspects of culture",
+        "option1": "inner and outer",
+        "option2": "natural and artificial",
+        "option3": "culture and tradition",
+        "option4": "town and state",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },
+    {
+        "question": " Ejiofor (2002) said that the love of culture is not blind, that it is _____ and _____",
+        "option1": "true and sure",
+        "option2": "traditional and belief ",
+        "option3": "aged and obsolete",
+        "option4": "mystic and spiritual",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Traditions describe a group's ____ and ____ that are passed down from one generation to another",
+        "option1": "culture and tradition",
+        "option2": "norms and system",
+        "option3": "beliefs and behaviours",
+        "option4": "life and thinking",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Ideas and beliefs are seen in ___ and ___",
+        "option1": "culture and tradition",
+        "option2": "life and death",
+        "option3": "university and home",
+        "option4": "eating and reasoning",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Culture is the",
+        "option1": "Formal education",
+        "option2": "Cultivation of the arts",
+        "option3": "Main aspect of the people",
+        "option4": "Total way of life",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Cultural features helps a society _____ her Culture",
+        "option1": "Undermine",
+        "option2": "Discourage",
+        "option3": "Express",
+        "option4": "Divide",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Culture is grouped into ",
+        "option1": "Material and non-material",
+        "option2": "Food and clothes",
+        "option3": "African and Latin",
+        "option4": "Language and symbols",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Basic elements of culture include",
+        "option1": "Drums, beads, tambourine and basket",
+        "option2": "Norms, beliefs, language and cognitive elements",
+        "option3": "Symbols, artifacts, language and components",
+        "option4": "Language, clothes, material and non-material",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Concrete physical objects and resources people use to define their culture is classified as",
+        "option1": "African culture",
+        "option2": "language culture",
+        "option3": "Material culture and non-material culture",
+        "option4": "Igbo culture",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Gender is also known as sex.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "All of the above",
+        "option4": "None of the above",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Cultural and gender issues in Nigeria could be a thing of the past through:",
+        "option1": "gender discrimination",
+        "option2": "cultural and gender equality",
+        "option3": "cultural partisan",
+        "option4": "cultural and gender neutrality",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "All except one is not a cultural or gender issue in Nigeria.",
+        "option1": "harmful widowhood practices",
+        "option2": "early child marriage",
+        "option3": "female genital mutilation",
+        "option4": "cultural and gender equality",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Cultures are subjective. This means that",
+        "option1": "cultures are full of historical lies",
+        "option2": "cultures are full of personal inputs of the societal leaders",
+        "option3": "there is a tendency to assume that the elements of one's own cultures are more logical and sensible than those of other countries.",
+        "option4": "Cultures change with time and season.",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "One out of the under listed does not describe the phenomenon Of culture:",
+        "option1": "Culture is ordered and differently valued",
+        "option2": "Culture is a shared meaning",
+        "option3": "culture is spontaneous, radical social experience",
+        "option4": "Culture is collectively formed and held.",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Nigeria was almagamated in the year ____",
+        "option1": "1841",
+        "option2": "1914",
+        "option3": "1419",
+        "option4": "1900",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "After the Amalgamation of Nigeria Who is the Governor General",
+        "option1": "Flora shaw",
+        "option2": "Fredrick lugard",
+        "option3": "Dosumu",
+        "option4": "Ajayi",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The Systematic conquest of Nigeria gradually started in the year ____",
+        "option1": "1851",
+        "option2": "1852",
+        "option3": "1853",
+        "option4": "1854",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In 1861, the British finally dealt with king",
+        "option1": "Kososko",
+        "option2": "Dosumu",
+        "option3": "Tabo",
+        "option4": "lugard",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The European rivals from Niger-Benue territory led to the revocation of its charter by the British Government in which year",
+        "option1": "1900",
+        "option2": "1845",
+        "option3": "1902",
+        "option4": "1846",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The definition of cultural perception is",
+        "option1": "Modality in which the society sees Nigeria",
+        "option2": "Norms and rules governing Nigerian heritage",
+        "option3": "The philosophical perception of Nigerian cultures",
+        "option4": "How people gather information, learned within their specific culture",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The Nigerian philosophical perception of her Heritage is one that has undergone series of development especially as the day traditions, tangible cultural heritages, natural, and cultural heritages ,mention the 3 major culture in Nigeria",
+        "option1": "Yoruba, Efik, Ibo",
+        "option2": "lbo, Hausa and Yoruba",
+        "option3": "Igbo, Hausa, Yoruba",
+        "option4": "Hausa, Idoma and Calabari",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Although Africa is extremely diverse, there appear to be some shared moral ideas include across manyethnic groups.",
+        "option1": "Sharing a home with a man before marriage",
+        "option2": "Cultural marriage and payment of dowry/ bride price before cohabitation",
+        "option3": "Having children in and out of wedlock",
+        "option4": "Marriage without licence",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": " Culture influences philosophy by providing it _____ while philosophy influences culture by _____. In various ways, of its foundation.",
+        "option1": "With the basic materials for reflection, posing a critique",
+        "option2": "Deployment of philosophical skills on Nigerian culture",
+        "option3": "family, practice",
+        "option4": "Language of perception",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "If the sum of infinity of a G.P is twice the first term, Find the common ratio.",
+        "option1": "-1/2",
+        "option2": "1/4",
+        "option3": "1/3",
+        "option4": "1/2",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the real number x and y such that 3x + 2yi - xi + 5y = 7 + 5i",
+        "option1": "x = 2, y = 3",
+        "option2": "x = 1, y = 2",
+        "option3": "x = -1, y = 2",
+        "option4": "x = 2, y = 4",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many different permutations of the letter of the word PROSPER are there?",
+        "option1": "840",
+        "option2": "1216",
+        "option3": "1260",
+        "option4": "1340",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "U = (All positive even integers less than or equal to 20) A = (2 ≤ x ≤ 10) B = (All factors of 20), A - B = _______________",
+        "answer": "{3, 6, 7, 8, 9}",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "U = (All positive even integers less than or equal to 20) A = (2 ≤ x ≤ 10) B = (All factors of 20), A` ⋂ B` = _______________",
+        "answer": "{11, 12, 13, 14, 15, 16, 17, 18, 19, 20}",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "U = (All positive even integers less than or equal to 20) A = (2 ≤ x ≤ 10) B = (All factors of 20), A` ⋃ B` = _______________",
+        "answer": "{1, 3, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },    
+    {
+        "question": "Simplify sin45° cos15° - cos45° Sin15°",
+        "option1": "sin(45° - 15°)",
+        "option2": "cos(45° + 15°)",
+        "option3": "sin(45° + 15°)",
+        "option4": "cos(45° - 15°)",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "if 8, a, b, c and 20 are in Artithmetrical Progression, Find a, b, c",
+        "option1": "11, 12, 14",
+        "option2": "11, 13, 17",
+        "option3": "11, 14, 17",
+        "option4": "11, 17, 18",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The set of integers Z is closed under what algebraic operation",
+        "option1": "+, -",
+        "option2": "+, -, *",
+        "option3": "+, *",
+        "option4": "%, -",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The representative of five countries attend a conference in how many ways can they be scaled round a table",
+        "option1": "16",
+        "option2": "32",
+        "option3": "28",
+        "option4": "24",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In how many ways can five books ba arranged onto a shelf",
+        "option1": "24",
+        "option2": "720",
+        "option3": "60",
+        "option4": "120",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In a G.P, the sum of the second and third term is 2 and the sum of the third and the forth term is 4. Find the first term and common ratio",
+        "option1": "first term = 2, common ratio = 6",
+        "option2": "first term = 1/3, common ratio = 2",
+        "option3": "first term = 2, common ratio = 6",
+        "option4": "first term = 4, common ratio = 1/2",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The set P= [3, 9, 11, 13] and Q = [3, 7, 9, 15] are subset of the U = [1,3, 7, 9, 11, 13, 15]. Find (P - Q) U (Q - P)",
+        "answer": "{13, 7, 15}",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The set P= [3, 9, 11, 13] and Q = [3, 7, 9, 15] are subset of the U = [1,3, 7, 9, 11, 13, 15]. Find (P - Q)` ⋂ (Q - P)`",
+        "answer": "{1, 3, 9, 11}",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The third term of a G.P is 63 and the fifth term is 567. Find the sum of the first six terms of the G.P",
+        "option1": "2485",
+        "option2": "2584",
+        "option3": "2548",
+        "option4": "2854",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "If sin X = 4/5. Find the value of cos X",
+        "option1": "3/5",
+        "option2": "5/13",
+        "option3": "3/13",
+        "option4": "12/13",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Which of the following is a rational number?",
+        "option1": "π",
+        "option2": "-5",
+        "option3": "22/7",
+        "option4": "3/5",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "36, 12, 4, 1⅓ ... What is the common ratio?",
+        "option1": "1/2",
+        "option2": "1/3",
+        "option3": "4",
+        "option4": "2/4",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Which of the following is a natural number",
+        "option1": "3.1426895",
+        "option2": "-6",
+        "option3": "1.16666",
+        "option4": "7",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },     
+    {
+        "question": "Given that sinθ = 5/13 and θ is acute find cos2θ",
+        "option1": "7/13",
+        "option2": "24/13",
+        "option3": "12/15",
+        "option4": "3/13",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Express in polar form -5 + 5i",
+        "option1": "√5 (sin45° + i cos45°)",
+        "option2": "√50 (sin45° + i cos45°)",
+        "option3": "5 (sin45° + i cos45°)",
+        "option4": "√50 (sin45° + cos45°)",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the 5th term in the expansion of (2 - 5x)¹⁰",
+        "option1": "840000x⁴",
+        "option2": "8400000x⁴",
+        "option3": "840x⁴",
+        "option4": "8400x⁴",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },       
+    {
+        "question": "Find the 6th term in the expansion of (2 - 5x)¹⁰",
+        "option1": "-25200x⁵",
+        "option2": "-2200x⁵",
+        "option3": "-25200000x⁵",
+        "option4": "-2520000x⁵",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },       
+    {
+        "question": "Deduce the term independent of x in the expansion of (x + 2/x)⁶",
+        "option1": "120",
+        "option2": "-180",
+        "option3": "-2520",
+        "option4": "2520",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },       
+    {
+        "question": "Find the co-efficient of x³ in the expansion of the expression (4 - 2x)⁵",
+        "option1": "1280",
+        "option2": "-1280",
+        "option3": "1180",
+        "option4": "1380",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },       
+    {
+        "question": "Find the value of n for which 9²ⁿ ⁺ ⁹ = 1, where n is a non-zero real number",
+        "option1": "i = -4.5",
+        "option2": "i = 4.5",
+        "option3": "i = 5",
+        "option4": "i = 4",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },       
+    {
+        "question": "If α and β are true roots of x² + 4x - 2, Find the equation whose roots are (1/α, 1/β)",
+        "option1": "3X² - 2x - 3 = 0",
+        "option2": "6X² + 2x - 3 = 0",
+        "option3": "3X² + x + 2 = 0",
+        "option4": "6X² - x + 2 = 0",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },       
+    {
+        "question": "If α and β are true roots of 2x² -x + 6 = 0, Find the equation whose roots are (2α, 2β)",
+        "option1": "X² - 20x -50 = 0",
+        "option2": "X² -1x + 12 = 0",
+        "option3": "X² + x + 12 = 0",
+        "option4": "X² -x + 12 = 0",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },      
+    {
+        "question": "What is the quadratic equation that has -1/3 and 7 as the roots",
+        "option1": "3X² - 20x -7 = 0",
+        "option2": "X² + 20x + 7 = 0",
+        "option3": "3X² + 20x + 3 = 0",
+        "option4": "X² - 20x +50 = 0",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },     
+    {
+        "question": "Expand (1.01)³ and write down the third term",
+        "option1": "4.5",
+        "option2": "0.0045",
+        "option3": "0.04",
+        "option4": "0.45",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },    
+    {
+        "question": "Express in polar form -5 + 5i",
+        "option1": "√5 (sin45° + i cos45°)",
+        "option2": "√50 (sin45° + i cos45°)",
+        "option3": "5 (sin45° + i cos45°)",
+        "option4": "√50 (sin45° + cos45°)",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },      
+    {
+        "question": "_____ is defined as the study of random variables concerning a population of interest with a view to gaining useful insight into the population",
+        "answer": "statistics",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The following are pictorial representations of data except;",
+        "option1": "Pie Chart",
+        "option2": "Bar Chart",
+        "option3": "Standard-deviation",
+        "option4": "Histogram",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ is used to describe the basic feaatures of the sample data being studied",
+        "answer": "Descriptive statistics",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ is made up of a circle that is divided into sectors, with each sector proportional in size to the volume of information it representa.",
+        "option1": "Bar chart",
+        "option2": "Scatter plots",
+        "option3": "Ogive",
+        "option4": "Pie Chart",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "what is obtained by dividing the frequency of that value by the total frequencies of all the entire observations",
+        "answer": "Relative Frequency",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "There are __ types of statistics?",
+        "option1": "3 (differential statistics, Inferencial statistics and descriptive statistics)",
+        "option2": "1 (Descriptive statistics)",
+        "option3": "2 (differential statistics and Inferential statistics)",
+        "option4": "2 (Descriptive statistics and Inferential statistics)",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ is defined as the number of times a particular data occurs?",
+        "answer": "Frequency",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In a group frequency we calculate the size(length) of the data as",
+        "option1": "class size = Range / No of classes",
+        "option2": "class size = Range * No of classes",
+        "option3": "class size = Range + No of classes",
+        "option4": "class size = Range - No of classes",
+        "correctOption": 1,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the difference between the highest observation and the lowest observation",
+        "answer": "Range",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Class Intervals are also known as _____",
+        "option1": "Class Boundaries",
+        "option2": "Class Limits",
+        "option3": "Interquartile range",
+        "option4": "Semi-Interquartile Range",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "class boundaries are obtained by _____",
+        "option1": "subtracting 1.5 from the lower class interval and adding 0.5 to the upper class interval",
+        "option2": "subtracting 1 from the lower class interval and adding 1 to the upper class interval",
+        "option3": "dividing 0.5 from the lower class interval and multiplying 0.5 to the upper class interval",
+        "option4": "subtracting 0.5 from the lower class interval and adding 0.5 to the upper class interval",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A histogram is distinguished from a bar-chart because?",
+        "option1": "It is continious in nature",
+        "option2": "It is circular in direction",
+        "option3": "It is rectangular in shape",
+        "option4": "It is more useful",
+        "correctOption": 1,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ is a graph showing the cumulative frequency of observations less that than any upper class boundary plotted against the upper class boundary",
+        "option1": "Bar chart",
+        "option2": "Ogive",
+        "option3": "Histogram",
+        "option4": "Slope",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What volume of 16M sulphuric acid must be used to prepare 1.5litres of a 0.1M H₂SO₄ solution?",
+        "option1": "9.4 * 10⁻³L",
+        "option2": "1.8 * 10⁻⁴L",
+        "option3": "4.7 * 10⁻⁴",
+        "option4": "9.0 * 10⁻³",
+        "correctOption": 1,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Aluminium oxide is reacted with carbon to form aluminium metal and CO₂. 2Al₂O₃ + 3C -----→ 4Al + 3CO₂. How many grams of aluminium metal are formed from 408g of Al₂O₃. [Molar mass of Al₂O₃ = 102g]",
+        "option1": "40g",
+        "option2": "80g",
+        "option3": "180g",
+        "option4": "216g",
+        "correctOption": 4,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many grams of Nitrogen must combine with hydrogen to form 6moles of ammonia? N₂ + H₂ -------→ NH₃",
+        "option1": "240g",
+        "option2": "84g",
+        "option3": "110g",
+        "option4": "24g",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Ethane gas C₂H₆ reacts with oxygen to give carbon dioxide and water. How many grams of ethane are required to react with 28moles of oxygen gas? 2C₂C₆ + 7O₂ -----→ CO₂ + 6H₂O",
+        "option1": "240g",
+        "option2": "120g",
+        "option3": "60g",
+        "option4": "30g",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Three oxides of nitrogen contain 53.5%, 69.6% and 36.4% of oxygen respectively what law of chemical combination is illustrated by this data?",
+        "option1": "The law of indestructibility of matter",
+        "option2": "The law of definite proportion",
+        "option3": "The law of reciprocal proportion",
+        "option4": "The law of multiple proportion",
+        "correctOption": 4,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The formula of water obtained from river, sea and rain is H₂O. On electrolysis, these waters obtained from 3 different sources must always contain hydrogen and oxygen in the ratio 2:1. The law that illustrates this finding is;",
+        "option1": "The law of indestructibility of matter",
+        "option2": "reciprocal proportion",
+        "option3": "multiple proportion",
+        "option4": "definite proportion",
+        "correctOption": 4,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What are the values of X and Y in the equation ₁₃Al²⁷ + He₄² → P  + n¹₀",
+        "option1": "X = 15, Y = 31",
+        "option2": "X = 13, Y = 30",
+        "option3": "X = 15, Y = 30",
+        "option4": "X = 16, Y = 31",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Chemical bonding in which each participating atom contributed an electron to be shared by two atoms is called ___________",
+        "option1": "Electrovalent bonding",
+        "option2": "Covalent Bonding",
+        "option3": "Dative bonding",
+        "option4": "metallic bonding",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Another name for co-ordinate covalent bonding is ______",
+        "option1": "Electrovalent bonding",
+        "option2": "Covalent Bonding",
+        "option3": "metallic bonding",
+        "option4": "dative bonding",
+        "correctOption": 4,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The weak bond that holds molecules together in a crystalline form is called ______",
+        "option1": "metallic bond",
+        "option2": "hydrogen bonding",
+        "option3": "Vander waals forces",
+        "option4": "dative bonding",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Which of the following electronic configurations represent that of a noble gas",
+        "option1": "2, 8, 8, 2",
+        "option2": "2, 8",
+        "option3": "2, 8, 2",
+        "option4": "2, 6",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the IUPAC name for this compound H₂O? ______",
+        "answer": "Oxidane",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The combustion of carbon is typically an example of the law of _______",
+        "answer": "Conservation of mass",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The electronic configuration of the excited scandanium is what ______?",
+        "answer": "1S² 2S² 2P⁶ 3S²",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The industrial name of this compound CaCO₃ is what _____?",
+        "answer": "Limestone",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "NH₃ is a ___?",
+        "answer": "gas",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In group 7 in the periodic table which of the first 20 elements are liquids",
+        "answer": "Bromine",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Which of these gases came from the smell of rotten egg _____?",
+        "answer": "Hydrogen Sulphide",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Elements undergo stochiometry in order to obey what law ____?",
+        "answer": "Law of conservation of mass",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many isotope does oxygen have?",
+        "answer": "3",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The bonding between hydrogen and chlorine is called _____?",
+        "answer": "Covalent bonding",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In periodic table calcium ion exhibits characteristics of which group and period respectively?",
+        "answer": "Group2 and period 3",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The mixing of 2 or more pure orbitals to form a new one is called ______?",
+        "answer": "Orbital hybridisation",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The combination of one pi bond and one sigma bond is called _____?",
+        "answer": "double bond",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the distance between the valence electron to the nuclues",
+        "answer": "Atomic Radius",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "This is the energy released when a gaseous atom gains an electron to form a gaseous negative ion",
+        "answer": "Electron Affinity",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the power of an atom in a molecule to attract electrons",
+        "answer": "Electron Negativity",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Degenerate orbital has how many electrons?",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A compound contains 40% Ca, 12% C and 48% O, What is the empirical formular of the compound (Ca = 40, C = 12 and O = 16)",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the name of the anhydrous compound Na₂ Co₃. 10H₂O",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Arrange the atom Be, Ca, Mg in order of increasing size.",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The increasing first ionization of Be, Ca, Mg is what?",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "No two electrons can contain the same four quantum numbers exactly the same was a law propounded by _____",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A is an element with atomic number 11 and B an element with atomic number 17. If A react with B to form a compound, what is the formular of the compound?",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the number of atoms in 6 molecules of ozone",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many atoms of oxygen are there in Na₂Co₃ .10H₂O",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Hydrogen chloride gas was passed over 2.24g of heated iron in a hard test tube, 5.08g of compound was formed. What is the formula of the compound?",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "An oxide Xo has a vapour density of 28, What is the relative atomic mass of X",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many moles of calciumtrioxocarbonate IV are there in 2.5g of it? (Ca = 40, C = 12, O = 16)",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many atoms would there be in 30g of calcium (Ca = 40)",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "K₂M₈L₂ is the electronic configuration of which elements in shell",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The atomic number of oxygen is 8, what is the proton number?",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "78g of radioactive isotope with a half life of 4hours was left in a cupboard from 8a.m till 4p.m, what mass decays off?",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many neutrons and protons are there in element whose atomic number is 15?",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the spin value of Ca²⁺?",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the latin name of sodium and potassium respectively?",
+        "answer": "Natrium and Kalium",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Calculate the relative mass of limestone?",
+        "answer": "100",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the IUPAC name of the radical Co₃²⁻ Co₃⁻ So₃²⁻ So₃⁻",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Who created the periodic table?",
+        "answer": "Dimitri Mendeleev",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What are the values of X and Y in the equation ₁₃Al²⁷ + He₄² → P  + n¹₀",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The maximum number of electrons in P orbital is _____",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The number of protons in the nuclues of an atom is called ______ ",
+        "answer": "Atomic number",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The weak bond that holds molecules together in a crystalline form is called ______",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What volumes of 34M sulphuric acid must be used to prepare 2.5 litres of 20M of H₂SO₄ solution ______",
+        "answer": "",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ can be defined as things that have life and are in existence?",
+        "answer": "Living things",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ cannot define life or state where it originated from",
+        "answer": "Scientist",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "movement, responsiveness, nutrition, feeding, respiration, excretion, reproduction, metabolism, Evolution, Ecology, Adaptation and death are all characteristics of __________",
+        "answer": "Living Organisms",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is defined as a prossesion of a specific structure or a behavioural characteristics of every living organism which contribute to the survival of an organism in a particular environment ",
+        "answer": "Adaptation",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ means that living things come from living things and can never exist from a non living matter while _______ means that living things can exist from non-living matter",
+        "answer": "Biogenesis and Abiogenesis",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ is the way living organisms remove waste and harmful products of metabolism from their bodies. Animals excrete CO₂, nitrogenous waste and heat where as plant excrete excess water.",
+        "answer": "Excretion",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "________ is the process where living organisms are able to bring forth their offsprings",
+        "answer": "Reproduction",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the process by which living organisms have the ability to adapt to their environment",
+        "answer": "Evolution",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the study of relationships between organisms and their relationship with their environment.",
+        "answer": "Ecology",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ are kinds of chemical compound produced by living things which are unique",
+        "answer": "Water requirements",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ are chemicals that speed up chemical reactions",
+        "answer": "Enzymes",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is a whip like thread structure that used in movement in organisms",
+        "answer": "Flagelluum",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ involves all the chemical and physical processes which take place within the cell of living organisms involving obtaining and utilizing",
+        "answer": "Metabolism",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is the study of how living things interact with their environment",
+        "answer": "Ecology",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A protein that interferes with how viruses produces is known as _______",
+        "answer": "Interferon",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "________ is an ancient fish without jaws or scales?",
+        "answer": "Cyclostomata",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "________ is the largest group of living things",
+        "answer": "Kingdom",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the cell part that produces energy when food is broken down",
+        "answer": "Mitochondria",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ are/is a chromosome that carry sex link character ",
+        "answer": "X-chromosome",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is the structural and functional unit of the kidney",
+        "answer": "Nephron",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An example of fibrous protein is _____",
+        "answer": "collagen",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ and ______ are the types of protein we have?",
+        "answer": "fibrous protein and globular protein",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How many types of cycles are found in organisms",
+        "answer": "3",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is an effective layer of the body that covers the body and also make hairs and nails",
+        "answer": "skin",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ is the father of genetics",
+        "answer": "Gregor Mendel",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The father of genetics founded genetics in the ______ year",
+        "answer": "1865",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ and ______ spotted the flaws in DNA structure ",
+        "answer": "Watson and Crick",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ can be used to test hypothesis",
+        "answer": "Experimentation",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ and ______ showed an initial proposal of DNA structure ",
+        "answer": "Watson and Crick",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The outer covering of a bacteria is known as ______",
+        "answer": "Glycocalyx",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ and _____ are the types of bacteria we have",
+        "answer": "Gram positive and Gram negative",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A protein the red blood cell that joins the O₂ and gives the red cells their colour is known as ______",
+        "answer": "Haemoglobin",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The structure within a cells that makes up the gene and controls the trait of living things is known as _______",
+        "answer": "Chromosome",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The garbage collector of the cell is _______",
+        "answer": "Lysosomes",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The study of all cell is known as _____",
+        "answer": "Cytology",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Cell is from a latin word called _____",
+        "answer": "Cellar",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Cell means _____",
+        "answer": "small room",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The side of the golgi apparatus facing the nucleus is _____",
+        "answer": "cist face",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "According to Archimede's principle, the upthrust of an object immersed in a fluid is equal to",
+        "option1": "Volume of the fluid displaced by It",
+        "option2": "Density of fluid displaced by it",
+        "option3": "Mass of fluid displaced by It",
+        "option4": "Weight of fluid displaced by it",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What Is elastic limit?",
+        "option1": "The point from which the material becomes elastic",
+        "option2": "The point beyond which the material becomes inelastic",
+        "option3": "The load or stress beyond which the material becomes Inelastic",
+        "option4": "The load or stress beyond which the material becomes elastic",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The quantity of heat which flows in one second through a unit cube of material when its opposite faces are maintained at a temperature difference of 1°C is",
+        "option1": "Heat capacity",
+        "option2": "coefficent of thermal conductivity",
+        "option3": "Specific heat",
+        "option4": "Mole ratio",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How much heat must be added to 5kg of copper material to raise It's temperature from 30°C to 90°C? take the specific heat capacity of copper as 3911/kg.K",
+        "option1": "115.0J",
+        "option2": "117.3kJ",
+        "option3": "113.2kJ",
+        "option4": "120.0J",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A solid cylinder with a radius of 0.25m and mass of 12kg is free to rotate about its axis which is supported by frictionless bearing. A constant tangential force of 10N is applied to the cylinder originally at rest. Find the torque (r) on the cylinder. (take I = 1/2 mr² for the cylinder)",
+        "option1": "r = 0.25 * 10² N/M",
+        "option2": "r = 2.50 * 10² N/M",
+        "option3": "r = 0.25 * 10 N/M",
+        "option4": "r = 250.00 * 10² N/M",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " A body of mass 10kg is released from rest 30m above the ground. What are the P.E and K.E of the body 2s after it was released. Take g=10m/s².",
+        "option1": "P.E = 3.0 * 10² KJ, K.E = 2.0KJ",
+        "option2": "P.E = 2.0 * 10² KJ, K.E = 3.0KJ",
+        "option3": "P.E = 2.0KJ, K.E = 3.0KJ",
+        "option4": "P.E = 3.0KJ, K.E = 2.0KJ",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A circular plate of mass 20kg and radius 0.5m rotates about its axis of symmetry with an angular velocity of 10revolutions per second (10rev/s). Calculate it's K.E (assume that I =1/2mr² for the plate)",
+        "option1": "1200J",
+        "option2": "10000J",
+        "option3": "1200J",
+        "option4": "1000J",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A partide undergoes SHM with amplitude 40mm. Find the maximum acceleration when its frequency is 120Hz.",
+        "option1": "0.23 x 10⁴ 10m/s²",
+        "option2": "2.3 x 10⁴ 10m/s²",
+        "option3": "1 x 10⁴ 10m/s²",
+        "option4": "23.00 x 10⁴ 10m/s²",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Determine the resultant and direction of two vectors each of magnitude 10m, If the angle between them is 120°",
+        "option1": "10m at 30°",
+        "option2": "10m at 60°",
+        "option3": "10m at 45°",
+        "option4": "60m at 30",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " How long will it take a bullet fired vertically upwards with a speed of 60m/s to reach the height of 145m. (take g = 10m/s²)",
+        "option1": "34.00s",
+        "option2": "34000s",
+        "option3": "0.34s",
+        "option4": "3.40s",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": " Calculate the gravitational force on two identical coins of masses 3kg separated by a distance of 100cm (take G = 6.7 x10^{-11}Nm²kg²",
+        "option1": "60.30 x 10⁻¹¹N",
+        "option2": "6.30 x 10⁻¹¹N",
+        "option3": "0.63 x 10⁻¹¹N",
+        "option4": "60.03 x 10⁻¹¹N",
+        "correctOption":1 ,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "If A=i+2j-3k and B=2i-3J +4k find 3A+2B",
+        "option1": "7i + k",
+        "option2": "i - 7k",
+        "option3": "7i - k",
+        "option4": "i + 7k",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The accuracy of a micrometer screw gauge is",
+        "option1": "0.100cm",
+        "option2": "0.001cm",
+        "option3": "1.000cm",
+        "option4": "0.01cm",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The following are vector quantities except",
+        "option1": "Velocity",
+        "option2": "Mass",
+        "option3": "Momentum",
+        "option4": "Force",
+        "correctOption":2 ,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is a rigid body",
+        "option1": "A body that is always in constant motion",
+        "option2": "A body that cannot change its direction while in motion",
+        "option3": "A body whose shape is not changed",
+        "option4": "A body that always move with relative velocity",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A body whose mass is 1/4 of a kilogram moves with a constant angular speed of 4rad/s in a horizontal circle of radlus 4.0m. Determine the force that must act on the body towards the center of the circle to keep it in equilibrium",
+        "option1": "16.00N",
+        "option2": "160.00N",
+        "option3": "165.00N",
+        "option4": "0.16N",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "One atomsphere pressure is equal to",
+        "option1": "101315N/M²",
+        "option2": "101305N/M²",
+        "option3": "101325N/M²",
+        "option4": "101225N/M²",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The isothermal pressure of a gas is 300N/m² at a temperature of 30°C, determine the isothermal bulk modulus of the gas",
+        "option1": "900N/M²",
+        "option2": "300N/M²",
+        "option3": "330N/M²",
+        "option4": "100N/M²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A tangential force of 70N applied on a solid of cross-sectional area 20cm² caused a deformation through an angle of 0.03, Calculate the shear modulus of elasticity of the solid",
+        "option1": "116666.67N/M²",
+        "option2": "1166.67N/M²",
+        "option3": "1666.67N/M²",
+        "option4": "1166666.67N/M²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An Example of a viscous liquid is",
+        "option1": "Kerosene",
+        "option2": "Petrol",
+        "option3": "Engine oil",
+        "option4": "Water",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following are the three basic dimensions in physics used in mechanics?",
+        "option1": "time, mass, and length",
+        "option2": "electric current, temperature and intensity",
+        "option3": "time, temperature and mass",
+        "option4": "length, width and height",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following quantity is not a vector quantity?",
+        "option1": "Displacement",
+        "option2": "Momentum",
+        "option3": "Speed",
+        "option4": "Force",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "When a unit mass of a liquid is converted into vapour at its boiling point without a corresponding change in temperature then the quantity of heat required to do that is called...",
+        "option1": "Specific heat capacity",
+        "option2": "Specific Latent Heat of Vapourization",
+        "option3": "Heat Capacity",
+        "option4": "Specific Latent Heat of fussion",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The quantitative relationship between heat and other forms of energy is called",
+        "option1": "Gas Law",
+        "option2": "Internal Energy",
+        "option3": "Boyle's Law",
+        "option4": "Thermodynamics",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In the expression Q = Mc(θ2-θ1), Q is ______?",
+        "option1": "Heat capacity",
+        "option2": "Latent Heat",
+        "option3": "Specific heat Capacity",
+        "option4": "Quantity of heat gained or lost",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Calculate the viscous force of a liquid of surface area 7000cm² flowing with a velocity gradient of 0.3s (co-efficient of viscosity = 13Ns/m²)",
+        "option1": "-2.73N",
+        "option2": "-27.3",
+        "option3": "-273N",
+        "option4": "273N",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Calculate the pressure at a depth 5000cm in a river with water density of 1500g/cm³ (g=10m/s²)",
+        "option1": "750000N/m²",
+        "option2": "750000N/m²",
+        "option3": "75000000N/m²",
+        "option4": "75000000000N/m²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An object of mass 4kg is acted upon by two horizontal forces of 8N and 2N in opposite directions. Calculate the acceleration produced by the system",
+        "option1": "2.0m/s²",
+        "option2": "10m/s²",
+        "option3": "1.5m/s²",
+        "option4": "1.0m/s²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A collision is defined as elastic if ;",
+        "option1": "The total kinetic energy after collision is equal to that before collision",
+        "option2": "The co-efficient of restitution is equal to zero",
+        "option3": "The total kinetic energy after collision is less than the kinetic energy before collision",
+        "option4": "The total kinetic energy after collision is greater than the kinetic energy before collision",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following is not a type of potential energy",
+        "option1": "Sound Energy",
+        "option2": "Elastic",
+        "option3": "Electro-Static",
+        "option4": "Gravitational",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The motion of smoke particles from a chimney is typical of",
+        "option1": "Circular-Motion",
+        "option2": "Rotational-Motion",
+        "option3": "Random-Motion",
+        "option4": "Oscillatory-motion",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "To determine the weight of an object you could",
+        "option1": "Use a Beam-Balance",
+        "option2": "Use a Spring-Balance",
+        "option3": "Find the force necessary to give it a certain acceleration",
+        "option4": "Use all of these methods",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The quantity of heat required to raise the temperature of unit of mass of a substance through 1K is called",
+        "option1": "Heat capacity",
+        "option2": "Specific Heat Capacity",
+        "option3": "Latent Heat",
+        "option4": "specific Heat capacity",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A body that absorbs the entire heat radiations incident on it or absorbs radiation of all wavelengths is called _____",
+        "option1": "Conductor",
+        "option2": "White Body",
+        "option3": "Black body",
+        "option4": "All of the above",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The amount of heat required to convert a unit mass of a liquid into vapour at its boiling point without a corresponding change in temperature is known as ____",
+        "option1": "Heat capacity",
+        "option2": "Specific Heat Capacity",
+        "option3": "Specific latent heat of fission",
+        "option4": "Specific Latent Heat of fussion",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Impulse of a force is equivalent to",
+        "option1": "mv/t-mu/t",
+        "option2": "MV - MU",
+        "option3": "v - u/t ",
+        "option4": "mg",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A force of 20N is applied at an angle of 40° above the horizontal to a block that slides across a surface. How much work is done in moving the block a distance of 35m",
+        "option1": "37.59J",
+        "option2": "12.86J",
+        "option3": "536.2J",
+        "option4": "700J",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Elastic Limit is the Load/stress",
+        "option1": "Beyond which the material becomes inelastic",
+        "option2": "Before which the material becomes inelastic",
+        "option3": "At which the material breaks up",
+        "option4": "From which the material becomes inelastic",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Blood pressure is",
+        "option1": "inversely proportional to blood velocity",
+        "option2": "Equal to blood velocity",
+        "option3": "Smaller than blood velocity",
+        "option4": "Directly proportional to blood velocity",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following is not a fundamental quantity",
+        "option1": "Distance",
+        "option2": "Time",
+        "option3": "Density",
+        "option4": "Electric-current",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The total rate at which a black body emits radiation is proportional to the forth power of its absolute temperature is whose law",
+        "option1": "Stefan's Law",
+        "option2": "Wein's Displacement",
+        "option3": "Boltzmann law",
+        "option4": "Kelvin",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of these is not correct?",
+        "option1": "The time interval required for the system to complete a full cycle is known as its period with unit as second",
+        "option2": "The number of completed cycles in one period is called frequency F with unit Hertz",
+        "option3": "The maximum displacement from the equilibrium position is the amplitude with unit as metres",
+        "option4": "A simple relation exists between period and frequency given as T = w/2π",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The following are vector quantities except",
+        "option1": "Displacement",
+        "option2": "Velocity",
+        "option3": "Speed",
+        "option4": "Force",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What type of energy is in a burning wood?",
+        "option1": "Mechanical Energy",
+        "option2": "Chemical Energy",
+        "option3": "Kinetic Energy",
+        "option4": "Fire Energy",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A body experiences weightlessness in space due to",
+        "option1": "Lack of Energy",
+        "option2": "Lack of mass",
+        "option3": "Lack of motion",
+        "option4": "Lack of gravity",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A 500g car moves with a velocity of 20m/s, What is the momentum?",
+        "option1": "10kgm/s",
+        "option2": "10000kgm/s",
+        "option3": "100kg/m",
+        "option4": "1000kg/m",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The velocity of a car increased from 40m/s to 90m/s in 0.2mins, What is the acceleration?",
+        "option1": "4.17m/s²",
+        "option2": "250m/s²",
+        "option3": "2.5m/s²",
+        "option4": "25m/s²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A Sprinter of mass 50kg is running at a velocity of 10m/s. Calculate the momentum of the sprinter?",
+        "option1": "500kg/s",
+        "option2": "50kg/s",
+        "option3": "5kg/s",
+        "option4": "0.5kg/s",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The Total energy of a S.H.M is given as except",
+        "option1": "E = ½kx²m",
+        "option2": "E = ½mvm²",
+        "option3": "E = ½kx² + ½mv²",
+        "option4": "E = ½kx²m + ½mv²m",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The process by which heat is transmitted from one body to another without heating the intervening medium is called _________",
+        "option1": "Convection",
+        "option2": "Conduction",
+        "option3": "Radiation",
+        "option4": "Thermal",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A slope of a distance-time graph and a velocity-time graph will give",
+        "option1": "Acceleration and velocity respectively",
+        "option2": "Velocity and Speed respectively",
+        "option3": "Velocity and Time respectively",
+        "option4": "Velocity and Acceleration respectively",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An Adhesive liquid ____",
+        "option1": "Does not wet other substances",
+        "option2": "Has a convex meniscus",
+        "option3": "Has capilliary fall",
+        "option4": "Has a concave meniscus",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A man weighs 80N in air and 65N in water, what is the upthrust on him in the water (g=10m/s²)",
+        "option1": "145N",
+        "option2": "150N",
+        "option3": "65N",
+        "option4": "15N",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The standard blood pressure of a normal human being is",
+        "option1": "130/90",
+        "option2": "180/90",
+        "option3": "120/80",
+        "option4": "100/60",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "One of the following is a dimensionless quantity",
+        "option1": "Velocity",
+        "option2": "Tensile-strain",
+        "option3": "Volume",
+        "option4": "Mass",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following statements is not correct?",
+        "option1": "The vibration motion that is maintained by a restoring force only is called a free vibration",
+        "option2": "When a periodic force is applied to a system, the resulting vibration motion is described as forced vibration",
+        "option3": "For a vibrating system that the effect of friction can be neglected is known as undamped oscillation",
+        "option4": "When the effect of friction is added to the system, the vibration is termed undamped oscillation",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The rate of change of angular momentum of a particle is equal to",
+        "option1": "The Torque",
+        "option2": "The Linear Momentum",
+        "option3": "Impulse",
+        "option4": "The Applied Force",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A box is dragged across a floor by a constant force of magnitude 50N. The force makes an angle of 37° with the horizontal and the box is displaced a distance of 3m, Calculate the workdone?",
+        "option1": "120J",
+        "option2": "80J",
+        "option3": "60J",
+        "option4": "12J",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The kinetic Energy K of a particle of mass m and a speed v is defined as",
+        "option1": "K = ½mv²",
+        "option2": "K = ½mv⁴",
+        "option3": "K = ½mv²√mv²",
+        "option4": "K = ½m²v²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The centripetal force required to maintain a car moving round a circular tract is supplied by",
+        "option1": "Friction at the wheels",
+        "option2": "Gravity",
+        "option3": "Magnetic force",
+        "option4": "Tension",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Compute the acceleration of a lorry which starts from rest and accelerates uniformly until it attains a velocity of 2m/s in 5 seconds.",
+        "option1": "4.0m/s",
+        "option2": "4.0m/s²",
+        "option3": "0.4m/s",
+        "option4": "0.4m/s²",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A palm fruit dropped to the ground from the top of a tree 45m tall. How long does it take to reach the ground?(take g = 10m/s²)",
+        "option1": "9s",
+        "option2": "4.5s",
+        "option3": "6s",
+        "option4": "3s",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The dimension of force is ______",
+        "option1": "MLT",
+        "option2": "ML⁻²",
+        "option3": "MLT²",
+        "option4": "MLT⁻²",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A block of mass 100kg is raised through a distance of h = 30m. Calculate the workdone?",
+        "option1": "40.294KJ",
+        "option2": "29400J",
+        "option3": "294KJ",
+        "option4": "19.3KJ",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ is the force which causes an object to rotate",
+        "option1": "Centripetal force",
+        "option2": "Centrifugal force",
+        "option3": "Torque",
+        "option4": "Acceleration",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An object of mass 4kg moves round a circle of radius 6m with a constant speed of 12m/s. Calculate the force towards the center?",
+        "option1": "196N",
+        "option2": "961N",
+        "option3": "96N",
+        "option4": "91N",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The following are vector quantities except _____?",
+        "option1": "Displacement",
+        "option2": "Momentum",
+        "option3": "Force",
+        "option4": "Density",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "To determine the weight of an object, you could:",
+        "option1": "Use a beam balance",
+        "option2": "Use a spring balance",
+        "option3": "Find the force necessary to give it a certain acceleration",
+        "option4": "Use most of the option except B",
+        "correctOption": 2,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A 500g car moves with a velocity of 20m/s. What is the momentum? __——_____",
+        "answer": "10kgm/s",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Impulse of a force is equivalent to:",
+        "option1": "mv-mu/t",
+        "option2": "MV - MU",
+        "option3": "v - u/t ",
+        "option4": "mg",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The velocity of a car increased from 40m/s to 90m/s in 0.2mins, What is the acceleration?",
+        "option1": "4.17m/s²",
+        "option2": "250m/s²",
+        "option3": "4.9m/s²",
+        "option4": "2.9m/s²",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A body experiences weightlessness in space due to",
+        "option1": "Lack of air",
+        "option2": "Lack of energy",
+        "option3": "Lack of gravity",
+        "option4": "Lack of atmosphere",
+        "correctOption": 3,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A palm fruit dropped to the ground from the top of a tree 45m tall. How long does it take to reach the ground?(take g = 10m/s²)",
+        "option1": "9s",
+        "option2": "4.5s",
+        "option3": "6s",
+        "option4": "3s",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Yield point is the load/stress ?",
+        "option1": "Beyond which the material becomes inelastic",
+        "option2": "Before which the material becomes elastic",
+        "option3": "At which the material breaks up",
+        "option4": "From which the material becomes inelastic",
+        "correctOption": 4,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following is not a renewable energy source",
+        "option1": "Nuclear",
+        "option2": "Solar",
+        "option3": "Wind",
+        "option4": "Hydro",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "When petrol is used in driving vehicles, the fuel is burnt and there is transformation of energy from ________ energy to mechanical energy",
+        "answer": "Chemical",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The magnitude of the gravitational force between 2 objects of masses 90kg and 120kg separated by distance 15m (G = 6.67 x 10⁻¹¹NM²/kg²)",
+        "answer": "3.2016 * 10⁻⁹N",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The dimension for acceleration is ______?",
+        "answer": "LT⁻²",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "If A = 12i -j + 5k and B = -5i + 11j + 9k, Find A x B _______",
+        "answer": "-64i - 133j + 124k",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "If A = 12i -j + 5k and B = -5i + 11j + 9k, Find A + B _______",
+        "answer": "7i + 10j + 14k",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "If A = 12i -j + 5k and B = -5i + 11j + 9k, Find A . B _______",
+        "answer": "-26",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Kepler's third law can mathematically stated as: ",
+        "option1": "T² = Kr³",
+        "option2": "T = 2π ✓L / ✓g",
+        "option3": "T² = r²",
+        "option4": "T³ = p⁴",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Given the vectors a = i + 2j - 3k, b = 2i -3j + k, Find 2a + 3b ____________",
+        "answer": "8i - 5j -3k",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Find the period of a simple pendulum 1.0m long at a location, where g = 9.8m/s²",
+        "option1": "2.0s",
+        "option2": "0.2s",
+        "option3": "20s",
+        "option4": "0.02s",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Mechanical energy of a body is divided into _________ and ___________",
+        "answer": "Potential Energy and Kinetic Energy",
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The term unit is defined as?",
+        "option1": "A standard used to describe physical quantities",
+        "option2": "A standard quantity used to observe the world around us",
+        "option3": "A fundamental standard of measurement",
+        "option4": "A standard to measure normal distance",
+        "correctOption": 1,
+        "category": "phy101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The word culture is treasured from the Latin word",
+        "option1": "Cultivation",
+        "option2": "cultura",
+        "option3": "culpurel",
+        "option4": "cultural",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Cultural form represent in symbol, language and actions are classified as",
+        "option1": "Nigeria Culture",
+        "option2": "Material culture",
+        "option3": "Non-material culture",
+        "option4": "European culture.",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Gyekye (1997) sees culture as the way of",
+        "option1": "Dance",
+        "option2": "Worship",
+        "option3": "Practice",
+        "option4": "life",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Daltovo in 'the Rise and Fall' of Development: A challenge to culture' makes a distinction between ______ and ______ aspects of culture",
+        "option1": "inner and outer",
+        "option2": "natural and artificial",
+        "option3": "culture and tradition",
+        "option4": "town and state",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },
+    {
+        "question": " Ejiofor (2002) said that the love of culture is not blind, that it is _____ and _____",
+        "option1": "true and sure",
+        "option2": "traditional and belief ",
+        "option3": "aged and obsolete",
+        "option4": "mystic and spiritual",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Traditions describe a group's ____ and ____ that are passed down from one generation to another",
+        "option1": "culture and tradition",
+        "option2": "norms and system",
+        "option3": "beliefs and behaviours",
+        "option4": "life and thinking",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Ideas and beliefs are seen in ___ and ___",
+        "option1": "culture and tradition",
+        "option2": "life and death",
+        "option3": "university and home",
+        "option4": "eating and reasoning",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Culture is the",
+        "option1": "Formal education",
+        "option2": "Cultivation of the arts",
+        "option3": "Main aspect of the people",
+        "option4": "Total way of life",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Cultural features helps a society _____ her Culture",
+        "option1": "Undermine",
+        "option2": "Discourage",
+        "option3": "Express",
+        "option4": "Divide",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Culture is grouped into ",
+        "option1": "Material and non-material",
+        "option2": "Food and clothes",
+        "option3": "African and Latin",
+        "option4": "Language and symbols",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Basic elements of culture include",
+        "option1": "Drums, beads, tambourine and basket",
+        "option2": "Norms, beliefs, language and cognitive elements",
+        "option3": "Symbols, artifacts, language and components",
+        "option4": "Language, clothes, material and non-material",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Concrete physical objects and resources people use to define their culture is classified as",
+        "option1": "African culture",
+        "option2": "language culture",
+        "option3": "Material culture and non-material culture",
+        "option4": "Igbo culture",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Gender is also known as sex.",
+        "option1": "True",
+        "option2": "False",
+        "option3": "All of the above",
+        "option4": "None of the above",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Cultural and gender issues in Nigeria could be a thing of the past through:",
+        "option1": "gender discrimination",
+        "option2": "cultural and gender equality",
+        "option3": "cultural partisan",
+        "option4": "cultural and gender neutrality",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "All except one is not a cultural or gender issue in Nigeria.",
+        "option1": "harmful widowhood practices",
+        "option2": "early child marriage",
+        "option3": "female genital mutilation",
+        "option4": "cultural and gender equality",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Cultures are subjective. This means that",
+        "option1": "cultures are full of historical lies",
+        "option2": "cultures are full of personal inputs of the societal leaders",
+        "option3": "there is a tendency to assume that the elements of one's own cultures are more logical and sensible than those of other countries.",
+        "option4": "Cultures change with time and season.",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "One out of the under listed does not describe the phenomenon Of culture:",
+        "option1": "Culture is ordered and differently valued",
+        "option2": "Culture is a shared meaning",
+        "option3": "culture is spontaneous, radical social experience",
+        "option4": "Culture is collectively formed and held.",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Nigeria was almagamated in the year ____",
+        "option1": "1841",
+        "option2": "1914",
+        "option3": "1419",
+        "option4": "1900",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "After the Amalgamation of Nigeria Who is the Governor General",
+        "option1": "Flora shaw",
+        "option2": "Fredrick lugard",
+        "option3": "Dosumu",
+        "option4": "Ajayi",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The Systematic conquest of Nigeria gradually started in the year ____",
+        "option1": "1851",
+        "option2": "1852",
+        "option3": "1853",
+        "option4": "1854",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In 1861, the British finally dealt with king",
+        "option1": "Kososko",
+        "option2": "Dosumu",
+        "option3": "Tabo",
+        "option4": "lugard",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The European rivals from Niger-Benue territory led to the revocation of its charter by the British Government in which year",
+        "option1": "1900",
+        "option2": "1845",
+        "option3": "1902",
+        "option4": "1846",
+        "correctOption": 1,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The definition of cultural perception is",
+        "option1": "Modality in which the society sees Nigeria",
+        "option2": "Norms and rules governing Nigerian heritage",
+        "option3": "The philosophical perception of Nigerian cultures",
+        "option4": "How people gather information, learned within their specific culture",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The Nigerian philosophical perception of her Heritage is one that has undergone series of development especially as the day traditions, tangible cultural heritages, natural, and cultural heritages ,mention the 3 major culture in Nigeria",
+        "option1": "Yoruba, Efik, Ibo",
+        "option2": "lbo, Hausa and Yoruba",
+        "option3": "Igbo, Hausa, Yoruba",
+        "option4": "Hausa, Idoma and Calabari",
+        "correctOption": 3,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Although Africa is extremely diverse, there appear to be some shared moral ideas include across manyethnic groups.",
+        "option1": "Sharing a home with a man before marriage",
+        "option2": "Cultural marriage and payment of dowry/ bride price before cohabitation",
+        "option3": "Having children in and out of wedlock",
+        "option4": "Marriage without licence",
+        "correctOption": 2,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": " Culture influences philosophy by providing it _____ while philosophy influences culture by _____. In various ways, of its foundation.",
+        "option1": "With the basic materials for reflection, posing a critique",
+        "option2": "Deployment of philosophical skills on Nigerian culture",
+        "option3": "family, practice",
+        "option4": "Language of perception",
+        "correctOption": 4,
+        "category": "gs107",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "If the sum of infinity of a G.P is twice the first term, Find the common ratio.",
+        "option1": "-1/2",
+        "option2": "1/4",
+        "option3": "1/3",
+        "option4": "1/2",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the real number x and y such that 3x + 2yi - xi + 5y = 7 + 5i",
+        "option1": "x = 2, y = 3",
+        "option2": "x = 1, y = 2",
+        "option3": "x = -1, y = 2",
+        "option4": "x = 2, y = 4",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the value of 2x + y in the A.P -8, x, y, 19...",
+        "option1": "12",
+        "option2": "11",
+        "option3": "13",
+        "option4": "14",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Evaluate Sin(π + X)",
+        "option1": "CosX",
+        "option2": "-SinX",
+        "option3": "SinX",
+        "option4": "-CosX",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Convert from radians to degree π/3",
+        "option1": "70°",
+        "option2": "60°",
+        "option3": "80°",
+        "option4": "[180/2]°",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Given that Tan2A = -8/15, find TanA without using table or a calculator",
+        "option1": "4, -1/4",
+        "option2": "-4, 1/4",
+        "option3": "-4, -1/4",
+        "option4": "4, 1/4",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "if sec²θ + Tan²θ = 3, then the angle θ is equal to:",
+        "option1": "45°",
+        "option2": "40°",
+        "option3": "41°",
+        "option4": "43°",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the quadratic equation whose roots are -1/2 and 3/2",
+        "option1": "4x² -4x -3 = 0",
+        "option2": "4x² +4x +3 = 0",
+        "option3": "4x² +4x -3 = 0",
+        "option4": "x² +4x -3 = 0",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the quadratic equation whose roots are α & β, where α + β = 7 and αβ = 10.",
+        "option1": "x² + 7x + 10 = 0",
+        "option2": "x² + 7x - 10 = 0",
+        "option3": "x² - 7x - 10 = 0",
+        "option4": "x² - 7x + 10 = 0",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "If α and β are the roots of the quadratic equation 2x² - x + 6 = 0, Find the equation whose roots are 1/α and 1/β",
+        "option1": "6x² + x + 2 = 0",
+        "option2": "6x² - x - 2 = 0",
+        "option3": "6x² - x + 2 = 0",
+        "option4": "x² - 1/6x + 2 = 0",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the value of q if the roots of the equation 3x² +qx -12 = 0 differ by 4 and hence the roots of the quadratic equation.",
+        "option1": "0, -2 & 4",
+        "option2": "1, 4 & 16",
+        "option3": "0, 3 & 6",
+        "option4": "-2, 3 & 7",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The sum to infinity of a G.P is 60. If the first term of the series is 12, find the second term.",
+        "option1": "9.8",
+        "option2": "9.7",
+        "option3": "9.6",
+        "option4": "9.5",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The second term of a G.P is 8 while the fourth term is 32. find the sum of the 1st 6 terms of the G.P",
+        "option1": "254",
+        "option2": "252",
+        "option3": "251",
+        "option4": "253",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The common ratio of a G.P is negative. The 5th term is 48/625 and the 3rd term is 12/25. What is the 1st term and the common ratio",
+        "option1": "2 & 3",
+        "option2": "3 & -2/3",
+        "option3": "2 & 2/5",
+        "option4": "3 & -2/5",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the values of X and Y in the G.P 5, x, y, 40...",
+        "option1": "10 & -20",
+        "option2": "10 & 20",
+        "option3": "-10 & 30",
+        "option4": "30 & 40",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The 1st term of an A.P is 1 and the 5th term is 3. How many terms of the progression has the sum 27.",
+        "option1": "7",
+        "option2": "8",
+        "option3": "9",
+        "option4": "10",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The 4th and the 9th terms of an A.P are 2 and 17 respectively. Calculate the value of the 1st term",
+        "option1": "7",
+        "option2": "-7",
+        "option3": "8",
+        "option4": "-8",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },        
+    {
+        "question": "Given that the universal set U = {1, 2, 3, ..., 10} A = {2, 4, 7, 10} and B = {1, 3, 6, 7}. Find (A - B)`",
+        "option1": "{1, 2, 3, 4, 9, 7}",
+        "option2": "{1, 3, 5, 6, 7, 8, 9}",
+        "option3": "{1, 3, 5, 7, 8, 9, 10}",
+        "option4": "{1, 3, 5, 4, 8, 10}",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Given that the universal set U = {1, 2, 3, ..., 10} A = {2, 4, 7, 10} and B = {1, 3, 6, 7}. Find A n B",
+        "option1": "{}",
+        "option2": "{7}",
+        "option3": "{7, 2}",
+        "option4": "{2, 7, 2}",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Find the co-efficient of X³ in the expansion of the expression (4 - 2X)⁵",
+        "option1": "1280",
+        "option2": "1281",
+        "option3": "-1280",
+        "option4": "-1281",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Given the binomial expression (x² + 5)⁸, Find the term that has x⁴",
+        "option1": "3rd term",
+        "option2": "4th term",
+        "option3": "7th term",
+        "option4": "8th term",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },     
+    {
+        "question": "How many different permutations of the letter of the word PROSPER are there?",
+        "option1": "840",
+        "option2": "1216",
+        "option3": "1260",
+        "option4": "1340",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "U = (All positive even integers less than or equal to 20) A = (2 ≤ x ≤ 10) B = (All factors of 20), A - B = _______________",
+        "answer": "{2,3,6,7,8,9}.",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "U = (All positive even integers less than or equal to 20) A = (2 ≤ x ≤ 10) B = (All factors of 20), A` ⋂ B` = _______________",
+        "answer": "{12,14,16,18}",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "U = (All positive even integers less than or equal to 20) A = (2 ≤ x ≤ 10) B = (All factors of 20), A` ⋃ B` = _______________",
+        "answer": "{6,8,12,14,16,18,20}",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Express in polar form 2 + ",
+        "option1": "4(cos29.98° + isin29.98°)",
+        "option2": "4(cos59° + isin59°)",
+        "option3": "4(cos60° + isin60°)",
+        "option4": "4(cos135° + isin135°)",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Simplify sin45° cos15° - cos45° Sin45°",
+        "option1": "sin(45° - 15°)",
+        "option2": "cos(45° + 15°)",
+        "option3": "sin(45° + 15°)",
+        "option4": "cos(45° - 15°)",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "if 8, a, b, c and 20 are in Artithmetrical Progression, Find a, b, c",
+        "option1": "11, 12, 14",
+        "option2": "11, 13, 17",
+        "option3": "11, 14, 17",
+        "option4": "11, 17, 18",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The set of integers 2 is closed under what algebraic operation",
+        "option1": "+, -",
+        "option2": "+, -, *",
+        "option3": "+, *",
+        "option4": "%, -",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The representative of five countries attend a conference in how many ways can they be scaled round a table",
+        "option1": "16",
+        "option2": "32",
+        "option3": "28",
+        "option4": "24",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In how many ways can five books ba arranged onto a shelf",
+        "option1": "24",
+        "option2": "720",
+        "option3": "60",
+        "option4": "120",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In a G.P, the sum of the second and third term is 2 and the sum of the third and the forth term is 4. Find the first term and common ratio",
+        "option1": "a = 2/5 and r = 2",
+        "option2": "a = 1/5 and r = 2",
+        "option3": "a = 2/5 and r = 5",
+        "option4": "a = 5 and r = 2",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The set P= [3, 9, 11, 13] and Q = [3, 7, 9, 15] are subset of the U = [1,3, 7, 9, 11, 13, 15]. Find (P - Q) U (Q - P)",
+        "option1": "{7,13,15}",
+        "option2": "{7,11,3,5}",
+        "option3": "{7,11,13,15}",
+        "option4": "{1,11,13}",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The set P= [3, 9, 11, 13] and Q = [3, 7, 9, 15] are subset of the U = [1,3, 7, 9, 11, 13, 15]. Find (P - Q)` ⋂ (Q - P)`",
+        "option1": "{1,13,9}",
+        "option2": "{1,3,9}",
+        "option3": "{1,3,9, 15}",
+        "option4": "{1,3, 13, 15}",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The third term of a G.P is 63 and the fifth term is 567. Find the sum of the first six terms of the G.P",
+        "option1": "2485",
+        "option2": "2584",
+        "option3": "2548",
+        "option4": "2854",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "If sin X = 4/5. Find the value of cos X",
+        "option1": "3/5",
+        "option2": "5/13",
+        "option3": "3/13",
+        "option4": "12/13",
+        "correctOption": 1,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Determine the set builder of a rational number?",
+        "answer": "{a/b : a, b ∈ Z, b ≠ 0}",
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "36, 12, 4, 1⅓ ... What is the common ratio?",
+        "option1": "1/2",
+        "option2": "1/3",
+        "option3": "4",
+        "option4": "2/4",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },
+    {
+        "question": "if sin B = 3/5 and cos A = 5/13. Find cos(A - B)",
+        "option1": "16.25",
+        "option2": "56/65",
+        "option3": "13/65",
+        "option4": "3/13",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Given that sinθ = 5/13 and θ is acute find cos2θ",
+        "option1": "5/121",
+        "option2": "13/121",
+        "option3": "121/169",
+        "option4": "119/169",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Express in polar form -5 + 5i",
+        "option1": "5✓2[cos(-π/3) + isin(-π/3)]",
+        "option2": "5✓2[cos(-π/4) + isin(-π/4)]",
+        "option3": "5✓2[cos(-π/2) + isin(-π/2)]",
+        "option4": "5✓2[cos(-π/4) + isin(-π/3)]",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Insert three arithmetric means between 19 and 35",
+        "option1": "23, 26, 31",
+        "option2": "23, 27, 31",
+        "option3": "24, 26, 31",
+        "option4": "25, 29, 31",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "If A and B are true roots of x² + 4x - 2, Find the equation whose roots are (5α, 5β)",
+        "option1": "2x² + 10x -20 = 0",
+        "option2": "x² + 20x -50 = 0",
+        "option3": "x² + 20x -10 = 0",
+        "option4": "5x² + 20x -50 = 0",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The expansion of [1 + x -2x²]⁸ as far as the term in x³",
+        "option1": "hbhd",
+        "option2": "bbn",
+        "option3": "kjh",
+        "option4": "hh",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Expand (1.01)³ and write down the third term",
+        "option1": "3.03",
+        "option2": "0.0003",
+        "option3": "0.003",
+        "option4": "3.003",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Form an equation with the root each 3 more than the root of equation 3x² - 7x + 1 = 0",
+        "option1": "x² - 25x + 28 = 0",
+        "option2": "3x² - 5x + 28 = 0",
+        "option3": "3x² - 25x + 28 = 0",
+        "option4": "3x² - 25x + 7 = 0",
+        "correctOption": 3,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Express in polar form -5 + 5i",
+        "option1": "5✓2[cos(-π/3) + isin(-π/3)]",
+        "option2": "3✓2[cos(-π/4) + isin(-π/4)]",
+        "option3": "5✓2[cos(-π/2) + isin(-π/2)]",
+        "option4": "5✓2[cos(-π/4) + isin(-π/4)]",
+        "correctOption": 4,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "If the root of 3x² - 4x - 1 are α, β, Find the equation whose roots are (α², β²)",
+        "option1": "x² - 22x + 1 = 0",
+        "option2": "9x² - 22x + 1 = 0",
+        "option3": "9x² - 2x + 1 = 0",
+        "option4": "9x² - 22x + 2 = 0",
+        "correctOption": 2,
+        "category": "math101/111",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "_____ is defined as the study of random variables concerning a population of interest with a view to gaining useful insight into the population",
+        "answer": "statistics",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The following are pictorial representations of data except;",
+        "option1": "Pie Chart",
+        "option2": "Bar Chart",
+        "option3": "Standard-deviation",
+        "option4": "Histogram",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ is used to describe the basic feaatures of the sample data being studied",
+        "answer": "Descriptive statistics",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ is made up of a circle that is divided into sectors, with each sector proportional in size to the volume of information it representa.",
+        "option1": "Bar chart",
+        "option2": "Scatter plots",
+        "option3": "Ogive",
+        "option4": "Pie Chart",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "what is obtained by dividing the frequency of that value by the total frequencies of all the entire observations",
+        "answer": "Relative Frequency",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "There are __ types of statistics?",
+        "option1": "3 (differential statistics, Inferencial statistics and descriptive statistics)",
+        "option2": "1 (Descriptive statistics)",
+        "option3": "2 (differential statistics and Inferential statistics)",
+        "option4": "2 (Descriptive statistics and Inferential statistics)",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ is defined as the number of times a particular data occurs?",
+        "answer": "Frequency",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In a group frequency we calculate the size(length) of the data as",
+        "option1": "class size = Range / No of classes",
+        "option2": "class size = Range * No of classes",
+        "option3": "class size = Range + No of classes",
+        "option4": "class size = Range - No of classes",
+        "correctOption": 1,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the difference between the highest observation and the lowest observation",
+        "answer": "Range",
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Class Intervals are also known as _____",
+        "option1": "Class Boundaries",
+        "option2": "Class Limits",
+        "option3": "Interquartile range",
+        "option4": "Semi-Interquartile Range",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "class boundaries are obtained by _____",
+        "option1": "subtracting 1.5 from the lower class interval and adding 0.5 to the upper class interval",
+        "option2": "subtracting 1 from the lower class interval and adding 1 to the upper class interval",
+        "option3": "dividing 0.5 from the lower class interval and multiplying 0.5 to the upper class interval",
+        "option4": "subtracting 0.5 from the lower class interval and adding 0.5 to the upper class interval",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A histogram is distinguished from a bar-chart because?",
+        "option1": "It is continious in nature",
+        "option2": "It is circular in direction",
+        "option3": "It is rectangular in shape",
+        "option4": "It is more useful",
+        "correctOption": 1,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ is a graph showing the cumulative frequency of observations less that than any upper class boundary plotted against the upper class boundary",
+        "option1": "Bar chart",
+        "option2": "Ogive",
+        "option3": "Histogram",
+        "option4": "Slope",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The central tendency refers to ________ and its concept is very important to a statistian ",
+        "option1": "Class Boundaries",
+        "option2": "averages",
+        "option3": "cumulative graph",
+        "option4": "None of the above",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A/An ________ refers to a single value (a statistic) that appears to possess characteristics shared by the rest of the observation",
+        "option1": "Average value",
+        "option2": "Median value",
+        "option3": "Mode",
+        "option4": "Cumulative graph",
+        "correctOption": 1,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Obtain the mean of 5,5,5,2,1,3,3,6,6,2 and 9",
+        "option1": "3",
+        "option2": "5.66",
+        "option3": "4.27",
+        "option4": "1.6",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Obtain the mean of 9, 5, 8, 14, 16",
+        "option1": "10.4",
+        "option2": "14.1",
+        "option3": "16.2",
+        "option4": "11.4",
+        "correctOption": 1,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Obtain the mean of 8, 5, 9, 12, 15, 4",
+        "option1": "9.66",
+        "option2": "8.83",
+        "option3": "9.83",
+        "option4": "7.83",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Obtain the mean of 7, 9, 24, 15, 17",
+        "option1": "13.5",
+        "option2": "19.4",
+        "option3": "18.4",
+        "option4": "14.4",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Obtain the median of 2, 1, 3, 3, 9, 7, 10, 10, 12",
+        "option1": "9",
+        "option2": "7",
+        "option3": "3",
+        "option4": "10",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Obtain the median of 8, 8, 1, 5, 2, 2, 5, 2, 5, 1",
+        "option1": "-2",
+        "option2": "2",
+        "option3": "5",
+        "option4": "3.5",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "_____ is the particular value or individual observation that occured most frequently",
+        "option1": "class size",
+        "option2": "Mode",
+        "option3": "Total frequency",
+        "option4": "Mean",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A given frequency with 1 mode ______",
+        "option1": "Modal class",
+        "option2": "Unimedian",
+        "option3": "The highest occuring value",
+        "option4": "Unimodal",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "_______ is the middle value or arithmetic mean of the two middle values(when n is even) that separates the data into two equal parts",
+        "option1": "Highest observation",
+        "option2": "Mean",
+        "option3": "Mode",
+        "option4": "Median",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "______ are used to divide a data set into 4 parts",
+        "option1": "Quartile",
+        "option2": "Decile",
+        "option3": "Inter-Quartile Range",
+        "option4": "Semi-Interquartile Range",
+        "correctOption": 1,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The first Quartile is also known as ______",
+        "option1": "Q1 i.e highest Quartile",
+        "option2": "Q1 i.e upper Quartile",
+        "option3": "Q1 1.e first Quartile",
+        "option4": "Q1 i.e Main Quartile",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The Second Quartile is denoted by ______",
+        "option1": "Q2",
+        "option2": "2Q",
+        "option3": "Q²",
+        "option4": "4Q",
+        "correctOption": 1,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The third quartile is also known as ______",
+        "option1": "Q3 i.e upper Quartile",
+        "option2": "Q3 i.e Lower Quartile",
+        "option3": "All of the above",
+        "option4": "None of the above",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Deciles will divide the same data set into ___ equal parts",
+        "option1": "24",
+        "option2": "5",
+        "option3": "100",
+        "option4": "10",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The 5th decile correspounds to _____",
+        "option1": "Inter Quartile Range",
+        "option2": "Semi-Inter Quartile Range",
+        "option3": "Median",
+        "option4": "Range",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },    
+    {
+        "question": "D₉ is refered to as ____",
+        "option1": "Last Dentile",
+        "option2": "10th Dentile",
+        "option3": "9th Dentile",
+        "option4": "Modal range",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "D₂ is refered to as ____",
+        "option1": "Last percentile",
+        "option2": "100th percentile",
+        "option3": "99th percentile",
+        "option4": "2nd Decile",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "P₉₉ is refered to as ____",
+        "option1": "Last percentile",
+        "option2": "100th percentile",
+        "option3": "99th percentile",
+        "option4": "Modal range",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The 50th percentile represents ____",
+        "option1": "Class Boundaries",
+        "option2": "Mode",
+        "option3": "Modal class",
+        "option4": "Median",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The 75th percentile represents _____",
+        "option1": "25th Quartile",
+        "option2": "3rd Quartile i.e Q3",
+        "option3": "Last Quartile",
+        "option4": "None of the above",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The 25th percentile represents _____",
+        "option1": "25th Quartile",
+        "option2": "1st Quartile i.e Q1",
+        "option3": "Last Quartile",
+        "option4": "All of the above",
+        "correctOption": 2,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A given frequency with 2 mode ______",
+        "option1": "None of the above",
+        "option2": "The highest occuring value",
+        "option3": "Modal class",
+        "option4": "Bi-modal",
+        "correctOption": 4,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A given frequency with more than 3 modes ______",
+        "option1": "All of the above",
+        "option2": "Modal class",
+        "option3": "Multi-modal",
+        "option4": "The highest occuring value",
+        "correctOption": 3,
+        "category": "statistics",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the IUPAC name for this compound H₂O? ______",
+        "answer": "Oxidane",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The combustion of carbon is typically an example of the law of _______",
+        "answer": "Conservation of mass",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The electronic configuration of the excited scandanium is what ______?",
+        "answer": "1S² 2S² 2P⁶ 3S²",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The industrial name of this compound CaCO₃ is what _____?",
+        "answer": "Limestone",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "NH₃ is a ___?",
+        "answer": "gas",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In group 7 in the periodic table which of the first 20 elements are liquids",
+        "answer": "Bromine",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Which of these gases came from the smell of rotten egg _____?",
+        "answer": "Hydrogen Sulphide",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Elements undergo stochiometry in order to obey what law ____?",
+        "answer": "Law of conservation of mass",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many isotope does oxygen have?",
+        "answer": "3",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The bonding between hydrogen and chlorine is called _____?",
+        "answer": "Covalent bonding",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "In periodic table calcium ion exhibits characteristics of which group and period respectively?",
+        "answer": "Group2 and period 4",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The mixing of 2 or more pure orbitals to form a new one is called ______?",
+        "answer": "Orbital hybridisation",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The combination of one pi bond and one sigma bond is called _____?",
+        "answer": "double bond",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the distance between the valence electron to the nuclues",
+        "answer": "Atomic Radius",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "This is the energy released when a gaseous atom gains an electron to form a gaseous negative ion",
+        "answer": "Electron Affinity",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the power of an atom in a molecule to attract electrons",
+        "answer": "Electron Negativity",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Degenerate orbital has how many electrons?",
+        "answer": "2",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A compound contains 40% Ca, 12% C and 48% O, What is the empirical formular of the compound (Ca = 40, C = 12 and O = 16)",
+        "answer": "CaCO₃",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the name of the anhydrous compound Na₂ Co₃. 10H₂O",
+        "answer": "Sodium Trioxocarbonate (iv)",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Arrange the atom Be, Ca, Mg in order of increasing size.",
+        "answer": "Ca, Mg, Be",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The increasing first ionization of Be, Ca, Mg is what?",
+        "answer": "Be, Mg, Ca",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "No two electrons can contain the same four quantum numbers exactly the same was a law propounded by _____",
+        "answer": "Paulis Exclusion Principle",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "A is an element with atomic number 11 and B is an element with atomic number 17. If A react with B to form a compound, what is the formular of the compound?",
+        "answer": "NaCl",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the number of atoms in 6 molecules of ozone",
+        "answer": "18",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many atoms of oxygen are there in Na₂Co₃ .10H₂O",
+        "answer": "7.8x10²⁴",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Hydrogen chloride gas was passed over 2.24g of heated iron in a hard test tube, 5.08g of compound was formed. What is the formula of the compound?",
+        "answer": "FeCl₂",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "An oxide Xo has a vapour density of 28, What is the relative atomic mass of X",
+        "answer": "54",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many moles of calciumtrioxocarbonate IV are there in 2.5g of it? (Ca = 40, C = 12, O = 16)",
+        "answer": "0.025mol",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many atoms would there be in 30g of calcium (Ca = 40)",
+        "answer": "4.5 x 10²³",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "K₂M₈L₂ is the electronic configuration of which elements in shell",
+        "answer": "Magnesium",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The atomic number of oxygen is 8, what is the proton number?",
+        "answer": "8",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "78g of radioactive isotope with a half life of 4hours was left in a cupboard from 8a.m till 4p.m, what mass decays off?",
+        "answer": "19.5g",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "How many protons are there in element whose atomic number is 15?",
+        "answer": "15",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the spin value of Ca²⁺?",
+        "answer": "+1/2 or -1/2",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the latin name of sodium and potassium respectively?",
+        "answer": "Natrium and Kalium",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "Calculate the relative mass of limestone?",
+        "answer": "100g",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the IUPAC name of the radical Co₃²⁻",
+        "answer": "Trioxocarbonate(iv)ion",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the IUPAC name of the radical Co₃⁻ ",
+        "answer": "Trioxocarbonate(v)ion",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the IUPAC name of the radical So₃²⁻",
+        "answer": "Trioxosulphate(iv)ion",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What is the IUPAC name of the radical So₃⁻",
+        "answer": "Trioxosulphate(v)ion",
+        "category": "chem101",
+        "difficulty": "medium"
+    },      
+    {
+        "question": "Who created the periodic table?",
+        "answer": "Dimitri Mendeleev",
+        "category": "chem101",
+        "difficulty": "medium"
+    },      
+    {
+        "question": "The maximum number of electrons in P orbital is _____",
+        "answer": "6",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The number of protons in the nuclues of an atom is called ______ ",
+        "answer": "Atomic number",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "The weak bond that holds molecules together in a crystalline form is called ______",
+        "answer": "Hydrogen bond",
+        "category": "chem101",
+        "difficulty": "medium"
+    },   
+    {
+        "question": "What volumes of 34M sulphuric acid must be used to prepare 2.5 litres of 20M of H₂SO₄ solution ______",
+        "answer": "1.5 litres",
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "When a sheet of paper is placed in the path of a radioactive source, the radiation emitted, which passes through the paper consists of ______",
+        "option1": "α & β particles",
+        "option2": "α-particle & ϒ-rays",
+        "option3": "β-particle & ϒ-rays",
+        "option4": "β particle only",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the most important relationship between elements in the same group of the periodic table",
+        "option1": "They have similar size",
+        "option2": "They have similar ionization energy",
+        "option3": "They have similar chemical properties",
+        "option4": "They possess the same number of electrons",
+        "correctOption": 4,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How many grams of Nitrogen must combine with hydrogen to form 6moles of ammonia",
+        "option1": "8.40g",
+        "option2": "8.42g",
+        "option3": "84g",
+        "option4": "840g",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The region or space where the probability of finding electron is high is called ________",
+        "option1": "Shell",
+        "option2": "Orbital",
+        "option3": "Atom",
+        "option4": "Nucleus",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the trend of the degree of electro-positivity of elements in the periodic table",
+        "option1": "Remains constant across the period",
+        "option2": "Increases across the period",
+        "option3": "Decreases across the period",
+        "option4": "Decreases down the group",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the percentage composition of carbon in CaCO₃",
+        "option1": "40%",
+        "option2": "12%",
+        "option3": "48%",
+        "option4": "45%",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following quantuum numbers describe the shape of a sublevel within an energy level",
+        "option1": "Principal quantuum number",
+        "option2": "Subsidiary or magnetic quantuum number",
+        "option3": "Azimuthal quantuum number",
+        "option4": "Angular momentuum quantuum number or electron spin quantuum",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A compound whose molecular mass is 28g/mol contains 85.6% carbon & 14.4% hydrogen. Determine the empirical and molecular formular",
+        "option1": "CH₂ & C₂H₄",
+        "option2": "C₃H₄ & CH₂",
+        "option3": "CH₃ & C₂H₆",
+        "option4": "CH₄ & C₂H₆",
+        "correctOption": 1,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The half life of an element Z is 10 days. If there are 10g of Z initially, what will be its mass after 40days",
+        "option1": "0.63g",
+        "option2": "2.5g",
+        "option3": "5g",
+        "option4": "40g",
+        "correctOption": 1,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following is not a type of radioactive ray?",
+        "option1": "α-ray",
+        "option2": "ϒ-ray",
+        "option3": "X-ray",
+        "option4": "β-ray",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following rays has the highest ionization effect?",
+        "option1": "β-ray",
+        "option2": "α-ray",
+        "option3": "X-ray",
+        "option4": "ϒ-ray",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What does X stand for in the radioactive equation below?, ²³⁸₉₂U ———————⇥ ²³⁴₉₀Th + X",
+        "option1": "α-particle",
+        "option2": "β-particle",
+        "option3": "ϒ-ray",
+        "option4": "The variable X",
+        "correctOption": 1,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The law of conservation of mass is also known as the law _________",
+        "option1": "Constant composition",
+        "option2": "Indestructibility of matter",
+        "option3": "Preservation of matter",
+        "option4": "Definite proportion",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The oxide of nitrogen contains 53.5%, 69.6% & 36.4% of oxygen respectively. What law of chemical combination is illustrated by this data?",
+        "option1": "The law of multiple proportion",
+        "option2": "The law of conservation of masses",
+        "option3": "The law of definite proportion",
+        "option4": "The law of reciprocal proportion",
+        "correctOption": 1,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "5g of CO₍g₎ was reacted with 8g of O₂₍g₎ to form CO₂₍g₎. Calculate the mass of the product formed and what is the limiting reagent",
+        "option1": "7.9g & CO",
+        "option2": "7.86g & O₂",
+        "option3": "7.86g & CO",
+        "option4": "7.23g & CO",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How many moles of nitrogen atom are contained in 9.34g of nitrogen? (N = 14.0067g/mol)",
+        "option1": "0.667 mole",
+        "option2": "6.67 mole",
+        "option3": "66.7 mole",
+        "option4": "0.33 mole",
+        "correctOption": 1,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the S.I unit of molar mass?",
+        "option1": "moldm⁻³",
+        "option2": "gmol⁻¹",
+        "option3": "mol⁻¹",
+        "option4": "m",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following group1 elements has the lowest ionization energy?",
+        "option1": "Li",
+        "option2": "Na",
+        "option3": "K",
+        "option4": "Cd",
+        "correctOption": 4,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following types of chemical bonding deals with unequal sharing of electron(s)",
+        "option1": "Ionic Bonding",
+        "option2": "Covalent Bonding",
+        "option3": "Dative bonding",
+        "option4": "Metallic bonding",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What type of chemical bonding exists in NaCl & HCL",
+        "option1": "ionic bonding & dative bonding",
+        "option2": "Dative bonding & covalent bonding",
+        "option3": "ionic bonding & covalent bonding",
+        "option4": "metallic bonding & dative bonding",
+        "correctOption": 3,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "One of the features of the fission process is that",
+        "option1": "its products are not radioactive",
+        "option2": "it leads to chain reaction",
+        "option3": "neutrons are not released",
+        "option4": "the sum of the masses of the reaction equals the sum of the masses of the product",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Calculate the pH & pOH of a solution whose [OH⁻¹] is 1.18 x 10⁻¹¹",
+        "option1": "3.07 & 10.93",
+        "option2": "30.7 & 10.93",
+        "option3": "1.18 & 3.7",
+        "option4": "3.75 & 4.9",
+        "correctOption": 1,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "If the electronic configuration of an element X is 1S² 2S² 2P⁴, which of the following statements about X is true?",
+        "option1": "It has 5 electrons in the valence shell",
+        "option2": "It has an atomic number 8",
+        "option3": "It is a halogen",
+        "option4": "It is a metal",
+        "correctOption": 2,
+        "category": "chem101",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ can be defined as things that have life and are in existence?",
+        "answer": "Living things",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ cannot define life or state where it originated from",
+        "answer": "Scientist",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "movement, responsiveness, nutrition, feeding, respiration, excretion, reproduction, metabolism, Evolution, Ecology, Adaptation and death are all characteristics of __________",
+        "answer": "Living Organisms",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is defined as a prossesion of a specific structure or a behavioural characteristics of every living organism which contribute to the survival of an organism in a particular environment ",
+        "answer": "Adaptation",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ means that living things come from living things and can never exist from a non living matter while _______ means that living things can exist from non-living matter",
+        "answer": "Biogenesis and Abiogenesis",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ is the way living organisms remove waste and harmful products of metabolism from their bodies. Animals excrete CO₂, nitrogenous waste and heat where as plant excrete excess water.",
+        "answer": "Excretion",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "________ is the process where living organisms are able to bring forth their offsprings",
+        "answer": "Reproduction",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the process by which living organisms have the ability to adapt to their environment",
+        "answer": "Evolution",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the study of relationships between organisms and their relationship with their environment.",
+        "answer": "Ecology",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ are kinds of chemical compound produced by living things which are unique",
+        "answer": "Water requirements",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ are chemicals that speed up chemical reactions",
+        "answer": "Enzymes",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is a whip like thread structure that used in movement in organisms",
+        "answer": "Flagelluum",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ involves all the chemical and physical processes which take place within the cell of living organisms involving obtaining and utilizing",
+        "answer": "Metabolism",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is the study of how living things interact with their environment",
+        "answer": "Ecology",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A protein that interferes with how viruses produces is known as _______",
+        "answer": "Interferon",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "________ is an ancient fish without jaws or scales?",
+        "answer": "Cyclostomata",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "________ is the largest group of living things",
+        "answer": "Kingdom",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ is the cell part that produces energy when food is broken down",
+        "answer": "Mitochondria",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ are/is a chromosome that carry sex link character ",
+        "answer": "X-chromosome",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is the structural and functional unit of the kidney",
+        "answer": "Nephron",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "An example of fibrous protein is _____",
+        "answer": "collagen",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ and ______ are the types of protein we have?",
+        "answer": "fibrous protein and globular protein",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How many types of cycles are found in organisms",
+        "answer": "3",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ is an effective layer of the body that covers the body and also make hairs and nails",
+        "answer": "skin",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ is the father of genetics",
+        "answer": "Gregor Mendel",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The father of genetics founded genetics in the ______ year",
+        "answer": "1865",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "______ and ______ spotted the flaws in DNA structure ",
+        "answer": "Watson and Crick",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_______ can be used to test hypothesis",
+        "answer": "Experimentation",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ and ______ showed an initial proposal of DNA structure ",
+        "answer": "Watson and Crick",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The outer covering of a bacteria is known as ______",
+        "answer": "Glycocalyx",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "_____ and _____ are the types of bacteria we have",
+        "answer": "Gram positive and Gram negative",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "A protein the red blood cell that joins the O₂ and gives the red cells their colour is known as ______",
+        "answer": "Haemoglobin",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The structure within a cells that makes up the gene and controls the trait of living things is known as _______",
+        "answer": "Chromosome",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The garbage collector of the cell is _______",
+        "answer": "Lysosomes",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The study of all cell is known as _____",
+        "answer": "Cytology",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Cell is from a latin word called _____",
+        "answer": "Cellar",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Cell means _____",
+        "answer": "small room",
+        "category": "bio151",
+        "difficulty": "medium"
+    },
+    {
+        "question": "The side of the golgi apparatus facing the nucleus is _____",
+        "answer": "cist face",
+        "category": "bio151",
+        "difficulty": "medium"
+    }
+]
+

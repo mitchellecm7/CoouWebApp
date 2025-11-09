@@ -1,0 +1,100 @@
+.exam-intro-container {
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.exam-intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.exam-title {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #1d1615;
+  text-align: center;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.start-exam-button {
+  margin-top: 20px;
+  height: 70px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.start-exam-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  width: 60%;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.close-button {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  margin: 5px 0;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #1d1615;
+  border-bottom: 1.5px solid black;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.modal-button:hover {
+  background-color: #f5f5f5;
+}
