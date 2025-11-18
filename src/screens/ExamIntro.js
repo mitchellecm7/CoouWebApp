@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../screens/UploadScreens/styles/ExamIntro.css';
 
-const ExamIntro = ({ navigation }) => {
+const ExamIntro = () => {
+  const navigate = useNavigate();
   const [isLevelMenuVisible, setLevelMenuVisible] = useState(false);
   const [isSemesterMenuVisible, setSemesterMenuVisible] = useState(false);
   const [selectedLevel, setSelectedLevel] = useState('');
@@ -24,31 +26,33 @@ const ExamIntro = ({ navigation }) => {
 
     let targetScreen = '';
     if (selectedLevel === '100 level' && semester === '1st semester') {
-      targetScreen = 'Screen1001';
+      targetScreen = 'screen1001';
     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-      targetScreen = 'Screen1002';
+      targetScreen = 'screen1002';
     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-      targetScreen = 'Screen2001';
+      targetScreen = 'screen2001';
     } else if (selectedLevel === '200 level' && semester === '2nd semester') {
-      targetScreen = 'Screen2002';
+      targetScreen = 'screen2002';
     } else if (selectedLevel === '300 level' && semester === '1st semester') {
-      targetScreen = 'Screen3001';
+      targetScreen = 'screen3001';
     } else if (selectedLevel === '300 level' && semester === '2nd semester') {
-      targetScreen = 'Screen3002';
+      targetScreen = 'screen3002';
     } else if (selectedLevel === '400 level' && semester === '1st semester') {
-      targetScreen = 'Screen4001';
+      targetScreen = 'screen4001';
     } else if (selectedLevel === '400 level' && semester === '2nd semester') {
-      targetScreen = 'Screen4002';
+      targetScreen = 'screen4002';
     } else if (selectedLevel === '500 level' && semester === '1st semester') {
-      targetScreen = 'Screen5001';
+      targetScreen = 'screen5001';
     } else if (selectedLevel === '500 level' && semester === '2nd semester') {
-      targetScreen = 'Screen5002';
+      targetScreen = 'screen5002';
     }
 
-    if (targetScreen && navigation) {
-      navigation.push(targetScreen, {
-        level: selectedLevel,
-        semester: semester,
+    if (targetScreen) {
+      navigate(`/${targetScreen}`, {
+        state: {
+          level: selectedLevel,
+          semester: semester,
+        }
       });
     }
   };

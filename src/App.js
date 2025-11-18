@@ -1,126 +1,3 @@
-// import React from 'react';
-// import { Routes, Route, useNavigate, useLocation, Router } from 'react-router-dom';
-// import { Home, House, 
-//   // Book, BookOpen, PlayCircle, PlayCircleOutline, Info, InfoIcon, Gamepad2, Gamepad2Icon,
-//    ArrowLeft } from 'lucide-react';
-
-// // Import your components (you'll need to convert these too)
-// import Home1 from './screens/Home1';
-// // import QuickStudy from './screens/QuickStudy';
-// // import About from './screens/About';
-// // import GameMode from './screens/GameMode';
-// // import ExamIntro from './screens/ExamIntro';
-// // import SignUp from './screens/SignIn/SignUp';
-// // import LogIn from './screens/SignIn/LogIn';
-// // import ResetPasswordScreen from './screens/SignIn/ResetPasswordScreen';
-// // import Screen1001 from './screens/Screen1001';
-// // import Screen1002 from './screens/Screen1002';
-// // import Screen2001 from './screens/Screen2001';
-// // import Screen2002 from './screens/Screen2002';
-// // import Screen3001 from './screens/Screen3001';
-// // import Screen3002 from './screens/Screen3002';
-// // import Screen4001 from './screens/Screen4001';
-// // import Screen4002 from './screens/Screen4002';
-// // import Screen5001 from './screens/Screen5001';
-// // import Screen5002 from './screens/Screen5002';
-
-// // Add these routes to your Routes component
-
-
-// const App = () => {
-//   return (
-//     // <div className="mobile-container">
-//         <Router>
-//       <Routes>
-
-//         <Route path="/" element={<BottomTabScreen />} />
-//         <Route path="/home" element={<Home1 />} />
-//         {/* <Route path="/exam-mode" element={<ExamMode />} />
-//         <Route path="/quick-study" element={<QuickStudy />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/game-mode" element={<GameMode />} />
-//         <Route path="/exam-intro" element={<ExamIntro />} />
-//         <Route path="/signup" element={<SignUp />} />
-//         <Route path="/login" element={<LogIn />} />
-//         <Route path="/reset-password" element={<ResetPasswordScreen />} /> */}
-        
-
-//         {/* <Route path="/screen1001" element={<Screen1001 />} /> */}
-//         {/* <Route path="/screen1002" element={<Screen1002 />} /> */}
-//         {/* <Route path="/screen2001" element={<Screen2001 />} />
-//         <Route path="/screen2002" element={<Screen2002 />} />
-//         <Route path="/screen3001" element={<Screen3001 />} />
-//         <Route path="/screen3002" element={<Screen3002 />} />
-//         <Route path="/screen4001" element={<Screen4001 />} />
-//         <Route path="/screen4002" element={<Screen4002 />} />
-//         <Route path="/screen5001" element={<Screen5001 />} />
-//         <Route path="/screen5002" element={<Screen5002 />} />        You'll need to convert each screen component */}
-//       </Routes>
-//         </Router>
-//   );
-// };
-
-// const BottomTabScreen = () => {
-//   const navigate = useNavigate();
-//   const location = useLocation();
-
-  // const tabs = [
-  //   { name: 'Home', path: '/', icon: Home, outlineIcon: House },
-  //   // { name: 'QuickStudy', path: '/quick-study', icon: Book, outlineIcon: BookOpen },
-  //   // { name: 'ExamIntro', path: '/exam-intro', icon: PlayCircle, outlineIcon: PlayCircleOutline },
-  //   // { name: 'About', path: '/about', icon: Info, outlineIcon: InfoIcon },
-  //   // { name: 'GameMode', path: '/game-mode', icon: Gamepad2, outlineIcon: Gamepad2Icon },
-  // ];
-
-//   return (
-//     <div style={{ minHeight: '100vh', paddingBottom: '60px' }}>
-//       {/* Render current screen based on route */}
-//       <Routes>
-//         <Route path="/" element={<Home1 />} />
-//         {/* <Route path="/quick-study" element={<QuickStudy />} /> */}
-//         {/* <Route path="/exam-intro" element={<ExamIntro />} /> */}
-//         {/* <Route path="/about" element={<About />} /> */}
-//         {/* <Route path="/game-mode" element={<GameMode />} /> */}
-//       </Routes>
-
-//       {/* Bottom Tab Navigation */}
-//       <nav className="bottom-tabs">
-//         {tabs.map((tab) => {
-//           const isActive = location.pathname === tab.path;
-//           const IconComponent = isActive ? tab.icon : tab.outlineIcon;
-          
-//           return (
-//             <button
-//               key={tab.name}
-//               className={`tab-item ${isActive ? 'active' : ''}`}
-//               onClick={() => navigate(tab.path)}
-//               style={{ background: 'none', border: 'none', cursor: 'pointer' }}
-//             >
-//               <IconComponent size={20} />
-//               <span style={{ fontSize: '12px', marginTop: '2px' }}>{tab.name}</span>
-//             </button>
-//           );
-//         })}
-//       </nav>
-//     </div>
-//   );
-// };
-
-// // Header Component for individual screens
-// export const ScreenHeader = ({ title, onBack }) => {
-//   return (
-//     <header className="header">
-//       {onBack && (
-//         <button className="back-button" onClick={onBack}>
-//           <ArrowLeft size={20} />
-//         </button>
-//       )}
-//       <h1 className="header-title">{title}</h1>
-//     </header>
-//   );
-// };
-
-// export default App;
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -144,6 +21,48 @@ import SignUp from './screens/SignIn/SignUp';
 import ResetPasswordScreen from './screens/SignIn/ResetPasswordScreen';
 import Upload from './screens/UploadScreens/Upload';
 import './App.css';
+// import  from '../Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/Cis1001';
+import Cis1001 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/Cis1001';
+import COS101 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/COS101';
+import Screen4002 from './screens/ExamScreens/Screen4002';
+import Screen2001 from './screens/ExamScreens/Screen2001';
+import Screen2002 from './screens/ExamScreens/Screen2002';
+import Screen3001 from './screens/ExamScreens/Screen3001';
+import Screen3002 from './screens/ExamScreens/Screen3002';
+import Screen4001 from './screens/ExamScreens/Screen4001';
+import Screen5001 from './screens/ExamScreens/Screen5001';
+import Screen5002 from './screens/ExamScreens/Screen5002';
+import PHY101 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/PHY101';
+import MTH101 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/MTH101';
+import CSC111 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/CSC111';
+import GST111 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/GST111';
+import STA111 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/STA111';
+import PHY107 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/PHY107';
+import COS115 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/COS115';
+import CSC105 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/CSC105';
+import COS102 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/COS102';
+import COS192 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/COS192';
+import CSC104 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/CSC104';
+import CSC128 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/CSC128';
+import GST112 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/GST112';
+import MTH102 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/MTH102';
+import PHY102 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/PHY102';
+import PHY106 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/PHY106';
+import PHY108 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/PHY108';
+import GEY116 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/GEY116';
+import ENT211 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/ENT211';
+import MTH201 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/MTH201';
+import COS201 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/COS201';
+import CSC221 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/CSC221';
+import CSC203 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/CSC203';
+import CSC267 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/CSC267';
+import CSC231 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/CSC231';
+import IFT211 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/IFT211';
+import COS261 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/COS261';
+import SEN201 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/SEN201';
+// import ENT211 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/ENT211';
+// import COS115 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/COS115';
+// import COS115 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/COS115';
 
 const App = () => {
   return (
@@ -156,6 +75,53 @@ const App = () => {
         <Route path="/upload" element={<Upload />} />
         <Route path="/screen1001" element={<Screen1001 />} />
         <Route path="/screen1002" element={<Screen1002 />} />
+        <Route path="/screen2001" element={<Screen2001 />} />
+        <Route path="/screen2002" element={<Screen2002 />} />
+        <Route path="/screen3001" element={<Screen3001 />} />
+        <Route path="/screen3002" element={<Screen3002 />} />
+        <Route path="/screen4001" element={<Screen4001 />} />
+        <Route path="/screen4002" element={<Screen4002 />} />
+        <Route path="/screen5001" element={<Screen5001 />} />
+        <Route path="/screen5002" element={<Screen5002 />} />
+        <Route path="/cos115" element={<COS115 />} />
+        <Route path="/csc105" element={<CSC105 />} />
+        <Route path="/csc111" element={<CSC111 />} />
+        <Route path="/gst111" element={<GST111 />} />
+        <Route path="/mth101" element={<MTH101 />} />
+        <Route path="/phy101" element={<PHY101 />} />
+        <Route path="/phy107" element={<PHY107 />} />
+        <Route path="/sta111" element={<STA111 />} />
+        <Route path="/cos102" element={<COS102 />} />
+        <Route path="/cos192" element={<COS192 />} />
+        <Route path="/csc104" element={<CSC104 />} />
+        <Route path="/csc128" element={<CSC128 />} />
+        <Route path="/gst112" element={<GST112 />} />
+        <Route path="/mth102" element={<MTH102 />} />
+        <Route path="/phy102" element={<PHY102 />} />
+        <Route path="/phy106" element={<PHY106 />} />
+        <Route path="/phy108" element={<PHY108 />} />
+        <Route path="/gey116" element={<GEY116 />} />
+        <Route path="/ent211" element={<ENT211 />} />
+        <Route path="/mth201" element={<MTH201 />} />
+        <Route path="/cos201" element={<COS201 />} />
+        <Route path="/csc221" element={<CSC221 />} />
+        <Route path="/csc203" element={<CSC203 />} />
+        <Route path="/csc267" element={<CSC267 />} />
+        <Route path="/csc231" element={<CSC231 />} />
+        <Route path="/ift211" element={<IFT211 />} />
+        <Route path="/cos261" element={<COS261 />} />
+        <Route path="/sen201" element={<SEN201 />} />
+        <Route path="/gey116" element={<GEY116 />} />
+        {/* <Route path="/gey116" element={<GEY116 />} />
+        <Route path="/gey116" element={<GEY116 />} />
+        <Route path="/gey116" element={<GEY116 />} />
+        <Route path="/gey116" element={<GEY116 />} />
+        <Route path="/gey116" element={<GEY116 />} />
+        <Route path="/gey116" element={<GEY116 />} /> */}
+        <Route path="/screen1002" element={<Screen1002 />} />
+        <Route path="/cis1001" element={<Cis1001 />} />
+        <Route path="/cos101" element={<COS101 title="Introduction to Computing Sciences"/>} />
+        <Route path="/exammode" element={<ExamMode />} />
       </Routes>
     </Router>
   );

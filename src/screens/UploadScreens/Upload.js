@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import '../UploadScreens/styles/Upload.css';
 import { 
   databases, account, client, storage, 
-  databases1, account1, client1, storage1,
-  databases2, account2, client2, storage2,
-  databases3, account3, client3, storage3,
+  databases1, client1, storage1,
+  databases2, client2, storage2,
+  databases3, client3, storage3,
   databaseId, collectionId, Query, ID, bucketId 
 } from './config';
 
@@ -119,6 +119,7 @@ const Upload = () => {
     setCourse('');
     setPdfMetadata(null);
     setPdf(null);
+    setActionButtonText('Upload PDF');
   };
 
   const MAX_FILE_SIZE = 50 * 1024 * 1024; // 50MB
@@ -140,7 +141,13 @@ const Upload = () => {
 
       setPdf(file);
       setErrors((prevErrors) => ({ ...prevErrors, pdf: null }));
-      setActionButtonText(file && pdfMetadata ? 'Update PDF' : 'Upload PDF');
+      
+      // If there's existing metadata, show Update PDF, otherwise Upload PDF
+      if (pdfMetadata) {
+        setActionButtonText('Update PDF');
+      } else {
+        setActionButtonText('Upload PDF');
+      }
     } catch (err) {
       setErrors((prevErrors) => ({ ...prevErrors, pdf: 'Failed to select a file.' }));
     }
@@ -165,45 +172,54 @@ const Upload = () => {
       const fileId = ID.unique();
 
       // Upload the file using the level-specific storage client
+      console.log('Uploading file to storage...');
       const uploadResponse = await currentStorage.createFile(bucketId, fileId, pdf);
       console.log('File uploaded:', uploadResponse);
 
       // Get the public URL using the level-specific storage client
+      console.log('Getting file URL...');
       const publicURL = currentStorage.getFilePreview(bucketId, uploadResponse.$id);
-      console.log('Public URL:', publicURL.href);
+      console.log('Public URL:', publicURL);
+
+      // Ensure we have a valid URL string
+      const pdfUrl = typeof publicURL === 'string' ? publicURL : publicURL.href;
+      
+      if (!pdfUrl) {
+        throw new Error('Failed to generate PDF URL');
+      }
+
+      console.log('Final PDF URL:', pdfUrl);
+
+      // Prepare document data
+      const documentData = {
+        faculty,
+        department,
+        level,
+        semester,
+        course,
+        pdf_url: pdfUrl,
+        fileId
+      };
+
+      console.log('Document data to save:', documentData);
 
       // Update or create metadata using the level-specific databases client
-      if (pdfMetadata) {
-        await currentDatabases.updateDocument(databaseId, collectionId, pdfMetadata.$id, {
-          faculty,
-          department,
-          level,
-          semester,
-          course,
-          pdf_url: publicURL.href,
-          fileId
-        });
+      if (pdfMetadata && pdfMetadata.$id) {
+        console.log('Updating existing document...');
+        await currentDatabases.updateDocument(databaseId, collectionId, pdfMetadata.$id, documentData);
         alert('Success! PDF Updated successfully!');
       } else {
-        await currentDatabases.createDocument(databaseId, collectionId, ID.unique(), {
-          faculty,
-          department,
-          level,
-          semester,
-          course,
-          pdf_url: publicURL.href,
-          fileId
-        });
+        console.log('Creating new document...');
+        await currentDatabases.createDocument(databaseId, collectionId, ID.unique(), documentData);
         alert('Success! PDF Uploaded successfully!');
       }
 
-      // Reset state
-      setPdfMetadata({});
-      setPdf(null);
-      setActionButtonText('Update PDF');
+      // Refresh the file existence check
+      await checkIfFileExists();
 
     } catch (error) {
-      console.error('Upload error:', error.message);
+      console.error('Upload error:', error);
+      console.error('Error details:', error.message, error.code, error.type);
       setErrors((prevErrors) => ({
         ...prevErrors,
         upload: error.message || 'Failed to upload PDF.',
@@ -244,7 +260,11 @@ const Upload = () => {
   };
 
   const checkIfFileExists = async () => {
-    if (!faculty || !department || !level || !semester || !course) return;
+    if (!faculty || !department || !level || !semester || !course) {
+      setPdfMetadata(null);
+      setActionButtonText('Upload PDF');
+      return;
+    }
 
     try {
       // Get the appropriate client based on level
@@ -258,23 +278,37 @@ const Upload = () => {
         Query.equal('course', course),
       ]);
 
+      console.log('File existence check:', response.documents);
+
       if (response.documents.length > 0) {
-        setPdfMetadata(response.documents[0]);
+        const existingDoc = response.documents[0];
+        setPdfMetadata(existingDoc);
         setActionButtonText('Update PDF');
+        console.log('PDF metadata found:', existingDoc);
       } else {
         setPdfMetadata(null);
         setActionButtonText('Upload PDF');
+        console.log('No PDF metadata found');
       }
     } catch (err) {
       console.error('Error during metadata check:', err.message);
+      setPdfMetadata(null);
+      setActionButtonText('Upload PDF');
     }
   };
 
   const handleAction = (type) => {
     if (!validateFields()) return;
   
-    if (type === 'delete' && (!pdfMetadata || !pdfMetadata.fileId)) {
-      alert('Error: No PDF metadata available for deletion.');
+    if (type === 'delete') {
+      if (!pdfMetadata || !pdfMetadata.fileId) {
+        alert('Error: No PDF found to delete.');
+        return;
+      }
+    }
+  
+    if (type === 'upload' && !pdf) {
+      alert('Error: Please select a PDF file to upload.');
       return;
     }
   
@@ -311,8 +345,8 @@ const Upload = () => {
       } finally {
         setIsLoading(false);
       }
-    } else {
-      actionType === 'upload' && handleUpload();
+    } else if (actionType === 'upload') {
+      await handleUpload();
     } 
   };
 
@@ -333,7 +367,7 @@ const Upload = () => {
       console.log('Successfully logged out');
       
       // Navigate to login page
-      navigate('/login');
+      navigate('/');
     } catch (error) {
       console.error('Error logging out:', error);
     } finally {
@@ -341,13 +375,18 @@ const Upload = () => {
     }
   };
 
+  // Debug: Log when pdfMetadata changes
+  useEffect(() => {
+    console.log('pdfMetadata updated:', pdfMetadata);
+  }, [pdfMetadata]);
+
   return (
     <div className="upload-container">
       <h1 className="upload-header">LECTURERS PDF DASHBOARD</h1>
       
-      <div className="logout-container">
+      <div className="icon-container">
         {loading ? (
-          <div className="loading-spinner">Loading...</div>
+          <div className="loading-spinner-small"></div>
         ) : (
           <button className="logout-button" onClick={logout}>
             Log-out
@@ -355,149 +394,166 @@ const Upload = () => {
         )}
       </div>
 
-      {/* Faculty Select */}
-      <label className="form-label">Faculty</label>
-      <div className="select-container">
-        <select 
-          value={faculty} 
-          onChange={(e) => setFaculty(e.target.value)}
-          className="form-select"
-        >
-          <option value="">Select Faculty</option>
-          {faculties.map((fac) => (
-            <option key={fac} value={fac}>{fac}</option>
-          ))}
-        </select>
-        {errors.faculty && <div className="error-text">{errors.faculty}</div>}
+      {/* Faculty Picker */}
+      <div className="form-group">
+        <label className="form-label">Faculty</label>
+        <div className="picker-container">
+          <select 
+            value={faculty} 
+            onChange={(e) => setFaculty(e.target.value)}
+            className="form-picker"
+          >
+            <option value="">Select Faculty</option>
+            {faculties.map((fac) => (
+              <option key={fac} value={fac}>{fac}</option>
+            ))}
+          </select>
+          <span className="picker-icon">▼</span>
+          {errors.faculty && <span className="error-text">{errors.faculty}</span>}
+        </div>
       </div>
 
-      {/* Department Select */}
-      <label className="form-label">Department</label>
-      <div className="select-container">
-        <select
-          value={department}
-          onChange={(e) => setDepartment(e.target.value)}
-          className="form-select"
-          disabled={!faculty}
-        >
-          <option value="">Select Department</option>
-          {(departments[faculty] || []).map((dept) => (
-            <option key={dept} value={dept}>{dept}</option>
-          ))}
-        </select>
-        {errors.department && <div className="error-text">{errors.department}</div>}
+      {/* Department Picker */}
+      <div className="form-group">
+        <label className="form-label">Department</label>
+        <div className="picker-container">
+          <select
+            value={department}
+            onChange={(e) => setDepartment(e.target.value)}
+            className="form-picker"
+            disabled={!faculty}
+          >
+            <option value="">Select Department</option>
+            {(departments[faculty] || []).map((dept) => (
+              <option key={dept} value={dept}>{dept}</option>
+            ))}
+          </select>
+          <span className="picker-icon">▼</span>
+          {errors.department && <span className="error-text">{errors.department}</span>}
+        </div>
       </div>
 
-      {/* Level Select */}
-      <label className="form-label">Level</label>
-      <div className="select-container">
-        <select 
-          value={level} 
-          onChange={(e) => setLevel(e.target.value)} 
-          className="form-select"
-          disabled={!department}
-        >
-          <option value="">Select Level</option>
-          {levels.map((lvl) => (
-            <option key={lvl} value={lvl}>{lvl}</option>
-          ))}
-        </select>
-        {errors.level && <div className="error-text">{errors.level}</div>}
+      {/* Level Picker */}
+      <div className="form-group">
+        <label className="form-label">Level</label>
+        <div className="picker-container">
+          <select 
+            value={level} 
+            onChange={(e) => setLevel(e.target.value)} 
+            className="form-picker"
+            disabled={!department}
+          >
+            <option value="">Select Level</option>
+            {levels.map((lvl) => (
+              <option key={lvl} value={lvl}>{lvl}</option>
+            ))}
+          </select>
+          <span className="picker-icon">▼</span>
+          {errors.level && <span className="error-text">{errors.level}</span>}
+        </div>
       </div>
 
-      {/* Semester Select */}
-      <label className="form-label">Semester</label>
-      <div className="select-container">
-        <select 
-          value={semester} 
-          onChange={(e) => setSemester(e.target.value)} 
-          className="form-select"
-          disabled={!level}
-        >
-          <option value="">Select Semester</option>
-          {semesters.map((sem) => (
-            <option key={sem} value={sem}>{sem}</option>
-          ))}
-        </select>
-        {errors.semester && <div className="error-text">{errors.semester}</div>}
+      {/* Semester Picker */}
+      <div className="form-group">
+        <label className="form-label">Semester</label>
+        <div className="picker-container">
+          <select 
+            value={semester} 
+            onChange={(e) => setSemester(e.target.value)} 
+            className="form-picker"
+            disabled={!level}
+          >
+            <option value="">Select Semester</option>
+            {semesters.map((sem) => (
+              <option key={sem} value={sem}>{sem}</option>
+            ))}
+          </select>
+          <span className="picker-icon">▼</span>
+          {errors.semester && <span className="error-text">{errors.semester}</span>}
+        </div>
       </div>
 
-      {/* Course Select */}
-      <label className="form-label">Course</label>
-      <div className="select-container">
-        <select 
-          value={course} 
-          onChange={(e) => setCourse(e.target.value)} 
-          className="form-select"
-          disabled={!semester}
-        >
-          <option value="">Select Course</option>
-          {(courses[faculty]?.[department]?.[level]?.[semester] || []).map((crs) => (
-            <option key={crs} value={crs}>{crs}</option>
-          ))}
-        </select>
-        {errors.course && <div className="error-text">{errors.course}</div>}
+      {/* Course Picker */}
+      <div className="form-group">
+        <label className="form-label">Course</label>
+        <div className="picker-container">
+          <select 
+            value={course} 
+            onChange={(e) => setCourse(e.target.value)} 
+            className="form-picker"
+            disabled={!semester}
+          >
+            <option value="">Select Course</option>
+            {(courses[faculty]?.[department]?.[level]?.[semester] || []).map((crs) => (
+              <option key={crs} value={crs}>{crs}</option>
+            ))}
+          </select>
+          <span className="picker-icon">▼</span>
+          {errors.course && <span className="error-text">{errors.course}</span>}
+        </div>
       </div>
 
       {/* File Selection */}
-      <div className="file-input-container">
-        <label className="file-input-label">
-          Select PDF File
-          <input
-            type="file"
-            accept=".pdf"
-            onChange={handleFileSelection}
-            className="file-input"
-          />
-        </label>
-        {pdf && <div className="file-name">{pdf.name}</div>}
-      </div>
+      <button onClick={() => document.getElementById('file-input').click()} className="button1">
+        <span className="button-text">Select PDF File</span>
+      </button>
+      <input
+        id="file-input"
+        type="file"
+        accept=".pdf"
+        onChange={handleFileSelection}
+        style={{ display: 'none' }}
+      />
+      {pdf && <div className="file-selected">Selected: {pdf.name}</div>}
 
       {/* Upload Button */}
       <button
         onClick={() => handleAction('upload')}
-        className={`upload-button ${!pdf ? 'disabled-button' : ''}`}
+        className={`button ${!pdf ? 'disabled-button' : ''}`}
         disabled={!pdf || !isValid}
       >
-        {actionButtonText}
+        <span className="button-text">{actionButtonText}</span>
       </button>
 
-      {isLoading && (
-        <div className="loading-overlay">
-          <div className="loading-spinner-large">Processing...</div>
-        </div>
+      {/* DELETE BUTTON - Now properly visible when pdfMetadata exists */}
+      {pdfMetadata && pdfMetadata.fileId && (
+        <button onClick={() => handleAction('delete')} className="delete-button">
+          <span className="button-text">Delete PDF</span>
+        </button>
       )}
 
-      {/* Delete Button */}
-      {pdfMetadata && (
-        <button 
-          onClick={() => handleAction('delete')} 
-          className="delete-button"
-        >
-          Delete PDF
-        </button>
+      {/* Debug info - remove in production */}
+      {/* <div style={{ marginTop: '10px', fontSize: '12px', color: '#666' }}>
+        Debug: {pdfMetadata ? `PDF exists (${pdfMetadata.fileId})` : 'No PDF found'}
+      </div> */}
+
+      {isLoading && (
+        <div className="loading-container">
+          <div className="loading-spinner-large"></div>
+          <span className="loading-text">Processing...</span>
+        </div>
       )}
 
       {/* Modal for confirmation */}
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h3 className="modal-title">
+            <h3 className="modal-text">
               Are you sure you want to {actionType} this PDF?
             </h3>
             <div className="modal-details">
-              <p>Faculty: {selectedDetails.faculty}</p>
-              <p>Department: {selectedDetails.department}</p>
-              <p>Level: {selectedDetails.level}</p>
-              <p>Semester: {selectedDetails.semester}</p>
-              <p>Course: {selectedDetails.course}</p>
+              <p className="modal-text">Faculty: {selectedDetails.faculty}</p>
+              <p className="modal-text">Department: {selectedDetails.department}</p>
+              <p className="modal-text">Level: {selectedDetails.level}</p>
+              <p className="modal-text">Semester: {selectedDetails.semester}</p>
+              <p className="modal-text">Course: {selectedDetails.course}</p>
             </div>
-            <div className="modal-buttons">
-              <button onClick={handleConfirmAction} className="modal-button confirm">
-                Yes
+            <div className="modal-button-container">
+              <button onClick={handleConfirmAction} className="modal-button">
+                <span className="modal-button-text">Yes</span>
               </button>
-              <button onClick={handleCancelAction} className="modal-button cancel">
-                No
+              <button onClick={handleCancelAction} className="modal-button1">
+                <span className="modal-button-text1">No</span>
               </button>
             </div>
           </div>

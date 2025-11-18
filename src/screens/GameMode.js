@@ -88,13 +88,21 @@ const GameMode = () => {
       <h1 className="game-title">Rock-Paper-Scissors Game 🎮</h1>
       <div className="button-container">
         <button onClick={() => playGame('rock')} className="move-button">
-          <span className="move-emoji">🪨</span>
+          <span className="move-emoji">
+            
+            <img src={rockEmoji} />
+            </span>
         </button>
         <button onClick={() => playGame('paper')} className="move-button">
-          <span className="move-emoji">📄</span>
+          <span className="move-emoji">
+            <img src={paperEmoji} />
+            </span>
         </button>
         <button onClick={() => playGame('scissors')} className="move-button">
-          <span className="move-emoji">✂️</span>
+          <span className="move-emoji">
+            
+            <img src={scissorsEmoji}/>
+            </span>
         </button>
       </div>
       <p className="result">{result}</p>

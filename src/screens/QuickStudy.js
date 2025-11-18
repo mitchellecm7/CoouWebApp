@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../screens/UploadScreens/styles/QuickStudy.css';
-// import departments from '../../src/assets/departmentsData';
-
-const departments = [
-  { id: 1, name: 'Department of COMPUTER SCIENCE' },
-  { id: 2, name: 'Department of MATHEMATICS' },
-  { id: 3, name: 'Department of PHYSICS' },
-  // Add more departments as needed
-];
+import departments from "../../src/assets/departmentsData";
 
 const QuickStudy = () => {
   const navigate = useNavigate();
@@ -39,16 +32,16 @@ const QuickStudy = () => {
     setSemesterMenuVisible(false);
 
     const departmentScreenMap = {
-      'Department of COMPUTER SCIENCE': 'Cis',
+      'Department of COMPUTER SCIENCE': 'cis',
     };
 
-    const departmentPrefix = departmentScreenMap[selectedDepartment];
-    const levelPrefix = selectedLevel.replace('level', '').trim();
-    const semesterPrefix = semester === '1st semester' ? '1' : '2';
-    const targetScreen = `${departmentPrefix}${levelPrefix}${semesterPrefix}`;
+    const departmentPrefix = departmentScreenMap[selectedDepartment]; // 'cis'
+    const levelPrefix = selectedLevel.replace('level', '').trim();    // '100' 
+    const semesterPrefix = semester === '1st semester' ? '1' : '2';  // '1'
+    const targetScreen = `${departmentPrefix}${levelPrefix}${semesterPrefix}`; // 'cis1001'
 
     if (targetScreen) {
-      navigate(`/${targetScreen.toLowerCase()}`, {
+      navigate(`/${targetScreen}`, {
         state: {
           department: selectedDepartment,
           level: selectedLevel,

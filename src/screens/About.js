@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaCheckCircle } from 'react-icons/fa';
 import '../screens/UploadScreens/styles/About.css';
 
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
           Developed by: 
           <span className="developer-name">
             CM7 
-            <span className="verified-icon">✓</span>
+            <FaCheckCircle className="verified-icon" />
           </span>
         </p>
       </div>

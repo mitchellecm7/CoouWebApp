@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PasswordInput from './PasswordInput';
-import { account2, ID } from '../UploadScreens/config';
+import { account, ID } from '../UploadScreens/config';
 import '../UploadScreens/styles/SignUp.css';
 
 const SignUp = () => {
@@ -57,7 +57,7 @@ const SignUp = () => {
   
     try {
       // Attempt sign up with Appwrite
-      const response = await account2.create(ID.unique(), email, password);
+      const response = await account.create(ID.unique(), email, password);
   
       // Success
       alert('Sign Up Successful! Please check your email to confirm your account.');
