@@ -302,8 +302,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaUserPlus } from 'react-icons/fa';
-import '../screens/UploadScreens/styles/Home1.css';
 import path from "../assets/Images/logo.png";
+import '../screens/UploadScreens/styles/Home1.css'
 
 const Home1 = () => {
   const navigate = useNavigate();
@@ -315,11 +315,12 @@ const Home1 = () => {
         <div className="header-text">
           CHUKWUEMEKA ODUMEGWU OJUKWU UNIVERSITY {'\n'}Study Apps
         </div>
-        <div className="icon-container">
-          <button onClick={() => navigate('/login')} className="icon-button">
-            <FaUserPlus size={22} color="#fff" />
-          </button>
-        </div>
+       <div className="icon-container1">
+  <button onClick={() => navigate('/login')} className="icon-button1">
+    <FaUserPlus size={25} color="#fff" />
+  </button>
+</div>
+
       </div>
 
       <div className="academia-section">
@@ -331,11 +332,11 @@ const Home1 = () => {
       
       <div className="content-view">
         <button className="department-button" onClick={() => navigate('/arts')}>
-          <span className="department-text">ARTS</span>
+          <span className="department-text" style={{color: '#000'}}>ARTS</span>
         </button>
 
         <button className="department-button" onClick={() => navigate('/sciences')}>
-          <span className="department-text">SCIENCES</span>
+          <span className="department-text" style={{color: '#000'}}>SCIENCES</span>
         </button>
       </div>
       

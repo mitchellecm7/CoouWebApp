@@ -56,6 +56,30 @@ const Upload = () => {
     },
   };
 
+
+  const styles = {
+  deleteButton: {
+    width: '100%',
+    padding: '10px',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    transition: 'all 0.3s ease',
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.3)',
+    marginTop: '5px',
+    marginBottom: '5px',
+    backgroundColor: 'red',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  buttonText: {
+    fontSize: '14px',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#fff'
+  }
+};
   // Get the appropriate client based on level
   const getClientByLevel = (level) => {
     switch (level) {
@@ -518,11 +542,15 @@ const Upload = () => {
       </button>
 
       {/* DELETE BUTTON - Now properly visible when pdfMetadata exists */}
-      {pdfMetadata && pdfMetadata.fileId && (
-        <button onClick={() => handleAction('delete')} className="delete-button">
-          <span className="button-text">Delete PDF</span>
-        </button>
-      )}
+     {/* DELETE BUTTON - Now properly visible when pdfMetadata exists */}
+{pdfMetadata && pdfMetadata.fileId && (
+  <button 
+    onClick={() => handleAction('delete')} 
+    style={styles.deleteButton}
+  >
+    <span style={styles.buttonText}>Delete PDF</span>
+  </button>
+)}
 
       {/* Debug info - remove in production */}
       {/* <div style={{ marginTop: '10px', fontSize: '12px', color: '#666' }}>

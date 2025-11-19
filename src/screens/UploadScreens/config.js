@@ -3,8 +3,8 @@ import { Client, Databases, Storage, ID, Account, Query } from "appwrite";
 // Base client (your existing one)
 const client = new Client();
 client
-  .setEndpoint('https://cloud.appwrite.io/v1')
-  .setProject('676cc024000ad5ed402a')             
+  .setEndpoint('https://fra.cloud.appwrite.io/v1')
+  .setProject("676cc024000ad5ed402a")             
   // .setPlatform('com.officialcoouapp');
 
 // Client 1
@@ -21,10 +21,11 @@ client2
   .setProject('676cc024000ad5ed402c')
   // .setPlatform('com.officialcoouapp');
 
+        
 // Client 3
 const client3 = new Client();
 client3
-  .setEndpoint('https://cloud.appwrite.io/v1')
+  .setEndpoint('https://fra.cloud.appwrite.io/v1')
   .setProject('676cc024000ad5ed402d')
   // .setPlatform('com.officialcoouapp');
 

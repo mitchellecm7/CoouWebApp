@@ -86,7 +86,30 @@ import DTS304 from './Faculties/Faculty of Physical Sciences/300level/2nd Semest
 import ENT312 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/ENT312';
 import GST312 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/GST312';
 import CCS409 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CCS409';
+import CSC400 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC400';
+import CSC401 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC401';
+import CSC405 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC405';
+import CSC411 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC411';
+import CSC415 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC415';
+import CSC421 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC421';
+import CSC431 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC431';
+import CSC441 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC441';
+import CSC451 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC451';
+import CSC471 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC471';
+import CSC473 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CSC473';
 import COOUCSC322 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/COOUCSC322';
+import CSC404 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC404';
+import CSC412 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC412';
+import CSC424 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC424';
+import CSC426 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC426';
+import CSC428 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC428';
+import CSC454 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC454';
+import CSC464 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC464';
+import CSC472 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC472';
+import CSC474 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CSC474';
+import CYB407 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CYB407';
+import Arts from './screens/Faculties/Arts';
+import Sciences from './screens/Faculties/Sciences';
 // import CSC309 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC309';
 // import ENT211 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/ENT211';
 // import COS115 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/COS115';
@@ -167,8 +190,30 @@ const App = () => {
         <Route path="/gst312" element={<GST312 />} />
         <Route path="/cooucsc322" element={<COOUCSC322 />} />
         <Route path="/csc309" element={<CSC309 />} />
-        <Route path="/csc309" element={<CSC309 />} />
-        <Route path="/csc409" element={<CCS409 />} />
+        <Route path="/ccs409" element={<CCS409 />} />
+        <Route path="/csc400" element={<CSC400 />} />
+        <Route path="/csc401" element={<CSC401 />} />
+        <Route path="/csc405" element={<CSC405 />} />
+        <Route path="/csc411" element={<CSC411 />} />
+        <Route path="/csc415" element={<CSC415 />} />
+        <Route path="/csc421" element={<CSC421 />} />
+        <Route path="/csc431" element={<CSC431 />} />
+        <Route path="/csc441" element={<CSC441 />} />
+        <Route path="/csc451" element={<CSC451 />} />
+        <Route path="/csc471" element={<CSC471 />} />
+        <Route path="/csc473" element={<CSC473 />} />
+        <Route path="/csc473" element={<CSC404 />} />
+        <Route path="/csc412" element={<CSC412 />} />
+        <Route path="/csc424" element={<CSC424 />} />
+        <Route path="/csc426" element={<CSC426 />} />
+        <Route path="/csc428" element={<CSC428 />} />
+        <Route path="/csc454" element={<CSC454 />} />
+        <Route path="/csc464" element={<CSC464 />} />
+        <Route path="/csc472" element={<CSC472 />} />
+        <Route path="/csc474" element={<CSC474 />} />
+        <Route path="/cyb407" element={<CYB407 />} />
+        <Route path="/arts" element={<Arts />} />
+        <Route path="/sciences" element={<Sciences />} />
         
         <Route path="/screen1002" element={<Screen1002 />} />
         <Route path="/cis1001" element={<Cis1001 />} />

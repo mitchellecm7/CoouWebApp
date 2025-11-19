@@ -330,12 +330,13 @@
 // // };
 
 // // export default Login;
+
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import PasswordInput from "./PasswordInput";
 import { account } from "../UploadScreens/config";
-import { storage } from "../UploadScreens/storage"; // your idb-keyval wrapper
 import "../UploadScreens/styles/Login.css";
+import { storage } from "./utils/storage";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -346,17 +347,14 @@ const Login = () => {
 
   // Auto-fill saved email (optional) and check for existing session
   useEffect(() => {
-    const loadSession = async () => {
-      const savedEmail = await storage.getItem("email");
-      const savedSession = await storage.getItem("session");
-      if (savedEmail) setEmail(savedEmail);
-      if (savedSession) {
-        // Auto-login if session exists
-        navigate("/upload");
-      }
-    };
-    loadSession();
-  }, [navigate]);
+  const loadSession = async () => {
+    const savedEmail = await storage.getItem("email");
+    if (savedEmail) setEmail(savedEmail);
+    // Do NOT navigate automatically
+  };
+  loadSession();
+}, []);
+
 
   const validateInputs = () => {
     const validationErrors = {};
@@ -372,38 +370,43 @@ const Login = () => {
     return Object.keys(validationErrors).length === 0;
   };
 
-  const handleLogin = async () => {
+ const handleLogin = async () => {
   if (!validateInputs()) return;
   setLoading(true);
 
   try {
-    // Check if a session exists
-    let currentSession = null;
-    try {
-      currentSession = await account.get(); // returns active session if exists
-    } catch (err) {
-      // No session exists, ignore
-    }
+    let sessionExists = false;
 
-    if (currentSession) {
-      // Session exists → store it and navigate
-      await storage.setItem('session', currentSession);
+    try {
+      // Try to get the current session
+      const currentUser = await account.get();
+      sessionExists = true;
+
+      // Store existing session in IndexedDB
+      await storage.setItem('session', currentUser);
       await storage.setItem('email', email);
+
       setErrors({});
       setLoading(false);
       navigate("/upload");
-      return; // stop here, don't create a new session
+    } catch (err) {
+      // No session exists → safe to create a new one
+      if (err.code === 401 || err.message.includes('no active session')) {
+        // Create a new session
+        const session = await account.createEmailPasswordSession(email, password);
+        await storage.setItem('session', session);
+        await storage.setItem('email', email);
+
+        setErrors({});
+        setLoading(false);
+        navigate("/upload");
+      } else {
+        // Other errors
+        throw err;
+      }
     }
-
-    // No session exists → create a new one
-    const session = await account.createEmailPasswordSession(email, password);
-    await storage.setItem('session', session);
-    await storage.setItem('email', email);
-
-    setErrors({});
-    setLoading(false);
-    navigate("/upload");
   } catch (error) {
+    console.error('Login error:', error);
     const newErrors = {};
     if (error.code === 401) {
       newErrors.email = "Incorrect email or password.";
@@ -415,7 +418,6 @@ const Login = () => {
     setLoading(false);
   }
 };
-
 
   const handleForgotPassword = async () => {
     if (!email) {

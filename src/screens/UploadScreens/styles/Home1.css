@@ -5,6 +5,8 @@
   background-color: #fff;
 }
 
+
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -35,41 +37,32 @@
   line-height: 1.3;
 }
 
-.icon-container {
-  position: absolute;
-  top: 25px;
-  right: 20px;
-  width: 42px;
-  height: 42px;
-  border-radius: 21px;
+/* Circular Login Icon */
+.icon-container1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   background-color: green;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 25px;
+  right: 20px;
 }
 
-.icon-button {
+
+.icon-button1 {
   background: none;
   border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
   cursor: pointer;
-  padding: 0;
-  margin: 0;
-  position: relative;
+  color: white;
+  font-size: 22px;
 }
 
-/* Ensure the icon itself is centered */
-.icon-button svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .academia-section {
   margin-top: 70px;
@@ -113,7 +106,7 @@
 
 .department-text {
   font-size: 14px;
-  color: black;
+  color: #fff;
   font-weight: 800;
   position: absolute;
   align-self: center;
@@ -133,11 +126,4 @@
   height: 100%;
   object-fit: cover;
   opacity: 0.1;
-}
-
-.icon-button svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }

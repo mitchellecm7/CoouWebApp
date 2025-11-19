@@ -129,19 +129,31 @@
   margin-bottom: 7px;
 }
 
-.delete-button {
-  background-color: red;
-  margin-top: 5px;
-  margin-bottom: 5px;
+
+.delete-button:hover {
+  background-color: #cc0000;
 }
+
 
 .button1:hover, .button:hover {
   background-color: #006400;
 }
 
-.delete-button:hover {
-  background-color: #cc0000;
-}
+.delete-button {
+ background-color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;        /* same as other buttons */
+  padding: 10px;      /* match other buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;      /* ensures text centers */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  color: #fff;   
+  z-index: 100000;}
 
 .disabled-button {
   background-color: gray !important;
