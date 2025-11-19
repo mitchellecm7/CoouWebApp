@@ -39,8 +39,10 @@ const Upload = () => {
       'Computer Science': {
         '100': { '1st': ['COS101', 'MTH101', 'PHY101', 'COS115', 'CSC105', 'CSC111', 'GST111', 'STA111', 'PHY107'], '2nd': ['COS102', 'COS192', 'CSC104', 'CSC128', 'GST112', 'MTH102', 'PHY102', 'PHY106', 'PHY108', 'GEY116'] },
         '200': { '1st': ['ENT211', 'MTH201', 'COS201', 'CSC221', 'CSC203', 'CSC267', 'CSC231', 'IFT211', 'COS261', 'SEN201'], '2nd': ['GST212', 'MTH202', 'CSC266', 'COS202', 'CSC208', 'COS262', 'COS264', 'IFT212', 'GEY206', 'CSC299'] },
-        '300': { '1st': ['GST312', 'ENT312', 'CSC301', 'CSC308', 'CSC309', 'CSC322', 'ICT305', 'CSC323', 'CSC371', 'CYB201', 'DTS304'], '2nd': ['CSC399'] },
-        '400': { '1st': ['CSC400', 'CSC401', 'CSC405', 'CCS409', 'CSC411', 'CSC415', 'CSC435', 'CSC441', 'CSC473', 'CSC471', 'CSC451', 'CSC421','CSC431',], '2nd': ['CSC404', 'CSC412', 'CSC424', 'CSC454', 'CSC464', 'CSC474', 'CYB407', 'CSC472', 'CSC428', 'CSC426'] },
+        '300': { '1st': [ 'CSC301', 'CSC309', 'CSC321','CSC375', 'ICT305', 'CSC323', 'CSC371', 'CYB301'],
+           '2nd': ['CSC399','GST312', 'ENT312','CSC308', 'CSC322', 'DTS304', 'CSC310','COOUCSC322'] },
+        '400': { '1st': ['CSC400', 'CSC401', 'CSC405', 'CCS409', 'CSC411', 'CSC415', 'CSC435', 'CSC441', 'CSC473', 'CSC471', 'CSC451', 'CSC421',
+          'CSC431',], '2nd': ['CSC404', 'CSC412', 'CSC424', 'CSC454', 'CSC464', 'CSC474', 'CYB407', 'CSC472', 'CSC428', 'CSC426'] },
       },
       'Physics': {
         '100': { '1st': ['PH101', 'PH102'], '2nd': ['PH103', 'PH104'] },

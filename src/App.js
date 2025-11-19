@@ -60,6 +60,34 @@ import CSC231 from './Faculties/Faculty of Physical Sciences/200level/1st semest
 import IFT211 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/IFT211';
 import COS261 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/COS261';
 import SEN201 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/SEN201';
+import COS202 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/COS202';
+import COS262 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/COS262';
+import COS264 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/COS264';
+import CSC208 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/CSC208';
+import CSC266 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/CSC266';
+import CSC299 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/CSC299';
+import GEY206 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/GEY206';
+import GST212 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/GST212';
+import IFT212 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/IFT212';
+import MTH202 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/MTH202';
+import CSC309 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC309';
+import CSC321 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC321';
+import CSC323 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC323';
+import CSC371 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC371';
+import CSC375 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC375';
+import CYB301 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CYB301';
+import ICT305 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/ICT305';
+import CSC301 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC301';
+import CSC308 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/CSC308';
+import CSC310 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/CSC310';
+import CSC322 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/CSC322';
+import CSC399 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/CSC399';
+import DTS304 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/DTS304';
+import ENT312 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/ENT312';
+import GST312 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/GST312';
+import CCS409 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/CCS409';
+import COOUCSC322 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/COOUCSC322';
+// import CSC309 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC309';
 // import ENT211 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/ENT211';
 // import COS115 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/COS115';
 // import COS115 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/COS115';
@@ -111,13 +139,37 @@ const App = () => {
         <Route path="/ift211" element={<IFT211 />} />
         <Route path="/cos261" element={<COS261 />} />
         <Route path="/sen201" element={<SEN201 />} />
-        <Route path="/gey116" element={<GEY116 />} />
-        {/* <Route path="/gey116" element={<GEY116 />} />
-        <Route path="/gey116" element={<GEY116 />} />
-        <Route path="/gey116" element={<GEY116 />} />
-        <Route path="/gey116" element={<GEY116 />} />
-        <Route path="/gey116" element={<GEY116 />} />
-        <Route path="/gey116" element={<GEY116 />} /> */}
+        <Route path="/cos202" element={<COS202 />} />
+        <Route path="/cos262" element={<COS262 />} />
+        <Route path="/cos264" element={<COS264 />} />
+        <Route path="/csc208" element={<CSC208 />} />
+        <Route path="/csc266" element={<CSC266 />} />
+        <Route path="/csc299" element={<CSC299 />} />
+        <Route path="/gey206" element={<GEY206 />} />
+        <Route path="/gst212" element={<GST212 />} />
+        <Route path="/ift212" element={<IFT212 />} />
+        <Route path="/mth202" element={<MTH202 />} />
+        <Route path="/csc309" element={<CSC309 />} />
+        <Route path="/csc321" element={<CSC321 />} />
+        <Route path="/csc323" element={<CSC323 />} />
+        <Route path="/csc371" element={<CSC371 />} />
+        <Route path="/csc375" element={<CSC375 />} />
+        <Route path="/cyb301" element={<CYB301 />} />
+        <Route path="/ict305" element={<ICT305 />} />
+        <Route path="/csc301" element={<CSC301 />} />
+        <Route path="/csc309" element={<CSC309 />} />
+        <Route path="/csc308" element={<CSC308 />} />
+        <Route path="/csc310" element={<CSC310 />} />
+        <Route path="/csc322" element={<CSC322 />} />
+        <Route path="/csc399" element={<CSC399 />} />
+        <Route path="/dts304" element={<DTS304 />} />
+        <Route path="/ent312" element={<ENT312 />} />
+        <Route path="/gst312" element={<GST312 />} />
+        <Route path="/cooucsc322" element={<COOUCSC322 />} />
+        <Route path="/csc309" element={<CSC309 />} />
+        <Route path="/csc309" element={<CSC309 />} />
+        <Route path="/csc409" element={<CCS409 />} />
+        
         <Route path="/screen1002" element={<Screen1002 />} />
         <Route path="/cis1001" element={<Cis1001 />} />
         <Route path="/cos101" element={<COS101 title="Introduction to Computing Sciences"/>} />

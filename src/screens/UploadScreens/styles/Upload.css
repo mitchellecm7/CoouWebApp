@@ -58,6 +58,7 @@
   flex-shrink: 1;
 }
 
+/* Fixed Select Styling */
 .form-picker {
   height: 50px;
   width: 100%;
@@ -70,6 +71,23 @@
   outline: none;
   font-size: 14px;
   cursor: pointer;
+  /* Prevent zoom on iOS */
+  transform: translateZ(0);
+}
+
+/* Style the dropdown options */
+.form-picker option {
+  font-size: 14px;
+  color: #1d1615;
+  background: white;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* For better mobile experience */
+.form-picker:focus {
+  border-color: green;
 }
 
 .form-picker:disabled {
@@ -146,6 +164,21 @@
   position: absolute;
   bottom: -15px;
   left: 0;
+}
+
+.file-selected {
+  margin-top: 5px;
+  font-size: 14px;
+  color: green;
+  font-weight: 500;
+  text-align: center;
+}
+
+.debug-info {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
 }
 
 /* Loading Styles */
@@ -287,6 +320,11 @@
   .button1, .button, .delete-button {
     padding: 12px;
   }
+  
+  /* Improve dropdown on mobile */
+  .form-picker {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
 }
 
 @media (max-width: 480px) {
@@ -304,18 +342,30 @@
   
   .form-picker {
     height: 40px;
-    font-size: 13px;
+    font-size: 14px;
   }
   
   .modal-content {
     width: 90%;
     padding: 15px;
   }
-  .file-selected {
-  margin-top: 5px;
-  font-size: 14px;
-  color: green;
-  font-weight: 500;
-  text-align: center;
 }
+
+/* Fix for dropdown appearance on different browsers */
+.form-picker {
+  /* Reset default styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Ensure dropdown doesn't break layout */
+.picker-container {
+  overflow: hidden;
+}
+
+/* Remove default focus styles that might cause issues */
+.form-picker:focus {
+  outline: none;
+  border: 1px solid green;
 }
