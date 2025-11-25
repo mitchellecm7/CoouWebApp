@@ -331,10 +331,170 @@
 
 // // export default Login;
 
+// import React, { useState, useEffect } from "react";
+// import { useNavigate } from "react-router-dom";
+// import PasswordInput from "./PasswordInput";
+// import { account } from "../UploadScreens/config";
+// import "../UploadScreens/styles/Login.css";
+// import { storage } from "./utils/storage";
+
+// const Login = () => {
+//   const [email, setEmail] = useState("");
+//   const [password, setPassword] = useState("");
+//   const [errors, setErrors] = useState({});
+//   const [loading, setLoading] = useState(false);
+//   const navigate = useNavigate();
+
+//   // Auto-fill saved email (optional) and check for existing session
+//   useEffect(() => {
+//   const loadSession = async () => {
+//     const savedEmail = await storage.getItem("email");
+//     if (savedEmail) setEmail(savedEmail);
+//     // Do NOT navigate automatically
+//   };
+//   loadSession();
+// }, []);
+
+
+//   const validateInputs = () => {
+//     const validationErrors = {};
+//     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+//     if (!email) validationErrors.email = "Please enter an email address.";
+//     else if (!emailRegex.test(email)) validationErrors.email = "Invalid email format.";
+
+//     if (!password) validationErrors.password = "Please enter a password.";
+//     else if (password.length < 8) validationErrors.password = "Password must be at least 8 characters long.";
+
+//     setErrors(validationErrors);
+//     return Object.keys(validationErrors).length === 0;
+//   };
+
+//  const handleLogin = async () => {
+//   if (!validateInputs()) return;
+//   setLoading(true);
+
+//   try {
+//     let sessionExists = false;
+
+//     try {
+//       // Try to get the current session
+//       const currentUser = await account.get();
+//       sessionExists = true;
+
+//       // Store existing session in IndexedDB
+//       await storage.setItem('session', currentUser);
+//       await storage.setItem('email', email);
+
+//       setErrors({});
+//       setLoading(false);
+//       navigate("/upload");
+//     } catch (err) {
+//       // No session exists → safe to create a new one
+//       if (err.code === 401 || err.message.includes('no active session')) {
+//         // Create a new session
+//         const session = await account.createEmailPasswordSession(email, password);
+//         await storage.setItem('session', session);
+//         await storage.setItem('email', email);
+
+//         setErrors({});
+//         setLoading(false);
+//         navigate("/upload");
+//       } else {
+//         // Other errors
+//         throw err;
+//       }
+//     }
+//   } catch (error) {
+//     console.error('Login error:', error);
+//     const newErrors = {};
+//     if (error.code === 401) {
+//       newErrors.email = "Incorrect email or password.";
+//       newErrors.password = "Incorrect email or password.";
+//     } else {
+//       newErrors.general = "Something went wrong. Please try again.";
+//     }
+//     setErrors(newErrors);
+//     setLoading(false);
+//   }
+// };
+
+//   const handleForgotPassword = async () => {
+//     if (!email) {
+//       setErrors({ email: "Please enter your email to reset your password." });
+//       return;
+//     }
+
+//     try {
+//       await account.createRecovery(email, `${window.location.origin}/reset-password`);
+//       setErrors({ general: "Password reset instructions sent to your email." });
+//     } catch (error) {
+//       setErrors({ email: error.message || "Failed to send password reset email." });
+//     }
+//   };
+
+//   return (
+//     <div className="login-container">
+//       <h1 className="login-header">Log In</h1>
+
+//       {/* Email Input */}
+//       <input
+//         className={`login-input ${errors.email ? "input-error" : ""}`}
+//         type="email"
+//         placeholder="Email"
+//         value={email}
+//         onChange={(e) => {
+//           setEmail(e.target.value);
+//           setErrors((prev) => ({ ...prev, email: null }));
+//         }}
+//       />
+//       {errors.email && <div className="error-text">{errors.email}</div>}
+
+//       {/* Password Input */}
+//       <PasswordInput
+//         password={password}
+//         placeholder="Password"
+//         setPassword={(text) => {
+//           setPassword(text);
+//           setErrors((prev) => ({ ...prev, password: null }));
+//         }}
+//         error={errors.password}
+//       />
+//       {errors.password && <div className="error-text">{errors.password}</div>}
+
+//       {/* General Errors */}
+//       {errors.general && <div className="error-text">{errors.general}</div>}
+
+//       {/* Login Button */}
+//       {loading ? (
+//         <div className="loading-container">
+//           <div className="loading-spinner"></div>
+//           <span>Logging in...</span>
+//         </div>
+//       ) : (
+//         <button className="login-button" onClick={handleLogin}>
+//           Log In
+//         </button>
+//       )}
+
+//       {/* Forgot Password */}
+//       <button className="link-button" onClick={handleForgotPassword}>
+//         Forgot Password?
+//       </button>
+
+//       {/* Sign Up Link */}
+//       <button className="link-button" onClick={() => navigate("/signup")}>
+//         Don't have an account? Sign Up
+//       </button>
+//     </div>
+//   );
+// };
+
+// export default Login;
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import PasswordInput from "./PasswordInput";
-import { account } from "../UploadScreens/config";
+import { account, account1, account2, account3 } from "../UploadScreens/config"; // Import all account instances
 import "../UploadScreens/styles/Login.css";
 import { storage } from "./utils/storage";
 
@@ -345,16 +505,13 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  // Auto-fill saved email (optional) and check for existing session
   useEffect(() => {
-  const loadSession = async () => {
-    const savedEmail = await storage.getItem("email");
-    if (savedEmail) setEmail(savedEmail);
-    // Do NOT navigate automatically
-  };
-  loadSession();
-}, []);
-
+    const loadSession = async () => {
+      const savedEmail = await storage.getItem("email");
+      if (savedEmail) setEmail(savedEmail);
+    };
+    loadSession();
+  }, []);
 
   const validateInputs = () => {
     const validationErrors = {};
@@ -370,54 +527,94 @@ const Login = () => {
     return Object.keys(validationErrors).length === 0;
   };
 
- const handleLogin = async () => {
-  if (!validateInputs()) return;
-  setLoading(true);
-
-  try {
-    let sessionExists = false;
+  // Function to authenticate across all clients
+  const authenticateAllClients = async (email, password) => {
+    const accounts = [account, account1, account2, account3];
+    const sessions = [];
 
     try {
-      // Try to get the current session
-      const currentUser = await account.get();
-      sessionExists = true;
+      // Create sessions for all clients
+      for (let i = 0; i < accounts.length; i++) {
+        try {
+          const session = await accounts[i].createEmailPasswordSession(email, password);
+          sessions.push(session);
+          console.log(`Authenticated client ${i} successfully`);
+        } catch (error) {
+          console.error(`Failed to authenticate client ${i}:`, error);
+          // If one fails, continue with others but log the error
+        }
+      }
 
-      // Store existing session in IndexedDB
-      await storage.setItem('session', currentUser);
+      // Store sessions in storage
+      await storage.setItem('sessions', sessions);
       await storage.setItem('email', email);
+      
+      return sessions.length > 0; // Return true if at least one session was created
+    } catch (error) {
+      console.error('Authentication failed for all clients:', error);
+      return false;
+    }
+  };
 
-      setErrors({});
-      setLoading(false);
-      navigate("/upload");
-    } catch (err) {
-      // No session exists → safe to create a new one
-      if (err.code === 401 || err.message.includes('no active session')) {
-        // Create a new session
-        const session = await account.createEmailPasswordSession(email, password);
-        await storage.setItem('session', session);
-        await storage.setItem('email', email);
+  // Function to check existing sessions across all clients
+  const checkExistingSessions = async () => {
+    const accounts = [account, account1, account2, account3];
+    
+    for (let i = 0; i < accounts.length; i++) {
+      try {
+        const user = await accounts[i].get();
+        console.log(`Existing session found for client ${i}`);
+        return true;
+      } catch (error) {
+        // Continue to next client
+      }
+    }
+    return false;
+  };
 
+  const handleLogin = async () => {
+    if (!validateInputs()) return;
+    setLoading(true);
+
+    try {
+      // First, check if we already have valid sessions
+      const hasExistingSession = await checkExistingSessions();
+      
+      if (hasExistingSession) {
+        // We already have valid sessions, proceed to upload
+        console.log('Using existing sessions');
+        setErrors({});
+        setLoading(false);
+        navigate("/upload");
+        return;
+      }
+
+      // No valid sessions, create new ones
+      const authSuccess = await authenticateAllClients(email, password);
+      
+      if (authSuccess) {
         setErrors({});
         setLoading(false);
         navigate("/upload");
       } else {
-        // Other errors
-        throw err;
+        throw new Error('Failed to authenticate with any client');
       }
+
+    } catch (error) {
+      console.error('Login error:', error);
+      const newErrors = {};
+      
+      if (error.code === 401 || error.message.includes('Invalid credentials')) {
+        newErrors.email = "Incorrect email or password.";
+        newErrors.password = "Incorrect email or password.";
+      } else {
+        newErrors.general = error.message || "Something went wrong. Please try again.";
+      }
+      
+      setErrors(newErrors);
+      setLoading(false);
     }
-  } catch (error) {
-    console.error('Login error:', error);
-    const newErrors = {};
-    if (error.code === 401) {
-      newErrors.email = "Incorrect email or password.";
-      newErrors.password = "Incorrect email or password.";
-    } else {
-      newErrors.general = "Something went wrong. Please try again.";
-    }
-    setErrors(newErrors);
-    setLoading(false);
-  }
-};
+  };
 
   const handleForgotPassword = async () => {
     if (!email) {
@@ -426,6 +623,7 @@ const Login = () => {
     }
 
     try {
+      // Use base client for password recovery
       await account.createRecovery(email, `${window.location.origin}/reset-password`);
       setErrors({ general: "Password reset instructions sent to your email." });
     } catch (error) {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { account2 } from '../UploadScreens/config';
+import { account } from '../UploadScreens/config';
 import '../UploadScreens/styles/ResetPasswordScreen.css';
 
 const ResetPasswordScreen = () => {
@@ -44,7 +44,7 @@ const ResetPasswordScreen = () => {
     setError('');
 
     try {
-      await account2.updateRecovery(userId, secret, newPassword, newPassword);
+      await account.updateRecovery(userId, secret, newPassword, newPassword);
       alert('Password reset successfully');
       navigate("/login");
     } catch (err) {

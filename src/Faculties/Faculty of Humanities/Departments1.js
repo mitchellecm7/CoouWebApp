@@ -1,256 +1,335 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+// import departments from '../../assets/departmentsData';
 
-import { SafeAreaView, StatusBar, View, TouchableOpacity, Text, StyleSheet, Dimensions, ScrollView } from 'react-native';
+// const Departments1 = ({ navigation }) => {
+//   const [isLevelMenuVisible, setLevelMenuVisible] = useState(false);
+//   const [isSemesterMenuVisible, setSemesterMenuVisible] = useState(false);
+//   const [selectedLevel, setSelectedLevel] = useState('');
+//   const [selectedDepartment, setSelectedDepartment] = useState('');
 
-import Ionicons from 'react-native-vector-icons/Ionicons';
+//   const levels = ['100 level', '200 level', '300 level', '400 level', '500 level'];
+//   const semesters = ['1st semester', '2nd semester'];
 
-import Modal from 'react-native-modal';
-import departments from '../../src/assets/departmentsData';
+//   // Replace with your actual departments data
+//   const filteredDepartments = [
+//     { id: 8, name: 'Department of LAW' }
+//   ];
 
+//   const toggleLevelMenu = (departmentName) => {
+//     setSelectedDepartment(departmentName);
+//     setLevelMenuVisible(!isLevelMenuVisible);
+//   };
 
-const {width, height} = Dimensions.get('window');
+//   const toggleSemesterMenu = (level) => {
+//     setSelectedLevel(level);
+//     setSemesterMenuVisible(!isSemesterMenuVisible);
+//   };
 
-const Departments1 = ({ navigation }) => {
-  const [isLevelMenuVisible, setLevelMenuVisible] = useState(false);
-  const [isSemesterMenuVisible, setSemesterMenuVisible] = useState(false);
-  const [selectedLevel, setSelectedLevel] = useState('');
-  const [selectedDepartment, setSelectedDepartment] = useState('');
+//   const handleSemesterSelection = (semester) => {
+//     setSemesterMenuVisible(false);
 
-  const levels = ['100 level', '200 level', '300 level', '400 level', '500 level'];
-  const semesters = ['1st semester', '2nd semester'];
+//     const departmentPrefixes = {
+//       'Department of LAW': 'Law',
+//     };
 
-  // const filteredDepartments = departments.filter(department => department.id > 7 && department.id < 8);
-
-  const toggleLevelMenu = (departmentName) => {
-    setSelectedDepartment(departmentName);
-    setLevelMenuVisible(!isLevelMenuVisible);
-  };
-
-  const toggleSemesterMenu = (level) => {
-    setSelectedLevel(level);
-    setSemesterMenuVisible(!isSemesterMenuVisible);
-  };
-
-  // const handleSemesterSelection = (semester) => {
-  //   setSemesterMenuVisible(false);
-
-  //   // Conditional navigation based on department, level, and semester
-  //   let targetScreen = '';
-  //   if (selectedDepartment === 'Department of ENGLISH') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'English1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'English1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'English2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'English2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'English3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'English3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'English4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'English4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'English5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'English5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   } 
-  //   else if (selectedDepartment === 'Department of IGBO LANGUAGE & LINGUISTICS') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'Igbo&Linguistics1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'Igbo&Linguistics1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'Igbo&Linguistics2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'Igbo&Linguistics2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'Igbo&Linguistics3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'Igbo&Linguistics3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'Igbo&Linguistics4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'Igbo&Linguistics4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'Igbo&Linguistics5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'Igbo&Linguistics5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   }
-  //   // Add more conditions for other departments
-
-  //   if (targetScreen) {
-  //     navigation.push(targetScreen, {
-  //       department: selectedDepartment,
-  //       level: selectedLevel,
-  //       semester: semester,
-  //     });
-  //   }
-  // };
-  const handleSemesterSelection = (semester) => {
-    setSemesterMenuVisible(false);
-  
-    // Mapping of department names to their screen prefixes
-    const departmentPrefixes = {
-      'Department of ENGLISH': 'English',
-      'Department of IGBO LANGUAGE & LINGUISTICS': 'Igbo&Linguistics',
-      // Add other departments here as needed:
-      // 'Department Name': 'ScreenPrefix',
-    };
-  
-    // Get the department prefix
-    const departmentPrefix = departmentPrefixes[selectedDepartment];
+//     const departmentPrefix = departmentPrefixes[selectedDepartment];
     
-    if (!departmentPrefix) {
-      // Department not found in mapping
-      return;
-    }
-  
-    // Extract level number (100, 200, etc.)
-    const levelNumber = selectedLevel.split(' ')[0];
-    
-    // Determine semester number (1 or 2)
-    const semesterNumber = semester.includes('1st') ? '1' : '2';
-    
-    // Construct target screen name
-    const targetScreen = `${departmentPrefix}${levelNumber}${semesterNumber}`;
-  
-    if (targetScreen) {
-      navigation.push(targetScreen, {
-        department: selectedDepartment,
-        level: selectedLevel,
-        semester: semester,
-      });
-    }
-  };
-  return (
-    <SafeAreaView>
-      <StatusBar backgroundColor="#000" barStyle='light-content' animated={true} />
-      <ScrollView>
-        {filteredDepartments.map((department) => (
-          <View style={styles.container} key={department.id}>
-            <View style={styles.departmentName}>
-              <Text style={styles.text}>{department.name}</Text>
-              <TouchableOpacity onPress={() => toggleLevelMenu(department.name)} style={styles.iconButton}>
-                <Ionicons name='chevron-down' size={25} color='white' />
-              </TouchableOpacity>
-            </View>
-          </View>
-        ))}
+//     if (!departmentPrefix) return;
 
-<Modal 
-  isVisible={isLevelMenuVisible} 
-  onBackdropPress={toggleLevelMenu}
-  style={styles.modal}
-  // style={{ justifyContent: 'center', alignItems: 'center' }} // Center the modal
->
-  <View style={styles.modalContent}>
-    <TouchableOpacity onPress={toggleLevelMenu} style={styles.closeButton}>
-      <Ionicons name='close' size={25} color='black' />
-    </TouchableOpacity>
-    {levels.map((level) => (
-      <TouchableOpacity key={level} onPress={() => toggleSemesterMenu(level)} style={styles.modalButton}>
-        <Text style={styles.modalText}>{level}</Text>
-      </TouchableOpacity>
-    ))}
-  </View>
-</Modal>
+//     const levelNumber = selectedLevel.split(' ')[0];
+//     const semesterNumber = semester.includes('1st') ? '1' : '2';
+//     const targetScreen = `${departmentPrefix}${levelNumber}${semesterNumber}`;
 
-<Modal 
-  isVisible={isSemesterMenuVisible} 
-  onBackdropPress={() => setSemesterMenuVisible(false)}
-  style={styles.modal} // Center the modal
->
-  <View style={styles.modalContent}>
-    <TouchableOpacity onPress={() => setSemesterMenuVisible(false)} style={styles.closeButton}>
-      <Ionicons name='close' size={25} color='black' />
-    </TouchableOpacity>
-    {semesters.map((semester) => (
-      <TouchableOpacity key={semester} onPress={() => handleSemesterSelection(semester)} style={styles.modalButton}>
-        <Text style={styles.modalText}>{semester}</Text>
-      </TouchableOpacity>
-    ))}
-  </View>
-</Modal>
-      </ScrollView>
-    </SafeAreaView>
-  );
-};
+//     if (targetScreen) {
+//       navigation.push(targetScreen, {
+//         department: selectedDepartment,
+//         level: selectedLevel,
+//         semester: semester,
+//       });
+//     }
+//   };
 
-export default Departments1;
+//   // Internal CSS Styles
+//   const styles = {
+//     container: {
+//       minHeight: '100vh',
+//       backgroundColor: '#f5f5f5',
+//       padding: '20px',
+//       fontFamily: 'Arial, sans-serif',
+//     },
+//     content: {
+//       maxWidth: '1200px',
+//       margin: '0 auto',
+//     },
+//     departmentCard: {
+//       marginBottom: '20px',
+//       display: 'flex',
+//       justifyContent: 'center',
+//     },
+//     departmentHeader: {
+//       position: 'relative',
+//       marginTop: '20px',
+//       height: '90px',
+//       marginBottom: '10px',
+//       width: '100%',
+//       maxWidth: '300px',
+//       borderRadius: '20px',
+//       backgroundColor: 'green',
+//       display: 'flex',
+//       justifyContent: 'center',
+//       alignItems: 'center',
+//       transition: 'all 0.2s ease',
+//       cursor: 'pointer',
+//       boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+//     },
+//     departmentHeaderHover: {
+//       transform: 'translateY(-2px)',
+//       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+//     },
+//     departmentText: {
+//       fontSize: '16px',
+//       fontWeight: '700',
+//       color: 'white',
+//       textAlign: 'center',
+//       padding: '0 20px',
+//     },
+//     dropdownButton: {
+//       position: 'absolute',
+//       right: '10px',
+//       top: '5px',
+//       background: 'none',
+//       border: 'none',
+//       color: 'white',
+//       cursor: 'pointer',
+//       padding: '5px',
+//     },
+//     dropdownIcon: {
+//       fontSize: '16px',
+//       transition: 'transform 0.2s ease',
+//     },
+//     dropdownIconHover: {
+//       transform: 'scale(1.1)',
+//     },
+//     // Modal Styles
+//     modalOverlay: {
+//       position: 'fixed',
+//       top: 0,
+//       left: 0,
+//       right: 0,
+//       bottom: 0,
+//       backgroundColor: 'rgba(0, 0, 0, 0.5)',
+//       display: 'flex',
+//       justifyContent: 'center',
+//       alignItems: 'center',
+//       zIndex: 1000,
+//       padding: '20px',
+//     },
+//     modalContent: {
+//       width: '100%',
+//       maxWidth: '400px',
+//       backgroundColor: 'white',
+//       padding: '20px',
+//       borderRadius: '10px',
+//       position: 'relative',
+//       boxShadow: '0 10px 25px rgba(0, 0, 0, 0.2)',
+//     },
+//     closeButton: {
+//       position: 'absolute',
+//       top: '10px',
+//       right: '15px',
+//       background: 'none',
+//       border: 'none',
+//       fontSize: '24px',
+//       cursor: 'pointer',
+//       color: '#333',
+//       padding: '5px',
+//     },
+//     closeButtonHover: {
+//       color: '#000',
+//     },
+//     modalButton: {
+//       width: '100%',
+//       padding: '15px 20px',
+//       margin: '8px 0',
+//       background: 'none',
+//       border: 'none',
+//       borderBottom: '1.5px solid #1d1615',
+//       color: '#1d1615',
+//       fontSize: '16px',
+//       cursor: 'pointer',
+//       textAlign: 'left',
+//       transition: 'all 0.2s ease',
+//     },
+//     modalButtonHover: {
+//       backgroundColor: '#f0f0f0',
+//       borderRadius: '5px',
+//     },
+//     // Mobile Responsive Styles
+//     mobileStyles: {
+//       container: {
+//         padding: '15px',
+//       },
+//       departmentHeader: {
+//         height: '80px',
+//         maxWidth: '280px',
+//       },
+//       departmentText: {
+//         fontSize: '14px',
+//         padding: '0 15px',
+//       },
+//       modalContent: {
+//         margin: '20px',
+//         padding: '15px',
+//       },
+//       modalButton: {
+//         padding: '12px 15px',
+//         fontSize: '14px',
+//       },
+//     },
+//     smallMobileStyles: {
+//       container: {
+//         padding: '10px',
+//       },
+//       departmentHeader: {
+//         height: '70px',
+//         maxWidth: '260px',
+//         marginTop: '15px',
+//       },
+//       departmentText: {
+//         fontSize: '13px',
+//         padding: '0 10px',
+//       },
+//       modalContent: {
+//         margin: '10px',
+//         padding: '12px',
+//       },
+//       closeButton: {
+//         top: '5px',
+//         right: '10px',
+//         fontSize: '20px',
+//       },
+//       modalButton: {
+//         padding: '10px 12px',
+//         fontSize: '13px',
+//       },
+//     },
+//   };
 
-const styles = StyleSheet.create({
-  container: {
-    width: width,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  departmentName: {
-    marginTop: 20,
-    height: 90,
-    marginVertical: 10,
-    width: 300,
-    borderRadius: 20,
-    backgroundColor: 'green',
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'relative',
-    transition: '.2s',
-  },
-  iconButton: {
-    position: 'absolute',
-    right: 10,
-    top: 5,
-  },
-  text: {
-    fontSize: 16,
-    fontWeight: '700',
-    color: 'white',
-  },
-  modal: {
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  modalContent: {
-    width: '60%',
-    backgroundColor: '#fff',
-    padding: 20,
-    borderRadius: 10,
-    alignItems: 'center',
-  },
-  modalButton: {
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    marginVertical: 5,
-  },
-  modalText: {
-    fontSize: 16,
-    borderBottomWidth: 1.5,
-    borderBottomColor: 'black',
-    color: '#1d1615'
-  },
-  closeButton: {
-    alignSelf: 'flex-end',
-  },
-});
+//   // Function to handle hover effects
+//   const [hoverStates, setHoverStates] = useState({
+//     department: false,
+//     dropdown: false,
+//     closeButton: false,
+//     modalButtons: {},
+//   });
+
+//   const handleMouseEnter = (element) => {
+//     setHoverStates(prev => ({ ...prev, [element]: true }));
+//   };
+
+//   const handleMouseLeave = (element) => {
+//     setHoverStates(prev => ({ ...prev, [element]: false }));
+//   };
+
+//   return (
+//     <div style={styles.container}>
+//       <div style={styles.content}>
+//         {filteredDepartments.map((department) => (
+//           <div style={styles.departmentCard} key={department.id}>
+//             <div 
+//               style={{
+//                 ...styles.departmentHeader,
+//                 ...(hoverStates.department ? styles.departmentHeaderHover : {})
+//               }}
+//               onMouseEnter={() => handleMouseEnter('department')}
+//               onMouseLeave={() => handleMouseLeave('department')}
+//             >
+//               <span style={styles.departmentText}>{department.name}</span>
+//               <button 
+//                 style={styles.dropdownButton}
+//                 onClick={() => toggleLevelMenu(department.name)}
+//                 onMouseEnter={() => handleMouseEnter('dropdown')}
+//                 onMouseLeave={() => handleMouseLeave('dropdown')}
+//               >
+//                 <span style={{
+//                   ...styles.dropdownIcon,
+//                   ...(hoverStates.dropdown ? styles.dropdownIconHover : {})
+//                 }}>
+//                   ▼
+//                 </span>
+//               </button>
+//             </div>
+//           </div>
+//         ))}
+
+//         {/* Level Selection Modal */}
+//         {isLevelMenuVisible && (
+//           <div style={styles.modalOverlay} onClick={toggleLevelMenu}>
+//             <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+//               <button 
+//                 style={{
+//                   ...styles.closeButton,
+//                   ...(hoverStates.closeButton ? styles.closeButtonHover : {})
+//                 }}
+//                 onClick={toggleLevelMenu}
+//                 onMouseEnter={() => handleMouseEnter('closeButton')}
+//                 onMouseLeave={() => handleMouseLeave('closeButton')}
+//               >
+//                 ×
+//               </button>
+//               {levels.map((level) => (
+//                 <button
+//                   key={level}
+//                   style={{
+//                     ...styles.modalButton,
+//                     ...(hoverStates.modalButtons[level] ? styles.modalButtonHover : {})
+//                   }}
+//                   onClick={() => toggleSemesterMenu(level)}
+//                   onMouseEnter={() => handleMouseEnter(`modalButtons.${level}`)}
+//                   onMouseLeave={() => handleMouseLeave(`modalButtons.${level}`)}
+//                 >
+//                   {level}
+//                 </button>
+//               ))}
+//             </div>
+//           </div>
+//         )}
+
+//         {/* Semester Selection Modal */}
+//         {isSemesterMenuVisible && (
+//           <div style={styles.modalOverlay} onClick={() => setSemesterMenuVisible(false)}>
+//             <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+//               <button 
+//                 style={{
+//                   ...styles.closeButton,
+//                   ...(hoverStates.closeButton ? styles.closeButtonHover : {})
+//                 }}
+//                 onClick={() => setSemesterMenuVisible(false)}
+//                 onMouseEnter={() => handleMouseEnter('closeButton')}
+//                 onMouseLeave={() => handleMouseLeave('closeButton')}
+//               >
+//                 ×
+//               </button>
+//               {semesters.map((semester) => (
+//                 <button
+//                   key={semester}
+//                   style={{
+//                     ...styles.modalButton,
+//                     ...(hoverStates.modalButtons[semester] ? styles.modalButtonHover : {})
+//                   }}
+//                   onClick={() => handleSemesterSelection(semester)}
+//                   onMouseEnter={() => handleMouseEnter(`modalButtons.${semester}`)}
+//                   onMouseLeave={() => handleMouseLeave(`modalButtons.${semester}`)}
+//                 >
+//                   {semester}
+//                 </button>
+//               ))}
+//             </div>
+//           </div>
+//         )}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Departments1;

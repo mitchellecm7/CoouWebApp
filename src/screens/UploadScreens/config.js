@@ -10,14 +10,14 @@ client
 // Client 1
 const client1 = new Client();
 client1
-  .setEndpoint('https://cloud.appwrite.io/v1')
+  .setEndpoint('https://fra.cloud.appwrite.io/v1')
   .setProject('676cc024000ad5ed402b') 
   // .setPlatform('com.officialcoouapp');
 
 // Client 2
 const client2 = new Client();
 client2
-  .setEndpoint('https://cloud.appwrite.io/v1')
+  .setEndpoint("https://fra.cloud.appwrite.io/v1")
   .setProject('676cc024000ad5ed402c')
   // .setPlatform('com.officialcoouapp');
 

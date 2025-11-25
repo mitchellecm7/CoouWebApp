@@ -1,14 +1,5 @@
 import React, { useState } from 'react';
-
-import { SafeAreaView, StatusBar, View, TouchableOpacity, Text, StyleSheet, Dimensions, ScrollView } from 'react-native';
-
-import Ionicons from 'react-native-vector-icons/Ionicons';
-
-import Modal from 'react-native-modal';
 import departments from '../../assets/departmentsData';
-
-
-const {width, height} = Dimensions.get('window');
 
 const Departments1m = ({ navigation }) => {
   const [isLevelMenuVisible, setLevelMenuVisible] = useState(false);
@@ -19,8 +10,9 @@ const Departments1m = ({ navigation }) => {
   const levels = ['100 level', '200 level', '300 level', '400 level', '500 level'];
   const semesters = ['1st semester', '2nd semester'];
 
-  
-  const filteredDepartments = departments.filter(department => department.id > 13 && department.id < 14);
+  // Replace with your actual departments data
+   const filteredDepartments = departments.filter(department => department.id > 13 && department.id < 14);
+
 
   const toggleLevelMenu = (departmentName) => {
     setSelectedDepartment(departmentName);
@@ -34,33 +26,19 @@ const Departments1m = ({ navigation }) => {
 
   const handleSemesterSelection = (semester) => {
     setSemesterMenuVisible(false);
-  
-    // Create a mapping of departments to their respective screen prefixes
-    const departmentPrefixMap = {
-      'Department of CRIMINOLOGY AND SECURITY STUDIES': 'Crim&SecSty',
-      'Department of ECONOMICS': 'Econ',
-      'Department of MASS COMMUNICATION': 'MassComm',
-      'Department of POLITICAL SCIENCE': 'PltScs',
-      'Department of PUBLIC ADMINISTRATION': 'PubAdm',
-      'Department of PSYCHOLOGY': 'Psych',
-      'Department of SOCIOLOGY': 'Socio',
-      'Department of COMPUTER SCIENCE': 'Cis',
-      // Add other departments here as needed
-      // Format: 'Department Name': 'ScreenPrefix',
+
+    const departmentPrefixes = {
+      'Department of LAW': 'Law',
     };
-  
-    // Generate the target screen name
-    const departmentPrefix = departmentPrefixMap[selectedDepartment];
+
+    const departmentPrefix = departmentPrefixes[selectedDepartment];
     
-    if (!departmentPrefix) {
-      // Handle case where department isn't in the map
-      return;
-    }
-  
-    const levelNumber = selectedLevel.split(' ')[0]; // Extracts "100" from "100 level"
-    const semesterNumber = semester === '1st semester' ? '1' : '2';
+    if (!departmentPrefix) return;
+
+    const levelNumber = selectedLevel.split(' ')[0];
+    const semesterNumber = semester.includes('1st') ? '1' : '2';
     const targetScreen = `${departmentPrefix}${levelNumber}${semesterNumber}`;
-  
+
     if (targetScreen) {
       navigation.push(targetScreen, {
         department: selectedDepartment,
@@ -70,346 +48,287 @@ const Departments1m = ({ navigation }) => {
     }
   };
 
-  // const handleSemesterSelection = (semester) => {
-  //   setSemesterMenuVisible(false);
+  // Internal CSS Styles
+  const styles = {
+    container: {
+      minHeight: '100vh',
+      backgroundColor: '#f5f5f5',
+      padding: '20px',
+      fontFamily: 'Arial, sans-serif',
+    },
+    content: {
+      maxWidth: '1200px',
+      margin: '0 auto',
+    },
+    departmentCard: {
+      marginBottom: '20px',
+      display: 'flex',
+      justifyContent: 'center',
+    },
+    departmentHeader: {
+      position: 'relative',
+      marginTop: '20px',
+      height: '90px',
+      marginBottom: '10px',
+      width: '100%',
+      maxWidth: '300px',
+      borderRadius: '20px',
+      backgroundColor: 'green',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      transition: 'all 0.2s ease',
+      cursor: 'pointer',
+      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+    },
+    departmentHeaderHover: {
+      transform: 'translateY(-2px)',
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+    },
+    departmentText: {
+      fontSize: '16px',
+      fontWeight: '700',
+      color: 'white',
+      textAlign: 'center',
+      padding: '0 20px',
+    },
+    dropdownButton: {
+      position: 'absolute',
+      right: '10px',
+      top: '5px',
+      background: 'none',
+      border: 'none',
+      color: 'white',
+      cursor: 'pointer',
+      padding: '5px',
+    },
+    dropdownIcon: {
+      fontSize: '16px',
+      transition: 'transform 0.2s ease',
+    },
+    dropdownIconHover: {
+      transform: 'scale(1.1)',
+    },
+    // Modal Styles
+    modalOverlay: {
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      zIndex: 1000,
+      padding: '20px',
+    },
+    modalContent: {
+      width: '100%',
+      maxWidth: '400px',
+      backgroundColor: 'white',
+      padding: '20px',
+      borderRadius: '10px',
+      position: 'relative',
+      boxShadow: '0 10px 25px rgba(0, 0, 0, 0.2)',
+    },
+    closeButton: {
+      position: 'absolute',
+      top: '10px',
+      right: '15px',
+      background: 'none',
+      border: 'none',
+      fontSize: '24px',
+      cursor: 'pointer',
+      color: '#333',
+      padding: '5px',
+    },
+    closeButtonHover: {
+      color: '#000',
+    },
+    modalButton: {
+      width: '100%',
+      padding: '15px 20px',
+      margin: '8px 0',
+      background: 'none',
+      border: 'none',
+      borderBottom: '1.5px solid #1d1615',
+      color: '#1d1615',
+      fontSize: '16px',
+      cursor: 'pointer',
+      textAlign: 'left',
+      transition: 'all 0.2s ease',
+    },
+    modalButtonHover: {
+      backgroundColor: '#f0f0f0',
+      borderRadius: '5px',
+    },
+    // Mobile Responsive Styles
+    mobileStyles: {
+      container: {
+        padding: '15px',
+      },
+      departmentHeader: {
+        height: '80px',
+        maxWidth: '280px',
+      },
+      departmentText: {
+        fontSize: '14px',
+        padding: '0 15px',
+      },
+      modalContent: {
+        margin: '20px',
+        padding: '15px',
+      },
+      modalButton: {
+        padding: '12px 15px',
+        fontSize: '14px',
+      },
+    },
+    smallMobileStyles: {
+      container: {
+        padding: '10px',
+      },
+      departmentHeader: {
+        height: '70px',
+        maxWidth: '260px',
+        marginTop: '15px',
+      },
+      departmentText: {
+        fontSize: '13px',
+        padding: '0 10px',
+      },
+      modalContent: {
+        margin: '10px',
+        padding: '12px',
+      },
+      closeButton: {
+        top: '5px',
+        right: '10px',
+        fontSize: '20px',
+      },
+      modalButton: {
+        padding: '10px 12px',
+        fontSize: '13px',
+      },
+    },
+  };
 
-  //   // Conditional navigation based on department, level, and semester
-  //   let targetScreen = '';
-  //   if (selectedDepartment === 'Department of CRIMINOLOGY AND SECURITY STUDIES') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'Crim&SecSty1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'Crim&SecSty1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'Crim&SecSty2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'Crim&SecSty2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'Crim&SecSty3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'Crim&SecSty3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'Crim&SecSty4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'Crim&SecSty4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'Crim&SecSty5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'Crim&SecSty5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   } 
-  //   else if (selectedDepartment === 'Department of ECONOMICS') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'Econ1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'Econ1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'Econ2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'Econ2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'Econ3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'Econ3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'Econ4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'Econ4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'Econ5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'Econ5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   }
-  //   else if (selectedDepartment === 'Department of MASS COMMUNICATION') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'MassComm1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'MassComm1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'MassComm2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'MassComm2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'MassComm3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'MassComm3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'MassComm4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'MassComm4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'MassComm5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'MassComm5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   }
-  //   else if (selectedDepartment === 'Department of POLITICAL SCIENCE') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'PltScs1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'PltScs1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'PltScs2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'PltScs2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'PltScs3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'PltScs3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'PltScs4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'PltScs4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'PltScs5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'PltScs5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   }
-  //   else if (selectedDepartment === 'Department of PUBLIC ADMINISTRATION') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'PubAdm1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'PubAdm1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'PubAdm2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'PubAdm2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'PubAdm3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'PubAdm3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'PubAdm4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'PubAdm4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'PubAdm5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'PubAdm5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   }
-  //   else if (selectedDepartment === 'Department of PSYCHOLOGY') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'Psycho1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'Psych1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'Psych2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'Psych2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'Psych3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'Psych3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'Psych4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'Psych4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'Psych5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'Psych5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   }
+  // Function to handle hover effects
+  const [hoverStates, setHoverStates] = useState({
+    department: false,
+    dropdown: false,
+    closeButton: false,
+    modalButtons: {},
+  });
 
-  //   else if (selectedDepartment === 'Department of SOCIOLOGY') {
-  //     if (selectedLevel === '100 level' && semester === '1st semester') {
-  //       targetScreen = 'Socio1001';
-  //     } else if (selectedLevel === '100 level' && semester === '2nd semester') {
-  //       targetScreen = 'Socio1002';
-  //     } else if (selectedLevel === '200 level' && semester === '1st semester') {
-  //       targetScreen = 'Socio2001';
-  //     } 
-  //     else if (selectedLevel === '200 level' && semester === '2nd semester') {
-  //       targetScreen = 'Socio2002';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '1st semester') {
-  //       targetScreen = 'Socio3001';
-  //     }
-  //     else if (selectedLevel === '300 level' && semester === '2nd semester') {
-  //       targetScreen = 'Socio3002';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '1st semester') {
-  //       targetScreen = 'Socio4001';
-  //     }
-  //     else if (selectedLevel === '400 level' && semester === '2nd semester') {
-  //       targetScreen = 'Socio4002';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '1st semester') {
-  //       targetScreen = 'Socio5001';
-  //     }
-  //     else if (selectedLevel === '500 level' && semester === '2nd semester') {
-  //       targetScreen = 'Socio5002';
-  //     }
-  //     //I will Add more conditions for other levels and semesters
-  //   }
-  //   // Add more conditions for other departments
+  const handleMouseEnter = (element) => {
+    setHoverStates(prev => ({ ...prev, [element]: true }));
+  };
 
-  //   if (targetScreen) {
-  //     navigation.push(targetScreen, {
-  //       department: selectedDepartment,
-  //       level: selectedLevel,
-  //       semester: semester,
-  //     });
-  //   }
-  
+  const handleMouseLeave = (element) => {
+    setHoverStates(prev => ({ ...prev, [element]: false }));
+  };
 
   return (
-    <SafeAreaView>
-      <StatusBar backgroundColor="#000" barStyle='light-content' animated={true} />
-      <ScrollView>
+    <div style={styles.container}>
+      <div style={styles.content}>
         {filteredDepartments.map((department) => (
-          <View style={styles.container} key={department.id}>
-            <View style={styles.departmentName}>
-              <Text style={styles.text}>{department.name}</Text>
-              <TouchableOpacity onPress={() => toggleLevelMenu(department.name)} style={styles.iconButton}>
-                <Ionicons name='chevron-down' size={25} color='white' />
-              </TouchableOpacity>
-            </View>
-          </View>
+          <div style={styles.departmentCard} key={department.id}>
+            <div 
+              style={{
+                ...styles.departmentHeader,
+                ...(hoverStates.department ? styles.departmentHeaderHover : {})
+              }}
+              onMouseEnter={() => handleMouseEnter('department')}
+              onMouseLeave={() => handleMouseLeave('department')}
+            >
+              <span style={styles.departmentText}>{department.name}</span>
+              <button 
+                style={styles.dropdownButton}
+                onClick={() => toggleLevelMenu(department.name)}
+                onMouseEnter={() => handleMouseEnter('dropdown')}
+                onMouseLeave={() => handleMouseLeave('dropdown')}
+              >
+                <span style={{
+                  ...styles.dropdownIcon,
+                  ...(hoverStates.dropdown ? styles.dropdownIconHover : {})
+                }}>
+                  ▼
+                </span>
+              </button>
+            </div>
+          </div>
         ))}
 
-<Modal 
-  isVisible={isLevelMenuVisible} 
-  onBackdropPress={toggleLevelMenu}
-  style={styles.modal}
-  // style={{ justifyContent: 'center', alignItems: 'center' }} // Center the modal
->
-  <View style={styles.modalContent}>
-    <TouchableOpacity onPress={toggleLevelMenu} style={styles.closeButton}>
-      <Ionicons name='close' size={25} color='black' />
-    </TouchableOpacity>
-    {levels.map((level) => (
-      <TouchableOpacity key={level} onPress={() => toggleSemesterMenu(level)} style={styles.modalButton}>
-        <Text style={styles.modalText}>{level}</Text>
-      </TouchableOpacity>
-    ))}
-  </View>
-</Modal>
+        {/* Level Selection Modal */}
+        {isLevelMenuVisible && (
+          <div style={styles.modalOverlay} onClick={toggleLevelMenu}>
+            <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+              <button 
+                style={{
+                  ...styles.closeButton,
+                  ...(hoverStates.closeButton ? styles.closeButtonHover : {})
+                }}
+                onClick={toggleLevelMenu}
+                onMouseEnter={() => handleMouseEnter('closeButton')}
+                onMouseLeave={() => handleMouseLeave('closeButton')}
+              >
+                ×
+              </button>
+              {levels.map((level) => (
+                <button
+                  key={level}
+                  style={{
+                    ...styles.modalButton,
+                    ...(hoverStates.modalButtons[level] ? styles.modalButtonHover : {})
+                  }}
+                  onClick={() => toggleSemesterMenu(level)}
+                  onMouseEnter={() => handleMouseEnter(`modalButtons.${level}`)}
+                  onMouseLeave={() => handleMouseLeave(`modalButtons.${level}`)}
+                >
+                  {level}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
-<Modal 
-  isVisible={isSemesterMenuVisible} 
-  onBackdropPress={() => setSemesterMenuVisible(false)}
-  style={styles.modal} // Center the modal
->
-  <View style={styles.modalContent}>
-    <TouchableOpacity onPress={() => setSemesterMenuVisible(false)} style={styles.closeButton}>
-      <Ionicons name='close' size={25} color='black' />
-    </TouchableOpacity>
-    {semesters.map((semester) => (
-      <TouchableOpacity key={semester} onPress={() => handleSemesterSelection(semester)} style={styles.modalButton}>
-        <Text style={styles.modalText}>{semester}</Text>
-      </TouchableOpacity>
-    ))}
-  </View>
-</Modal>
-      </ScrollView>
-    </SafeAreaView>
+        {/* Semester Selection Modal */}
+        {isSemesterMenuVisible && (
+          <div style={styles.modalOverlay} onClick={() => setSemesterMenuVisible(false)}>
+            <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+              <button 
+                style={{
+                  ...styles.closeButton,
+                  ...(hoverStates.closeButton ? styles.closeButtonHover : {})
+                }}
+                onClick={() => setSemesterMenuVisible(false)}
+                onMouseEnter={() => handleMouseEnter('closeButton')}
+                onMouseLeave={() => handleMouseLeave('closeButton')}
+              >
+                ×
+              </button>
+              {semesters.map((semester) => (
+                <button
+                  key={semester}
+                  style={{
+                    ...styles.modalButton,
+                    ...(hoverStates.modalButtons[semester] ? styles.modalButtonHover : {})
+                  }}
+                  onClick={() => handleSemesterSelection(semester)}
+                  onMouseEnter={() => handleMouseEnter(`modalButtons.${semester}`)}
+                  onMouseLeave={() => handleMouseLeave(`modalButtons.${semester}`)}
+                >
+                  {semester}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
   );
 };
-export default Departments1m;
 
-const styles = StyleSheet.create({
-  container: {
-    width: width,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  departmentName: {
-    marginTop: 20,
-    height: 90,
-    marginVertical: 10,
-    width: 300,
-    borderRadius: 20,
-    backgroundColor: 'green',
-    justifyContent: 'center',
-    alignItems: 'center',
-    position: 'relative',
-    transition: '.2s',
-  },
-  iconButton: {
-    position: 'absolute',
-    right: 10,
-    top: 5,
-  },
-  text: {
-    fontSize: 16,
-    fontWeight: '700',
-    color: 'white',
-  },
-  modal: {
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  modalContent: {
-    width: '60%',
-    backgroundColor: '#fff',
-    padding: 20,
-    borderRadius: 10,
-    alignItems: 'center',
-  },
-  modalButton: {
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    marginVertical: 5,
-  },
-  modalText: {
-    fontSize: 16,
-    borderBottomWidth: 1.5,
-    borderBottomColor: 'black',
-    color: '#1d1615'
-  },
-  closeButton: {
-    alignSelf: 'flex-end',
-  },
-});
+export default Departments1m;

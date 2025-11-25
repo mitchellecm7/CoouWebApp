@@ -325,7 +325,7 @@ const Home1 = () => {
 
       <div className="academia-section">
         <p className="academia-text">
-          Choose your Human Knowledge or Academia i.e indicate whether your faculty
+          Choose your Academic Domain i.e indicate whether your faculty
           belongs to either Arts or Sciences
         </p>
       </div>

@@ -1,22 +1,27 @@
 import React, { useState } from 'react';
 import departments from '../../assets/departmentsData';
+import { useNavigate } from 'react-router-dom';
 
-const Departments1g = ({ navigation }) => {
+const Departments1k = ({  }) => {
+    const navigate = useNavigate();
+
   const [isLevelMenuVisible, setLevelMenuVisible] = useState(false);
   const [isSemesterMenuVisible, setSemesterMenuVisible] = useState(false);
   const [selectedLevel, setSelectedLevel] = useState('');
   const [selectedDepartment, setSelectedDepartment] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');
 
-  const levels = ['100 level', '200 level', '300 level', '400 level', '500 level'];
+  const levels = ['100 level', '200 level', '300 level', '400 level'];
   const semesters = ['1st semester', '2nd semester'];
 
   // Replace with your actual departments data
-    const filteredDepartments = departments.filter(department => department.id > 7 && department.id < 8);
-
+    const filteredDepartments = departments.filter(department => department.id > 11 && department.id < 12);
 
   const toggleLevelMenu = (departmentName) => {
     setSelectedDepartment(departmentName);
     setLevelMenuVisible(!isLevelMenuVisible);
+    // Close semester menu if open
+    setSemesterMenuVisible(false);
   };
 
   const toggleSemesterMenu = (level) => {
@@ -27,23 +32,22 @@ const Departments1g = ({ navigation }) => {
   const handleSemesterSelection = (semester) => {
     setSemesterMenuVisible(false);
 
-    const departmentPrefixes = {
-      'Department of LAW': 'Law',
+    const departmentScreenMap = {
+      'Department of COMPUTER SCIENCE': 'Cis',
     };
 
-    const departmentPrefix = departmentPrefixes[selectedDepartment];
-    
-    if (!departmentPrefix) return;
-
-    const levelNumber = selectedLevel.split(' ')[0];
-    const semesterNumber = semester.includes('1st') ? '1' : '2';
-    const targetScreen = `${departmentPrefix}${levelNumber}${semesterNumber}`;
+    const departmentPrefix = departmentScreenMap[selectedDepartment];
+    const levelPrefix = selectedLevel.replace('level', '').trim();
+    const semesterPrefix = semester === '1st semester' ? '1' : '2';
+    const targetScreen = `${departmentPrefix}${levelPrefix}${semesterPrefix}`;
 
     if (targetScreen) {
-      navigation.push(targetScreen, {
-        department: selectedDepartment,
-        level: selectedLevel,
-        semester: semester,
+      navigate(`/${targetScreen.toLowerCase()}`, {
+        state: {
+          department: selectedDepartment,
+          level: selectedLevel,
+          semester: semester,
+        }
       });
     }
   };
@@ -109,7 +113,7 @@ const Departments1g = ({ navigation }) => {
     dropdownIconHover: {
       transform: 'scale(1.1)',
     },
-    // Modal Styles
+    // Updated Modal Styles (from QuickStudy)
     modalOverlay: {
       position: 'fixed',
       top: 0,
@@ -121,46 +125,41 @@ const Departments1g = ({ navigation }) => {
       justifyContent: 'center',
       alignItems: 'center',
       zIndex: 1000,
-      padding: '20px',
     },
     modalContent: {
-      width: '100%',
-      maxWidth: '400px',
-      backgroundColor: 'white',
+      width: '60%',
+      maxWidth: '300px',
+      backgroundColor: '#fff',
       padding: '20px',
       borderRadius: '10px',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
       position: 'relative',
-      boxShadow: '0 10px 25px rgba(0, 0, 0, 0.2)',
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
     },
     closeButton: {
-      position: 'absolute',
-      top: '10px',
-      right: '15px',
+      alignSelf: 'flex-end',
       background: 'none',
       border: 'none',
-      fontSize: '24px',
+      fontSize: '20px',
       cursor: 'pointer',
-      color: '#333',
+      color: '#000',
+      marginBottom: '10px',
       padding: '5px',
     },
-    closeButtonHover: {
-      color: '#000',
-    },
     modalButton: {
-      width: '100%',
       padding: '15px 20px',
-      margin: '8px 0',
+      margin: '5px 0',
       background: 'none',
       border: 'none',
-      borderBottom: '1.5px solid #1d1615',
-      color: '#1d1615',
       fontSize: '16px',
       cursor: 'pointer',
-      textAlign: 'left',
-      transition: 'all 0.2s ease',
-    },
-    modalButtonHover: {
-      backgroundColor: '#f0f0f0',
+      color: '#1d1615',
+      borderBottom: '1.5px solid #e0e0e0',
+      textAlign: 'center',
+      width: '100%',
+      transition: 'background-color 0.2s ease',
       borderRadius: '5px',
     },
     // Mobile Responsive Styles
@@ -261,29 +260,36 @@ const Departments1g = ({ navigation }) => {
           </div>
         ))}
 
-        {/* Level Selection Modal */}
+        {/* Level Selection Modal - Updated Styling */}
         {isLevelMenuVisible && (
-          <div style={styles.modalOverlay} onClick={toggleLevelMenu}>
-            <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+          <div 
+            style={styles.modalOverlay} 
+            onClick={() => setLevelMenuVisible(false)}
+          >
+            <div 
+              style={styles.modalContent} 
+              onClick={(e) => e.stopPropagation()}
+            >
               <button 
-                style={{
-                  ...styles.closeButton,
-                  ...(hoverStates.closeButton ? styles.closeButtonHover : {})
-                }}
-                onClick={toggleLevelMenu}
+                style={styles.closeButton} 
+                onClick={() => setLevelMenuVisible(false)}
                 onMouseEnter={() => handleMouseEnter('closeButton')}
                 onMouseLeave={() => handleMouseLeave('closeButton')}
               >
-                ×
+                ✕
               </button>
+              <h3 style={{marginBottom: '15px', color: '#333'}}>Select Level</h3>
               {levels.map((level) => (
                 <button
                   key={level}
                   style={{
                     ...styles.modalButton,
-                    ...(hoverStates.modalButtons[level] ? styles.modalButtonHover : {})
+                    ...(hoverStates.modalButtons[level] ? { backgroundColor: '#f5f5f5' } : {})
                   }}
-                  onClick={() => toggleSemesterMenu(level)}
+                  onClick={() => {
+                    setLevelMenuVisible(false);
+                    toggleSemesterMenu(level);
+                  }}
                   onMouseEnter={() => handleMouseEnter(`modalButtons.${level}`)}
                   onMouseLeave={() => handleMouseLeave(`modalButtons.${level}`)}
                 >
@@ -294,27 +300,31 @@ const Departments1g = ({ navigation }) => {
           </div>
         )}
 
-        {/* Semester Selection Modal */}
+        {/* Semester Selection Modal - Updated Styling */}
         {isSemesterMenuVisible && (
-          <div style={styles.modalOverlay} onClick={() => setSemesterMenuVisible(false)}>
-            <div style={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+          <div 
+            style={styles.modalOverlay} 
+            onClick={() => setSemesterMenuVisible(false)}
+          >
+            <div 
+              style={styles.modalContent} 
+              onClick={(e) => e.stopPropagation()}
+            >
               <button 
-                style={{
-                  ...styles.closeButton,
-                  ...(hoverStates.closeButton ? styles.closeButtonHover : {})
-                }}
+                style={styles.closeButton} 
                 onClick={() => setSemesterMenuVisible(false)}
                 onMouseEnter={() => handleMouseEnter('closeButton')}
                 onMouseLeave={() => handleMouseLeave('closeButton')}
               >
-                ×
+                ✕
               </button>
+              <h3 style={{marginBottom: '15px', color: '#333'}}>Select Semester</h3>
               {semesters.map((semester) => (
                 <button
                   key={semester}
                   style={{
                     ...styles.modalButton,
-                    ...(hoverStates.modalButtons[semester] ? styles.modalButtonHover : {})
+                    ...(hoverStates.modalButtons[semester] ? { backgroundColor: '#f5f5f5' } : {})
                   }}
                   onClick={() => handleSemesterSelection(semester)}
                   onMouseEnter={() => handleMouseEnter(`modalButtons.${semester}`)}
@@ -331,4 +341,4 @@ const Departments1g = ({ navigation }) => {
   );
 };
 
-export default Departments1g;
+export default Departments1k;

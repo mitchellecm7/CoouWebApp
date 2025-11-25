@@ -110,6 +110,27 @@ import CSC474 from './Faculties/Faculty of Physical Sciences/400level/2nd Semest
 import CYB407 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/CYB407';
 import Arts from './screens/Faculties/Arts';
 import Sciences from './screens/Faculties/Sciences';
+import Departments1b from './Faculties/Faculty of Arts/Departments1b';
+import Departments1g from './Faculties/Faculty of Law/Departments1g';
+import Departments1 from './Faculties/Faculty of Humanities/Departments1';
+import Departments1m from './Faculties/Faculty of Social Sciences/Departments1m';
+import Departments1l from './Faculties/Faculty of Natural Sciences/Departments1l';
+import Departments1j from './Faculties/Faculty of Pharmaceutical Sciences/Departments1j';
+import Departments1i from './Faculties/Faculty of Medicine/Departments1i';
+import Departments1h from './Faculties/Faculty of Management Sciences/Departments1h';
+import Departments1f from './Faculties/Faculty of Environmental Sciences/Departments1f';
+import Departments1e from './Faculties/Faculty of Engineering/Departments1e';
+import Departments1d from './Faculties/Faculty of Education/Departments1d';
+import Departments1c from './Faculties/Faculty of Basic Medical Sciences/Departments1c';
+import Departments1a from './Faculties/Faculty of Agriculture/Departments1a';
+import Departments1k from './Faculties/Faculty of Physical Sciences/Departments1k';
+import Cis1002 from './Faculties/Faculty of Physical Sciences/100level/2nd Semester/Computer Science/Cis1002';
+import Cis2001 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/Cis2001';
+import Cis2002 from './Faculties/Faculty of Physical Sciences/200level/2nd Semester/Computer Science/Cis2002';
+import Cis3001 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/Cis3001';
+import Cis3002 from './Faculties/Faculty of Physical Sciences/300level/2nd Semester/Computer Science/Cis3002';
+import Cis4001 from './Faculties/Faculty of Physical Sciences/400level/1st semester/Computer Science/Cis4001';
+import Cis4002 from './Faculties/Faculty of Physical Sciences/400level/2nd Semester/Computer Science/Cis4002';
 // import CSC309 from './Faculties/Faculty of Physical Sciences/300level/1st semester/Computer Science/CSC309';
 // import ENT211 from './Faculties/Faculty of Physical Sciences/200level/1st semester/Computer Science/ENT211';
 // import COS115 from './Faculties/Faculty of Physical Sciences/100level/1st semester/Computer Science/COS115';
@@ -119,7 +140,9 @@ const App = () => {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<BottomTabScreen />} />
         <Route path="/*" element={<BottomTabScreen />} />
+
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPasswordScreen />} />
@@ -134,7 +157,7 @@ const App = () => {
         <Route path="/screen4002" element={<Screen4002 />} />
         <Route path="/screen5001" element={<Screen5001 />} />
         <Route path="/screen5002" element={<Screen5002 />} />
-        <Route path="/cos115" element={<COS115 />} />
+        {/* <Route path="/cos115" element={<COS115 />} />
         <Route path="/csc105" element={<CSC105 />} />
         <Route path="/csc111" element={<CSC111 />} />
         <Route path="/gst111" element={<GST111 />} />
@@ -173,16 +196,16 @@ const App = () => {
         <Route path="/ift212" element={<IFT212 />} />
         <Route path="/mth202" element={<MTH202 />} />
         <Route path="/csc309" element={<CSC309 />} />
+        <Route path="/csc375" element={<CSC375 />} />
         <Route path="/csc321" element={<CSC321 />} />
         <Route path="/csc323" element={<CSC323 />} />
         <Route path="/csc371" element={<CSC371 />} />
-        <Route path="/csc375" element={<CSC375 />} />
         <Route path="/cyb301" element={<CYB301 />} />
         <Route path="/ict305" element={<ICT305 />} />
         <Route path="/csc301" element={<CSC301 />} />
+        <Route path="/csc310" element={<CSC310 />} />
         <Route path="/csc309" element={<CSC309 />} />
         <Route path="/csc308" element={<CSC308 />} />
-        <Route path="/csc310" element={<CSC310 />} />
         <Route path="/csc322" element={<CSC322 />} />
         <Route path="/csc399" element={<CSC399 />} />
         <Route path="/dts304" element={<DTS304 />} />
@@ -211,14 +234,125 @@ const App = () => {
         <Route path="/csc464" element={<CSC464 />} />
         <Route path="/csc472" element={<CSC472 />} />
         <Route path="/csc474" element={<CSC474 />} />
-        <Route path="/cyb407" element={<CYB407 />} />
+        <Route path="/cyb407" element={<CYB407 />} /> */}
+        {/* 100 Level Courses */}
+        <Route path="/cos101" element={<COS101 title="Introduction to Computing Sciences"/>} />
+        <Route path="/cos102" element={<COS102 title="Problem Solving"/>} />
+        <Route path="/cos115" element={<COS115 title="Introduction to Online Business Systems"/>} />
+        <Route path="/cos192" element={<COS192 title="Computer Applications and Practice"/>} />
+        <Route path="/csc104" element={<CSC104 title="Programming Logic with C# principles"/>} />
+        <Route path="/csc105" element={<CSC105 title="Computer Laboratory Operations Ⅰ"/>} />
+        <Route path="/csc111" element={<CSC111 title="Computer Hardware"/>} />
+        <Route path="/csc128" element={<CSC128 title="Foundations of Sequential Program"/>} />
+        <Route path="/gst111" element={<GST111 title="Communication in English"/>} />
+        <Route path="/gst112" element={<GST112 title="Nigerian Peoples and Culture"/>} />
+        <Route path="/gey116" element={<GEY116 title="Earth Resources for Industrial Sciences"/>} />
+        <Route path="/mth101" element={<MTH101 title="Elementary Mathematics Ⅰ"/>} />
+        <Route path="/mth102" element={<MTH102 title="Elementary Mathematics Ⅱ"/>} />
+        <Route path="/sta111" element={<STA111 title="Descriptive Statistics"/>} />
+        <Route path="/phy101" element={<PHY101 title="General Physics Ⅰ"/>} />
+        <Route path="/phy102" element={<PHY102 title="General Physics Ⅱ"/>} />
+        <Route path="/phy106" element={<PHY106 title="Introduction to Physical Sciences"/>} />
+        <Route path="/phy107" element={<PHY107 title="Practical Physics Ⅰ"/>} />
+        <Route path="/phy108" element={<PHY108 />} />
+
+        {/* <Route path="/phy192" element={<PHY192 title="Practical Physics"/>} /> */}
+        {/* <Route path="/chem171" element={<Chem171 title="Practical Chemistry"/>} /> */}
+        {/* <Route path="/chem172" element={<Chem172 title="Practical Chemistry"/>} /> */}
+
+        {/* 200 Level Courses */}
+        <Route path="/cos201" element={<COS201 title="Computer Programming Ⅰ"/>} />
+        <Route path="/cos202" element={<COS202 title="Computer Programming Ⅱ"/>} />
+        <Route path="/cos261" element={<COS261 title="Object Oriented Programming Ⅰ with C++ & VB"/>} />
+        <Route path="/cos262" element={<COS262 title="Web Design and Development"/>} />
+        <Route path="/cos264" element={<COS264 title="Object Oriented Programming Ⅱ with Java"/>} />
+        <Route path="/csc203" element={<CSC203 title="Discrete Structures"/>} />
+        <Route path="/csc208" element={<CSC208 title="Ethics and Legal issues in Computer Science"/>} />
+        <Route path="/csc221" element={<CSC221 title="Compiler Construction"/>} />
+        <Route path="/csc231" element={<CSC231 title="Operating Systems"/>} />
+        <Route path="/csc266" element={<CSC266 title="Scientific Programming with Python"/>} />
+        <Route path="/csc267" element={<CSC267 title="System Programming with C"/>} />
+        <Route path="/csc299" element={<CSC299 title="SIWES Ⅰ"/>} />
+        <Route path="/ent211" element={<ENT211 title="Entrepreneurship and Innovation"/>} />
+        <Route path="/gey206" element={<GEY206 title="Fundamentals of local Content Development"/>} />
+        <Route path="/gst212" element={<GST212 title="Philosophy, Logic and Human Existence"/>} />
+        <Route path="/ift211" element={<IFT211 title="Digital Logic Design"/>} />
+        <Route path="/ift212" element={<IFT212 title="Computer Architecture and Organization"/>} />
+        <Route path="/mth201" element={<MTH201 title="Mathematical Methods Ⅰ"/>} />
+        <Route path="/mth202" element={<MTH202 title="Elementary differential Equations"/>} />
+        <Route path="/sen201" element={<SEN201 title="Introduction to software engineering"/>} />
+
+        {/* 300 Level Courses */}
+        <Route path="/csc308" element={<CSC308 title="Operating Systems"/>} />
+        <Route path="/csc309" element={<CSC309 title="Artificial Intelligence"/>} />
+        <Route path="/csc322" element={<CSC322 title="Computer Science Innovation and New technologies"/>} />
+        <Route path="/csc323" element={<CSC323 title="Database Design and Management"/>} />
+        <Route path="/csc371" element={<CSC371 title="Pc Maintenance and Repairs"/>} />
+        <Route path="/csc399" element={<CSC399 title="SIWES Ⅱ"/>} />
+        <Route path="/cyb301" element={<CYB301 title="Introduction to Cybersecurity Strategy"/>} />
+        <Route path="/dts304" element={<DTS304 title="Data Management Ⅰ"/>} />
+        <Route path="/csc375" element={<CSC375 title='Computer Science Laboratory Ⅰ' />} />
+        <Route path="/csc321" element={<CSC321 title='Distributed Computer Systems'/>} />
+        <Route path="/ent312" element={<ENT312 title="Venture Creation"/>} />
+        <Route path="/gst312" element={<GST312 title="Peace and Conflict Resolution"/>} />
+        <Route path="/ict305" element={<ICT305 title="Data communication system & Network"/>} />
+        <Route path="/cooucsc322" element={<COOUCSC322 title="Computer Modeling and Simulation"/>} />
+        <Route path="/csc301" element={<CSC301 title='Introduction to Cybersecurity Strategy' />} />
+        <Route path="/csc310" element={<CSC310 title='Computational and Numerical methods' />} />
+        {/* 400 Level Courses */}
+        <Route path="/ccs409" element={<CCS409 title="Research Methodology and Technical Report Writing"/>} />
+        <Route path="/csc400" element={<CSC400 title="Entrepreneuship Project"/>} />
+        <Route path="/csc401" element={<CSC401 title="Organization of Programming Languages"/>} />
+        <Route path="/csc404" element={<CSC404 title="Artificial Intelligence"/>} />
+        <Route path="/csc405" element={<CSC405 title="Software Engineering Ⅱ"/>} />
+        <Route path="/csc411" element={<CSC411 title="Computer Modelling and Simulation"/>} />
+        <Route path="/csc412" element={<CSC412 title="Net Centric Computing & Web Applications"/>} />
+        <Route path="/csc415" element={<CSC415 title="Algorithms and Complexity Analysis"/>} />
+        <Route path="/csc421" element={<CSC421 title="Project Management"/>} />
+        <Route path="/csc424" element={<CSC424 title="Remoting Sensing and GIS"/>} />
+        <Route path="/csc426" element={<CSC426 title="Information Systems and Management"/>} />
+        <Route path="/csc428" element={<CSC428 title="Data Analysis and Data Mining"/>} />
+        <Route path="/csc431" element={<CSC431 title="Distributed Computer Systems"/>} />
+        <Route path="/csc441" element={<CSC441 title="Computer Graphics and Visualization"/>} />
+        <Route path="/csc451" element={<CSC451 title="Human Computer Interaction"/>} />
+        <Route path="/csc454" element={<CSC454 title="Data Communication and Computer Networks"/>} />
+        <Route path="/csc464" element={<CSC464 title="Computer Performance Evaluation"/>} />
+        <Route path="/csc471" element={<CSC471 title="Seminar"/>} />
+        <Route path="/csc472" element={<CSC472 title="Final Year Project"/>} />
+        <Route path="/csc473" element={<CSC473 title="Computer Science Laboratory Ⅱ"/>} />
+        <Route path="/csc474" element={<CSC474 title="Computer Science Laboratory Ⅲ"/>} />
+        <Route path="/cyb407" element={<CYB407 title="Information Security"/>} />
+
         <Route path="/arts" element={<Arts />} />
+        <Route path="/departments1b" element={<Departments1b />} />
+        <Route path="/departments1g" element={<Departments1g />} />
+        <Route path="/departments1a" element={<Departments1a />} />
+        <Route path="/departments1c" element={<Departments1c />} />
+        <Route path="/departments1d" element={<Departments1d />} />
+        <Route path="/departments1e" element={<Departments1e />} />
+        <Route path="/departments1f" element={<Departments1f />} />
+        <Route path="/departments1g" element={<Departments1g />} />
+        <Route path="/departments1" element={<Departments1 />} />
+        <Route path="/departments1h" element={<Departments1h />} />
+        <Route path="/departments1i" element={<Departments1i />} />
+        <Route path="/departments1j" element={<Departments1j />} />
+        <Route path="/departments1k" element={<Departments1k />} />
+        <Route path="/departments1l" element={<Departments1l />} />
+        <Route path="/departments1m" element={<Departments1m />} />
         <Route path="/sciences" element={<Sciences />} />
         
         <Route path="/screen1002" element={<Screen1002 />} />
         <Route path="/cis1001" element={<Cis1001 />} />
-        <Route path="/cos101" element={<COS101 title="Introduction to Computing Sciences"/>} />
+        <Route path="/cis1002" element={<Cis1002 />} />
+        <Route path="/cis2001" element={<Cis2001 />} />
+        <Route path="/cis2002" element={<Cis2002 />} />
+        <Route path="/cis3001" element={<Cis3001 />} />
+        <Route path="/cis3002" element={<Cis3002 />} />
+        <Route path="/cis4001" element={<Cis4001 />} />
+        <Route path="/cis4002" element={<Cis4002 />} />
+        {/* <Route path="/cos101" element={<COS101 title="Introduction to Computing Sciences"/>} /> */}
         <Route path="/exammode" element={<ExamMode />} />
+        <Route path="/reset-password" element={<ResetPasswordScreen />} />
       </Routes>
     </Router>
   );
@@ -561,3 +695,106 @@ export default App;
 // }
 
 // export default App;
+// {/* 100 Level Courses */}
+// <Route path="/cos101" element={<COS101 title="Introduction to Computing Sciences"/>} />
+// <Route path="/cos102" element={<COS102 title="Problem Solving"/>} />
+// <Route path="/cos115" element={<COS115 title="Introduction to Online Business Systems"/>} />
+// <Route path="/cos192" element={<COS192 title="Computer Applications and Practice"/>} />
+// <Route path="/csc104" element={<CSC104 title="Programming Logic with C# principles"/>} />
+// <Route path="/csc105" element={<CSC105 title="Computer Laboratory Operations Ⅰ"/>} />
+// <Route path="/csc111" element={<CSC111 title="Computer Hardware"/>} />
+// <Route path="/csc128" element={<CSC128 title="Foundations of Sequential Program"/>} />
+// <Route path="/gst111" element={<GST111 title="Communication in English"/>} />
+// <Route path="/gst112" element={<GST112 title="Nigerian Peoples and Culture"/>} />
+// <Route path="/gey116" element={<GEY116 title="Earth Resources for Industrial Sciences"/>} />
+// <Route path="/mth101" element={<MTH101 title="Elementary Mathematics Ⅰ"/>} />
+// <Route path="/mth102" element={<MTH102 title="Elementary Mathematics Ⅱ"/>} />
+// <Route path="/sta111" element={<STA111 title="Descriptive Statistics"/>} />
+// <Route path="/phy101" element={<PHY101 title="General Physics Ⅰ"/>} />
+// <Route path="/phy102" element={<PHY102 title="General Physics Ⅱ"/>} />
+// <Route path="/phy106" element={<PHY106 title="Introduction to Physical Sciences"/>} />
+// <Route path="/phy107" element={<PHY107 title="Practical Physics Ⅰ"/>} />
+// <Route path="/phy192" element={<PHY192 title="Practical Physics"/>} />
+// <Route path="/chem171" element={<Chem171 title="Practical Chemistry"/>} />
+// <Route path="/chem172" element={<Chem172 title="Practical Chemistry"/>} />
+
+// {/* 200 Level Courses */}
+// <Route path="/cos201" element={<COS201 title="Computer Programming Ⅰ"/>} />
+// <Route path="/cos202" element={<COS202 title="Computer Programming Ⅱ"/>} />
+// <Route path="/cos261" element={<COS261 title="Object Oriented Programming Ⅰ with C++ & VB"/>} />
+// <Route path="/cos262" element={<COS262 title="Web Design and Development"/>} />
+// <Route path="/cos264" element={<COS264 title="Object Oriented Programming Ⅱ with Java"/>} />
+// <Route path="/csc203" element={<CSC203 title="Discrete Structures"/>} />
+// <Route path="/csc208" element={<CSC208 title="Ethics and Legal issues in Computer Science"/>} />
+// <Route path="/csc221" element={<CSC221 title="Compiler Construction"/>} />
+// <Route path="/csc231" element={<CSC231 title="Operating Systems"/>} />
+// <Route path="/csc266" element={<CSC266 title="Scientific Programming with Python"/>} />
+// <Route path="/csc267" element={<CSC267 title="System Programming with C"/>} />
+// <Route path="/csc299" element={<CSC299 title="SIWES Ⅰ"/>} />
+// <Route path="/ent211" element={<ENT211 title="Entrepreneurship and Innovation"/>} />
+// <Route path="/gey206" element={<GEY206 title="Fundamentals of local Content Development"/>} />
+// <Route path="/gst212" element={<GST212 title="Philosophy, Logic and Human Existence"/>} />
+// <Route path="/ift211" element={<IFT211 title="Digital Logic Design"/>} />
+// <Route path="/ift212" element={<IFT212 title="Computer Architecture and Organization"/>} />
+// <Route path="/mth201" element={<MTH201 title="Mathematical Methods Ⅰ"/>} />
+// <Route path="/mth202" element={<MTH202 title="Elementary differential Equations"/>} />
+// <Route path="/sen201" element={<SEN201 title="Introduction to software engineering"/>} />
+
+// {/* 300 Level Courses */}
+// <Route path="/csc308" element={<CSC308 title="Operating Systems"/>} />
+// <Route path="/csc309" element={<CSC309 title="Artificial Intelligence"/>} />
+// <Route path="/csc322" element={<CSC322 title="Computer Science Innovation and New technologies"/>} />
+// <Route path="/csc323" element={<CSC323 title="Database Design and Management"/>} />
+// <Route path="/csc371" element={<CSC371 title="Pc Maintenance and Repairs"/>} />
+// <Route path="/csc399" element={<Csc399 title="SIWES Ⅱ"/>} />
+// <Route path="/cyb301" element={<CYB301 title="Introduction to Cybersecurity Strategy"/>} />
+// <Route path="/dts304" element={<DTS304 title="Data Management Ⅰ"/>} />
+// <Route path="/ent312" element={<ENT312 title="Venture Creation"/>} />
+// <Route path="/gst312" element={<GST312 title="Peace and Conflict Resolution"/>} />
+// <Route path="/ict305" element={<ICT305 title="Data communication system & Network"/>} />
+// <Route path="/cooucsc322" element={<COOUCSC322 title="Computer Modeling and Simulation"/>} />
+
+// {/* 400 Level Courses */}
+// <Route path="/ccs409" element={<CCS409 title="Research Methodology and Technical Report Writing"/>} />
+// <Route path="/csc400" element={<CSC400 title="Entrepreneuship Project"/>} />
+// <Route path="/csc401" element={<CSC401 title="Organization of Programming Languages"/>} />
+// <Route path="/csc404" element={<CSC404 title="Artificial Intelligence"/>} />
+// <Route path="/csc405" element={<CSC405 title="Software Engineering Ⅱ"/>} />
+// <Route path="/csc411" element={<CSC411 title="Computer Modelling and Simulation"/>} />
+// <Route path="/csc412" element={<CSC412 title="Net Centric Computing & Web Applications"/>} />
+// <Route path="/csc415" element={<CSC415 title="Algorithms and Complexity Analysis"/>} />
+// <Route path="/csc421" element={<CSC421 title="Project Management"/>} />
+// <Route path="/csc424" element={<CSC424 title="Remoting Sensing and GIS"/>} />
+// <Route path="/csc426" element={<CSC426 title="Information Systems and Management"/>} />
+// <Route path="/csc428" element={<CSC428 title="Data Analysis and Data Mining"/>} />
+// <Route path="/csc431" element={<CSC431 title="Distributed Computer Systems"/>} />
+// <Route path="/csc441" element={<CSC441 title="Computer Graphics and Visualization"/>} />
+// <Route path="/csc451" element={<CSC451 title="Human Computer Interaction"/>} />
+// <Route path="/csc454" element={<CSC454 title="Data Communication and Computer Networks"/>} />
+// <Route path="/csc464" element={<CSC464 title="Computer Performance Evaluation"/>} />
+// <Route path="/csc471" element={<CSC471 title="Seminar"/>} />
+// <Route path="/csc472" element={<CSC472 title="Final Year Project"/>} />
+// <Route path="/csc473" element={<CSC473 title="Computer Science Laboratory Ⅱ"/>} />
+// <Route path="/csc474" element={<CSC474 title="Computer Science Laboratory Ⅲ"/>} />
+// <Route path="/cyb407" element={<CYB407 title="Information Security"/>} />
+
+// {/* Screen Routes */}
+// <Route path="/screen1001" element={<Screen1001 title="100 level 1st Semester"/>} />
+// <Route path="/screen1002" element={<Screen1002 title="100 level 2nd Semester"/>} />
+// <Route path="/screen2001" element={<Screen2001 title="200 level 1st Semester"/>} />
+// <Route path="/screen2002" element={<Screen2002 title="200 level 2nd Semester"/>} />
+// <Route path="/screen3001" element={<Screen3001 title="300 level 1st Semester"/>} />
+// <Route path="/screen3002" element={<Screen3002 title="300 level 2nd Semester"/>} />
+// <Route path="/screen4001" element={<Screen4001 title="400 level 1st Semester"/>} />
+// <Route path="/screen4002" element={<Screen4002 title="400 level 2nd Semester"/>} />
+// <Route path="/screen5001" element={<Screen5001 title="500 level 1st Semester"/>} />
+// <Route path="/screen5002" element={<Screen5002 title="500 level 2nd Semester"/>} />
+
+// {/* CIS Routes */}
+// <Route path="/cis1001" element={<Cis1001 title="100 level 1st Semester CIS Courses"/>} />
+// <Route path="/cis1002" element={<Cis1002 title="100 level 2nd Semester CIS courses"/>} />
+// <Route path="/cis2001" element={<Cis2001 title="200 level 1st Semester CIS courses"/>} />
+
+// {/* Other Routes */}
+// <Route path="/home" element={<Home/>} />
+// <Route path="/gamemode" element={<GameMode/>} />

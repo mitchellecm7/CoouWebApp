@@ -35,149 +35,167 @@ const Cis4002 = () => {
 
   // Internal CSS styles
   const styles = {
-    cisContainer: {
-      maxWidth: '600px',
-      margin: '0 auto',
-      padding: '20px',
-      backgroundColor: '#fff',
-      minHeight: '100vh',
-    },
-    headerContainer: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      gap: '15px',
-      marginBottom: '30px',
-      position: 'relative',
-    },
-    backButton: {
-      background: 'none',
-      border: 'none',
-      color: '#333',
-      cursor: 'pointer',
-      display: 'flex',
-      alignItems: 'center',
-      padding: '8px',
-      position: 'absolute',
-      left: '0',
-    },
-    backIcon: {
-      fontSize: '20px',
-    },
-    cisHeader: {
-      fontSize: '20px',
-      fontWeight: 'bold',
-      textAlign: 'center',
-      color: '#1d1615',
-      margin: 0,
-    },
-    coursesGrid: {
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      gap: '15px',
-    },
-    courseButton: {
-      width: '200px',
-      height: '60px',
-      borderRadius: '10px',
-      backgroundColor: 'green',
-      color: 'white',
-      border: 'none',
-      fontSize: '16px',
-      fontWeight: 'bold',
-      cursor: 'pointer',
-      transition: 'all 0.3s ease',
-      boxShadow: '0 2px 5px rgba(0, 0, 0, 0.3)',
-    },
-    courseButtonHover: {
-      transform: 'translateY(-2px)',
-      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
-      backgroundColor: 'darkgreen',
-    },
-    noCourses: {
-      fontSize: '16px',
-      marginTop: '15px',
-      fontWeight: '400',
-      textAlign: 'center',
-      color: '#1d1615',
-    },
-    loaderContainer: {
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '100vh',
-      backgroundColor: '#ffffff',
-    },
-    loadingSpinner: {
-      border: '4px solid #f3f3f3',
-      borderTop: '4px solid #007bff',
-      borderRadius: '50%',
-      width: '40px',
-      height: '40px',
-      animation: 'spin 2s linear infinite',
-      marginBottom: '15px',
-    },
-    loadingText: {
-      fontSize: '16px',
-      color: '#333',
-    },
-  };
-
-  if (loading) {
+      cisContainer: {
+        maxWidth: '600px',
+        margin: '0 auto',
+        padding: '20px',
+        backgroundColor: '#fff',
+        minHeight: '100vh',
+      },
+      headerContainer: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: '15px',
+        marginBottom: '30px',
+        position: 'relative',
+      },
+      backButton: {
+        background: 'none',
+        border: 'none',
+        color: '#333',
+        cursor: 'pointer',
+        display: 'flex',
+        alignItems: 'center',
+        padding: '8px',
+        position: 'absolute',
+        left: '0',
+      },
+      backIcon: {
+        fontSize: '20px',
+      },
+      cisHeader: {
+        fontSize: '20px',
+        fontWeight: 'bold',
+        textAlign: 'center',
+        color: '#1d1615',
+        margin: 0,
+      },
+      coursesContainer: {
+        maxHeight: 'calc(100vh - 150px)', // Takes most of the viewport height
+        overflowY: 'auto', // Enable vertical scrolling
+        width: '100%',
+        padding: '0', // Remove padding
+      },
+      coursesGrid: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '15px',
+        padding: '10px 0', // Only vertical padding
+      },
+      courseButton: {
+        width: '200px',
+        height: '60px',
+        borderRadius: '10px',
+        backgroundColor: 'green',
+        color: 'white',
+        border: 'none',
+        fontSize: '16px',
+        fontWeight: 'bold',
+        cursor: 'pointer',
+        transition: 'all 0.3s ease',
+        boxShadow: '0 2px 5px rgba(0, 0, 0, 0.3)',
+      },
+      courseButtonHover: {
+        transform: 'translateY(-2px)',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+        backgroundColor: 'darkgreen',
+      },
+      noCourses: {
+        fontSize: '16px',
+        marginTop: '15px',
+        fontWeight: '400',
+        textAlign: 'center',
+        color: '#1d1615',
+      },
+      loaderContainer: {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        backgroundColor: '#ffffff',
+      },
+      loadingSpinner: {
+        border: '4px solid #f3f3f3',
+        borderTop: '4px solid #007bff',
+        borderRadius: '50%',
+        width: '40px',
+        height: '40px',
+        animation: 'spin 2s linear infinite',
+        marginBottom: '15px',
+      },
+      loadingText: {
+        fontSize: '16px',
+        color: '#333',
+      },
+    };
+  
+    // Add CSS for the spinner animation
+    const spinnerStyle = `
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    `;
+  
+    if (loading) {
+      return (
+        <div style={styles.loaderContainer}>
+          <style>{spinnerStyle}</style>
+          <div style={styles.loadingSpinner}></div>
+          <p style={styles.loadingText}>Loading courses...</p>
+        </div>
+      );
+    }
+  
     return (
-      <div style={styles.loaderContainer}>
-        <div style={styles.loadingSpinner}></div>
-        <p style={styles.loadingText}>Loading courses...</p>
+      <div style={styles.cisContainer}>
+        <div style={styles.headerContainer}>
+          <button 
+            onClick={() => navigate(-1)} 
+            style={styles.backButton}
+          >
+            <FaArrowLeft style={styles.backIcon} />
+          </button>
+          <h1 style={styles.cisHeader}>400 Level <br/> 2nd Semester Courses</h1>
+        </div>
+        
+        <div style={styles.coursesContainer}>
+          <div style={styles.coursesGrid}>
+            {pdfMetadata.length > 0 ? (
+              pdfMetadata.map((pdf, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    if (pdf.course) {
+                      console.log(`Navigating to: ${pdf.course}`);
+                      navigate(`/${pdf.course}`);
+                    } else {
+                      alert('Screen for this course is not available');
+                    }
+                  }}
+                  style={styles.courseButton}
+                  onMouseOver={(e) => {
+                    Object.assign(e.target.style, styles.courseButtonHover);
+                  }}
+                  onMouseOut={(e) => {
+                    Object.assign(e.target.style, styles.courseButton);
+                    e.target.style.transform = 'translateY(0)';
+                    e.target.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
+                    e.target.style.backgroundColor = 'green';
+                  }}
+                >
+                  {pdf.course}
+                </button>
+              ))
+            ) : (
+              <div style={styles.noCourses}>No Courses Uploaded yet</div>
+            )}
+          </div>
+        </div>
       </div>
     );
-  }
-
-  return (
-    <div style={styles.cisContainer}>
-      <div style={styles.headerContainer}>
-        <button 
-          onClick={() => navigate(-1)} 
-          style={styles.backButton}
-        >
-          <FaArrowLeft style={styles.backIcon} />
-        </button>
-        <h1 style={styles.cisHeader}>400 Level <br/>2nd Semester Courses</h1>
-      </div>
-      <div style={styles.coursesGrid}>
-        {pdfMetadata.length > 0 ? (
-          pdfMetadata.map((pdf, index) => (
-            <button
-              key={index}
-              onClick={() => {
-                if (pdf.course) {
-                  console.log(`Navigating to: ${pdf.course}`);
-                  navigate(`/${pdf.course}`);
-                } else {
-                  alert('Screen for this course is not available');
-                }
-              }}
-              style={styles.courseButton}
-              onMouseOver={(e) => {
-                Object.assign(e.target.style, styles.courseButtonHover);
-              }}
-              onMouseOut={(e) => {
-                Object.assign(e.target.style, styles.courseButton);
-                e.target.style.transform = 'translateY(0)';
-                e.target.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
-                e.target.style.backgroundColor = 'green';
-              }}
-            >
-              {pdf.course}
-            </button>
-          ))
-        ) : (
-          <div style={styles.noCourses}>No Courses Uploaded yet</div>
-        )}
-      </div>
-    </div>
-  );
-};
-
+  };
 export default Cis4002;

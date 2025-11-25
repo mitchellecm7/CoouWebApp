@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PasswordInput from './PasswordInput';
-import { account, ID } from '../UploadScreens/config';
+import { account, account1, account2, account3, ID } from '../UploadScreens/config';
 import '../UploadScreens/styles/SignUp.css';
 import { storage } from './utils/storage';
 
@@ -12,14 +12,56 @@ const SignUp = () => {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [lecturerCode, setLecturerCode] = useState('');
-
   const [errors, setErrors] = useState({});
+  const [loading, setLoading] = useState(false);
 
   // Get lecturer code from environment variables
   const LECTURER_CODE = process.env.REACT_APP_LECTURER_CODE;
 
+  // Function to create user across all projects
+  const createUserInAllProjects = async (email, password) => {
+    const accounts = [account, account1, account2, account3];
+    const createdUsers = [];
+
+    for (let i = 0; i < accounts.length; i++) {
+      try {
+        const user = await accounts[i].create(ID.unique(), email, password);
+        createdUsers.push(user);
+        console.log(`User created in project ${i} successfully`);
+      } catch (error) {
+        console.error(`Failed to create user in project ${i}:`, error);
+        // If user already exists in some projects, that's okay
+        if (error.code !== 409) { // 409 = user already exists
+          throw error;
+        }
+      }
+    }
+
+    return createdUsers.length > 0;
+  };
+
+  // Function to create sessions across all projects
+  const createSessionsInAllProjects = async (email, password) => {
+    const accounts = [account, account1, account2, account3];
+    const sessions = [];
+
+    for (let i = 0; i < accounts.length; i++) {
+      try {
+        const session = await accounts[i].createEmailPasswordSession(email, password);
+        sessions.push(session);
+        console.log(`Session created in project ${i} successfully`);
+      } catch (error) {
+        console.error(`Failed to create session in project ${i}:`, error);
+        // Continue with other projects even if one fails
+      }
+    }
+
+    return sessions;
+  };
+
   const handleSignUp = async () => {
     setErrors({});
+    setLoading(true);
 
     // Validation
     const validationErrors = {};
@@ -43,34 +85,45 @@ const SignUp = () => {
 
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
+      setLoading(false);
       return;
     }
 
     try {
-      // Sign up user
-      const user = await account.create(ID.unique(), email, password);
-
-      // Optional: Auto-login safely
-      try {
-        // Delete any existing sessions to avoid conflict
-        await account.deleteSessions();
-        const session = await account.createEmailPasswordSession(email, password);
-        
-        // Store session and email using idb-keyval
-        await storage.setItem('session', JSON.stringify(session));
-        await storage.setItem('email', email);
-        
-        alert('Sign Up Successful! You are now logged in.');
-        navigate('/upload');
-      } catch (sessionError) {
-        // If session creation fails (e.g., already active), just redirect to login
-        console.warn('Auto-login failed:', sessionError.message);
-        alert('Sign Up Successful! Please log in to continue.');
-        navigate('/login');
+      // Step 1: Create user in all projects
+      const userCreated = await createUserInAllProjects(email, password);
+      
+      if (!userCreated) {
+        throw new Error('Failed to create user in any project');
       }
+
+      // Step 2: Create sessions in all projects
+      const sessions = await createSessionsInAllProjects(email, password);
+      
+      if (sessions.length === 0) {
+        throw new Error('Failed to create sessions in any project');
+      }
+
+      // Store sessions and email
+      await storage.setItem('sessions', sessions);
+      await storage.setItem('email', email);
+      
+      alert('Sign Up Successful! You are now logged in.');
+      navigate('/upload');
+      
     } catch (error) {
       console.error('SignUp Error:', error);
-      setErrors({ general: error.message || 'Sign Up failed. Try again.' });
+      
+      // Handle specific error cases
+      if (error.code === 409) {
+        setErrors({ general: 'User already exists. Please log in instead.' });
+      } else if (error.code === 401) {
+        setErrors({ general: 'Invalid credentials. Please try again.' });
+      } else {
+        setErrors({ general: error.message || 'Sign Up failed. Try again.' });
+      }
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -123,9 +176,16 @@ const SignUp = () => {
 
       {errors.general && <div className="error-text">{errors.general}</div>}
 
-      <button className="signup-button" onClick={handleSignUp}>
-        Sign Up
-      </button>
+      {loading ? (
+        <div className="loading-container">
+          <div className="loading-spinner"></div>
+          <span>Creating account...</span>
+        </div>
+      ) : (
+        <button className="signup-button" onClick={handleSignUp}>
+          Sign Up
+        </button>
+      )}
 
       <button className="link-button" onClick={() => navigate('/login')}>
         Already have an account? Log in
