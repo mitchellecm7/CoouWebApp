@@ -611,6 +611,7 @@ const Upload = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState(null);
   const [authLoading, setAuthLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   
   // Your existing states
   const [faculty, setFaculty] = useState('');
@@ -618,7 +619,6 @@ const Upload = () => {
   const [level, setLevel] = useState('');
   const [semester, setSemester] = useState('');
   const [course, setCourse] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
   const [loading, setLoading] = useState(false);
   const [pdf, setPdf] = useState(null);
   const [pdfMetadata, setPdfMetadata] = useState(null);
@@ -1041,26 +1041,22 @@ const withAuthCheck = (operation) => {
     setShowModal(false);
   };
 
-  const logout = async () => {
-  setLoading(true); 
-  try {
-    // Logout from base account only
-    const sessions = await account.listSessions(); 
-    for (const session of sessions.sessions) {
-      await account.deleteSession(session.$id);
-    }
+  // Remove const [loading, setLoading] = useState(false); and use only:
 
-    // Clear storage
+// Then in logout:
+const logout = async () => {
+  setIsLoading(true);
+  try {
+    await account.deleteSession('current');
     await storage.removeItem('authenticated');
     await storage.removeItem('email');
-    
     console.log('Successfully logged out');
-    navigate('/login', { replace: true });
+    navigate('/', { replace: true });
   } catch (error) {
     console.error('Error during logout:', error);
-    window.location.href = '/login';
+    window.location.href = '/';
   } finally {
-    setLoading(false);
+    setIsLoading(false);
   }
 };
   // Debug: Log when pdfMetadata changes
