@@ -1,3 +1,89 @@
+/* Enhanced Error Styles */
+.error-text-bold {
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  color: #d32f2f !important;
+  text-align: center !important;
+  margin: 8px 0 !important;
+  padding: 8px 12px !important;
+  background-color: rgba(211, 47, 47, 0.08) !important;
+  border: 1px solid rgba(211, 47, 47, 0.3) !important;
+  border-radius: 6px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.error-text-center {
+  text-align: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+.general-error {
+  margin: 15px 0 !important;
+  padding: 12px !important;
+  font-size: 15px !important;
+  background-color: rgba(211, 47, 47, 0.1) !important;
+  border: 1px solid #d32f2f !important;
+}
+
+/* Update existing error styles if they exist */
+.error-text {
+  font-weight: 700 !important;
+  color: #d32f2f !important;
+  text-align: center !important;
+  margin: 8px 0 !important;
+}
+
+/* Input error states */
+.input-error {
+  border-color: #d32f2f !important;
+  box-shadow: 0 0 0 2px rgba(211, 47, 47, 0.2) !important;
+}
+
+/* Loading state improvements */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.loading-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #007bff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Button disabled states */
+.login-button:disabled,
+.link-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Responsive improvements */
+@media (max-width: 480px) {
+  .error-text-bold {
+    font-size: 13px !important;
+    padding: 6px 10px !important;
+  }
+  
+  .general-error {
+    font-size: 14px !important;
+    padding: 10px !important;
+  }
+}
 .login-container {
   display: flex;
   flex-direction: column;

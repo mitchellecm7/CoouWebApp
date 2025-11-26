@@ -826,23 +826,25 @@ const handleAutoLogout = async () => {
   // In your Upload component, update the checkAuth function
 const checkAuth = async () => {
   try {
-    // Check authentication with any client (they should all be authenticated)
-    const userData = await account.get(); // Use base client
+    // Simple check - just verify base account session
+    const userData = await account.get();
     setUser(userData);
     setIsAuthenticated(true);
   } catch (error) {
-    console.log('Authentication failed, redirecting to login...');
+    console.log('Authentication failed:', error);
+    // Clear any stored auth data
+    await storage.removeItem('authenticated');
+    await storage.removeItem('email');
     navigate('/login');
   } finally {
     setAuthLoading(false);
   }
 };
-
 // Update the withAuthCheck function to verify all clients
 const withAuthCheck = (operation) => {
   return async (...args) => {
     try {
-      // Verify user is authenticated with at least the base client
+      // Simple check - just verify base account
       await account.get();
       return await operation(...args);
     } catch (error) {
@@ -853,6 +855,7 @@ const withAuthCheck = (operation) => {
     }
   };
 };
+
   const handleUpload = withAuthCheck(async () => {
     if (!validateFields() || !pdf) {
       setErrors((prevErrors) => ({
@@ -1040,47 +1043,22 @@ const withAuthCheck = (operation) => {
 
   const logout = async () => {
   setLoading(true); 
-
   try {
-    // Logout from all clients
-    const accounts = [account, account1, account2, account3];
-    
-    for (const acc of accounts) {
-      try {
-        const sessions = await acc.listSessions(); 
-        for (const session of sessions.sessions) {
-          await acc.deleteSession(session.$id);
-        }
-        console.log(`Logged out from client successfully`);
-      } catch (error) {
-        console.error(`Error logging out from one client:`, error);
-        // Continue with other clients
-      }
+    // Logout from base account only
+    const sessions = await account.listSessions(); 
+    for (const session of sessions.sessions) {
+      await account.deleteSession(session.$id);
     }
 
     // Clear storage
-    await storage.removeItem('sessions');
+    await storage.removeItem('authenticated');
     await storage.removeItem('email');
     
-    console.log('Successfully logged out from all clients');
-    
-    // Navigation logic that works
-    console.log('Before navigation - current path:', window.location.pathname);
-    navigate('/', { replace: true });
-    console.log('After navigation called');
-    
-    // Force refresh if navigation doesn't work
-    setTimeout(() => {
-      if (window.location.pathname !== '/') {
-        console.log('Navigation failed, forcing refresh');
-        window.location.href = '/';
-      }
-    }, 100);
-    
+    console.log('Successfully logged out');
+    navigate('/login', { replace: true });
   } catch (error) {
     console.error('Error during logout:', error);
-    // Even on error, try to go home
-    window.location.href = '/';
+    window.location.href = '/login';
   } finally {
     setLoading(false);
   }
